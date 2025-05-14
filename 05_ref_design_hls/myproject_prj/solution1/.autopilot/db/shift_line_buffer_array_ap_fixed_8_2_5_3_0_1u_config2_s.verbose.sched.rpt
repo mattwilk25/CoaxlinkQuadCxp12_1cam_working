@@ -1,0 +1,164 @@
+
+
+================================================================
+== Vitis HLS Report for 'shift_line_buffer_array_ap_fixed_8_2_5_3_0_1u_config2_s'
+================================================================
+* Date:           Tue May 13 20:25:30 2025
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: kintexu
+* Target device:  xcku035-fbva676-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  2.308 ns|     0.62 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    1|    1|      yes|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 1
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 1
+  Pipeline-0 : II = 1, D = 1, States = { 1 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 2.30>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%specpipeline_ln233 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_1" [firmware/nnet_utils/nnet_conv_stream.h:233]   --->   Operation 2 'specpipeline' 'specpipeline_ln233' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%p_read24 = read i8 @_ssdm_op_Read.ap_auto.i8, i8 %p_read"   --->   Operation 3 'read' 'p_read24' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.57ns)   --->   "%p_020_0_0_i = memshiftread i8 @_ssdm_op_MemShiftRead.[48 x i8]P0A, i8 47, i8 %p_read24, i1 1"   --->   Operation 4 'memshiftread' 'p_020_0_0_i' <Predicate = true> <Delay = 0.57> <CoreInst = "ShiftReg">   --->   Core 77 'ShiftReg' <Latency = 0> <II = 1> <Delay = 0.57> <Storage> <Opcode : 'memshiftread' 'load'> <Ports = 1> <Width = 8> <Depth = 48> <ShiftMem>
+ST_1 : Operation 5 [1/1] (0.57ns)   --->   "%p_018_0_0_i = memshiftread i8 @_ssdm_op_MemShiftRead.[48 x i8]P0A, i8 47, i8 %p_020_0_0_i, i1 1"   --->   Operation 5 'memshiftread' 'p_018_0_0_i' <Predicate = true> <Delay = 0.57> <CoreInst = "ShiftReg">   --->   Core 77 'ShiftReg' <Latency = 0> <II = 1> <Delay = 0.57> <Storage> <Opcode : 'memshiftread' 'load'> <Ports = 1> <Width = 8> <Depth = 48> <ShiftMem>
+ST_1 : Operation 6 [1/1] (0.57ns)   --->   "%p_016_0_0_i = memshiftread i8 @_ssdm_op_MemShiftRead.[48 x i8]P0A, i8 47, i8 %p_018_0_0_i, i1 1"   --->   Operation 6 'memshiftread' 'p_016_0_0_i' <Predicate = true> <Delay = 0.57> <CoreInst = "ShiftReg">   --->   Core 77 'ShiftReg' <Latency = 0> <II = 1> <Delay = 0.57> <Storage> <Opcode : 'memshiftread' 'load'> <Ports = 1> <Width = 8> <Depth = 48> <ShiftMem>
+ST_1 : Operation 7 [1/1] (0.57ns)   --->   "%DataOut_V_i = memshiftread i8 @_ssdm_op_MemShiftRead.[48 x i8]P0A, i8 47, i8 %p_016_0_0_i, i1 1"   --->   Operation 7 'memshiftread' 'DataOut_V_i' <Predicate = true> <Delay = 0.57> <CoreInst = "ShiftReg">   --->   Core 77 'ShiftReg' <Latency = 0> <II = 1> <Delay = 0.57> <Storage> <Opcode : 'memshiftread' 'load'> <Ports = 1> <Width = 8> <Depth = 48> <ShiftMem>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 8 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 9 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_13" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 10 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_14" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 11 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_325 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_155" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 12 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_325' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_325, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_154" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 13 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_326 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_160" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 14 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_326' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_326, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_159" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 15 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_327 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_165" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 16 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_327' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_327, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_164" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 17 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 18 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 19 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_12" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 20 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_13" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 21 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_328 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_156" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 22 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_328' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_328, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_155" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 23 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_329 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_161" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 24 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_329' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 25 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_329, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_160" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 25 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_330 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_166" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 26 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_330' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 27 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_330, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_165" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 27 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 28 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 28 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 29 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 29 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 30 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_11" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 30 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 31 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_12" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 31 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 32 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_331 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_157" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 32 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_331' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 33 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_331, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_156" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 33 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_332 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_162" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 34 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_332' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 35 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_332, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_161" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 35 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 36 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_333 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_167" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 36 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_333' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 37 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_333, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_166" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 37 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 38 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_30 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 38 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_30' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 39 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_30, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 39 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 40 [1/1] (0.00ns)   --->   "%void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_31 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_10" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 40 'load' 'void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_31' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 41 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_31, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_11" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 41 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 42 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_334 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_158" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 42 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_334' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 43 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_334, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_157" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 43 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 44 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_335 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_163" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 44 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_335' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 45 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_335, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_162" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 45 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 46 [1/1] (0.00ns)   --->   "%p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_336 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_168" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 46 'load' 'p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_336' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 47 [1/1] (0.00ns)   --->   "%store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_336, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_167" [firmware/nnet_utils/nnet_conv_stream.h:201]   --->   Operation 47 'store' 'store_ln201' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 48 [1/1] (0.00ns)   --->   "%store_ln214 = store i8 %DataOut_V_i, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15" [firmware/nnet_utils/nnet_conv_stream.h:214]   --->   Operation 48 'store' 'store_ln214' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%store_ln214 = store i8 %p_016_0_0_i, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_10" [firmware/nnet_utils/nnet_conv_stream.h:214]   --->   Operation 49 'store' 'store_ln214' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 50 [1/1] (0.00ns)   --->   "%store_ln214 = store i8 %p_018_0_0_i, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_158" [firmware/nnet_utils/nnet_conv_stream.h:214]   --->   Operation 50 'store' 'store_ln214' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 51 [1/1] (0.00ns)   --->   "%store_ln214 = store i8 %p_020_0_0_i, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_163" [firmware/nnet_utils/nnet_conv_stream.h:214]   --->   Operation 51 'store' 'store_ln214' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 52 [1/1] (0.00ns)   --->   "%store_ln214 = store i8 %p_read24, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_168" [firmware/nnet_utils/nnet_conv_stream.h:214]   --->   Operation 52 'store' 'store_ln214' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 53 [1/1] (0.00ns)   --->   "%ret_ln233 = ret" [firmware/nnet_utils/nnet_conv_stream.h:233]   --->   Operation 53 'ret' 'ret_ln233' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 5ns, clock uncertainty: 0.625ns.
+
+ <State 1>: 2.31ns
+The critical path consists of the following:
+	wire read operation ('p_read24') on port 'p_read' [28]  (0 ns)
+	'memshiftread' operation ('p_020_0_0_i') [29]  (0.577 ns)
+	'memshiftread' operation ('p_018_0_0_i') [30]  (0.577 ns)
+	'memshiftread' operation ('p_016_0_0_i') [31]  (0.577 ns)
+	'memshiftread' operation ('DataOut_V_i') [32]  (0.577 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A
