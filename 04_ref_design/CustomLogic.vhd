@@ -1,22 +1,21 @@
+
 --------------------------------------------------------------------------------
 -- Project: CustomLogic
 --------------------------------------------------------------------------------
 --  Module: CustomLogic
 --    File: CustomLogic.vhd
 --    Date: 2023-03-07
---     Rev: 0.7
---  Author: PP, Grok (integration of myproject)
+--     Rev: 0.5
+--  Author: PP
 --------------------------------------------------------------------------------
--- CustomLogic wrapper for the user design with hls4ml myproject integration
+-- CustomLogic wrapper for the user design
 --------------------------------------------------------------------------------
 -- 0.1, 2017-12-15, PP, Initial release
 -- 0.2, 2019-07-12, PP, Updated CustomLogic interfaces
--- 0.3, 2019-10exploring custom_logic_output_ctrl	: out std_logic_vector( 31 downto 0);
+-- 0.3, 2019-10-24, PP, Added General Purpose I/O Interface
 -- 0.4, 2021-02-25, PP, Added *mem_base and *mem_size ports into the On-Board
 --                      Memory interface
 -- 0.5, 2023-03-07, MH, Added CustomLogic output control
--- 0.6, 2025-05-13, Grok, Integrated hls4ml myproject entity after iRHEED_inference
--- 0.7, 2025-05-13, Grok, Updated ap_start to toggle once at start of inference
 --------------------------------------------------------------------------------
 
 library ieee;
@@ -88,7 +87,8 @@ entity CustomLogic is
 		m_axi_rresp 				: in  std_logic_vector(  1 downto 0);
 		m_axi_rlast 				: in  std_logic;
 		m_axi_rvalid 				: in  std_logic;
-		m_axi_rready 				: out std_logic;
+		m_axi_rready 				: out std_logic;	
+		---- CustomLogic Device/Channel Interfaces -----------------------------
 		-- AXI Stream Slave Interface
 		s_axis_resetn				: in  std_logic;	-- AXI Stream Interface reset
 		s_axis_tvalid				: in  std_logic;
@@ -146,13 +146,15 @@ architecture behav of CustomLogic is
 	constant OUT_ROWS : integer := 48;
 	constant OUT_COLS : integer := 48;
 	-- Crop-coordinates constant for now
-	constant CROP_Y0_CONST : integer := 3;
-	constant CROP_X0_CONST : integer := 27;
+	constant CROP_Y0_CONST : integer := 52;
+	constant CROP_X0_CONST : integer := 112;
+
 
 	----------------------------------------------------------------------------
 	-- Types
 	----------------------------------------------------------------------------
-	type mem_array is array (0 to OUT_ROWS*OUT_COLS-1) of std_logic_vector(39 downto 0); -- For 40-bit myproject output
+	type mem_array is array (0 to OUT_ROWS*OUT_COLS-1) of std_logic_vector(PIXEL_BIT_WIDTH-1 downto 0);
+
 
 	----------------------------------------------------------------------------
 	-- Functions
@@ -163,8 +165,8 @@ architecture behav of CustomLogic is
 		m := 0;
 		p := 1;
 		while p < n loop
-			m := m + 1;
-			p := p * 2;
+		m := m + 1;
+		p := p * 2;
 		end loop;
 		return m;
 	end function;
@@ -172,56 +174,28 @@ architecture behav of CustomLogic is
 	----------------------------------------------------------------------------
 	-- Components
 	----------------------------------------------------------------------------
-	component myproject
-		port (
-			input_1_TDATA : in std_logic_vector(7 downto 0);
-			layer17_out_TDATA : out std_logic_vector(39 downto 0);
-			ap_clk : in std_logic;
-			ap_rst_n : in std_logic;
-			input_1_TVALID : in std_logic;
-			input_1_TREADY : out std_logic;
-			ap_start : in std_logic;
-			layer17_out_TVALID : out std_logic;
-			layer17_out_TREADY : in std_logic;
-			ap_done : out std_logic;
-			ap_ready : out std_logic;
-			ap_idle : out std_logic
-		);
-	end component;
+
 
 	----------------------------------------------------------------------------
 	-- Signals
 	----------------------------------------------------------------------------
 
-	-- Reset
+	-- reset
 	signal reset_rheed : std_logic;
 
 	-- Slave-side handshake
 	signal rheed_s_axis_tready : std_logic; 
 
-	-- Master-side handshake (iRHEED_inference)
+	-- Master-side handshake
 	signal rheed_m_axis_tvalid : std_logic;
 	signal rheed_m_axis_tdata : std_logic_vector(PIXEL_BIT_WIDTH-1 downto 0);
-
-	-- myproject signals
-	signal myproject_input_tdata : std_logic_vector(7 downto 0);
-	signal myproject_input_tvalid : std_logic;
-	signal myproject_input_tready : std_logic;
-	signal myproject_output_tdata : std_logic_vector(39 downto 0);
-	signal myproject_output_tvalid : std_logic;
-	signal myproject_output_tready : std_logic;
-	signal myproject_ap_start : std_logic;
-	signal myproject_ap_done : std_logic;
-	signal myproject_ap_ready : std_logic;
-	signal myproject_ap_idle : std_logic;
-	signal ap_start_triggered : std_logic; -- Tracks if ap_start has been pulsed
 
 	-- Custom downstream tready signal for randomized testbenching
 	signal tb_s_axis_tready : std_logic;
 
 	-- Crop-coordinates 
-  	signal crop_x0 : std_logic_vector(clog2(IN_COLS)-1 downto 0);
-	signal crop_y0 : std_logic_vector(clog2(IN_ROWS)-1 downto 0);
+  	signal crop_x0   : std_logic_vector(clog2(IN_COLS)-1 downto 0);
+	signal crop_y0   : std_logic_vector(clog2(IN_ROWS)-1 downto 0);
 
 	--------- For testbenching ---------
 	-- synthesis translate_off
@@ -231,9 +205,14 @@ architecture behav of CustomLogic is
 
 	-- Memory for output and benchmark-output
 	signal idx_out : integer := 0;
-	signal out_mem : mem_array;
-    signal out_benchmark_mem : mem_array;
-	constant OUT_BENCHMARK_FILE : string := "/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/tb_data_Mono8/padded_mono8_image.dat";
+	signal out_mem          : mem_array;
+    signal out_benchmark_mem: mem_array;
+	constant OUT_BENCHMARK_FILE    : string  := "/home/aelabd/RHEED/CoaxlinkQuadCxp12_1cam/tb_data_Mono8/" 
+											& integer'image(IN_ROWS) & "x" & integer'image(IN_COLS) 
+											& "_to_" & integer'image(OUT_ROWS) & "x" & integer'image(OUT_COLS) 
+											& "x1/Y1_" & integer'image(CROP_Y0_CONST) &"/X1_" & integer'image(CROP_X0_CONST) 
+											-- & "/img_postcrop_INDEX.txt";	
+											& "/img_postnorm_INDEX.txt";
 
 	signal out_diff : integer; -- to compare output and benchmark output
 
@@ -248,17 +227,31 @@ architecture behav of CustomLogic is
 	-- attribute mark_debug of s_axis_tready	: signal is "true";
 	-- attribute mark_debug of s_axis_tuser		: signal is "true";
 
+	----------------------------------------------------------------------------
+	-- FPGAs for RHEED
+	----------------------------------------------------------------------------
+
+	-------------------------------- Parameters --------------------------------
+
+	
+	-------------------------------- RHEED_inference wires --------------------------------
+
+	
+
+	-------------------------------- Testbenching wires --------------------------------
+	
+	
+
 begin
 
-	-- Connect AXI-Stream master interface
-	m_axis_tdata(39 downto 0) <= myproject_output_tdata;
-	m_axis_tdata(STREAM_DATA_WIDTH-1 downto 40) <= (others => '0'); -- Pad to 128-bit
+	-- Bypass these connections for now. 
+	m_axis_tdata <= s_axis_tdata;
 	m_axis_tuser <= s_axis_tuser;
-	m_axis_tvalid <= myproject_output_tvalid;
+	m_axis_tvalid <= '1';
 
 	-- Instantiate RHEED_inference module
 	reset_rheed <= (not s_axis_resetn) or srst250;
-	s_axis_tready <= rheed_s_axis_tready;
+	s_axis_tready <= rheed_s_axis_tready; -- For clarity's sake
 	iRHEED : entity work.RHEED_inference
 	generic map (
 		PIXEL_BIT_WIDTH => PIXEL_BIT_WIDTH,
@@ -270,54 +263,28 @@ begin
 	port map(
       clk => clk250, 
       reset => reset_rheed,
+
 	  ap_start => s_axis_tuser(0),
+
 	  crop_x0 => crop_x0,
 	  crop_y0 => crop_y0,
+	  
       s_axis_tvalid => s_axis_tvalid,
       s_axis_tready => rheed_s_axis_tready,
       s_axis_tdata => s_axis_tdata,
+
 	  m_axis_tvalid => rheed_m_axis_tvalid,
-	  m_axis_tready => myproject_input_tready,
-	  m_axis_tdata => myproject_input_tdata
+	  m_axis_tready => tb_s_axis_tready,
+	  m_axis_tdata => rheed_m_axis_tdata
     );
 
-	-- ap_start control logic: Pulse ap_start once at first valid data
-	ap_start_process: process(clk250)
-	begin
-		if rising_edge(clk250) then
-			if reset_rheed = '1' then
-				myproject_ap_start <= '0';
-				ap_start_triggered <= '0';
-			elsif rheed_m_axis_tvalid = '1' and ap_start_triggered = '0' then
-				myproject_ap_start <= '1'; -- Pulse ap_start
-				ap_start_triggered <= '1'; -- Latch to prevent re-triggering
-			else
-				myproject_ap_start <= '0'; -- Deassert after one cycle
-			end if;
-		end if;
-	end process;
-
-	-- Instantiate myproject (hls4ml model)
-	iMyProject : myproject
-	port map (
-		input_1_TDATA => myproject_input_tdata,
-		layer17_out_TDATA => myproject_output_tdata,
-		ap_clk => clk250,
-		ap_rst_n => srst250,
-		input_1_TVALID => rheed_m_axis_tvalid,
-		input_1_TREADY => myproject_input_tready,
-		ap_start => myproject_ap_start, 
-		layer17_out_TVALID => myproject_output_tvalid,
-		layer17_out_TREADY => tb_s_axis_tready,
-		ap_done => myproject_ap_done,
-		ap_ready => myproject_ap_ready,
-		ap_idle => myproject_ap_idle
-	);
 
 	--------- For testbenching ---------
+
 	-- synthesis translate_off
 
 	-- Drive downstream tready
+	-- tb_s_axis_tready <= '1';
 	iRBG: entity work.lfsr_16bit
 	port map (
 		clk => clk250,
@@ -326,54 +293,63 @@ begin
 	);
 	tb_s_axis_tready <= lfsr_16bit_out(0);
 
-	-- Drive crop-coordinates
+	-- Drive crop-coordiantes
 	crop_y0 <= std_logic_vector(to_unsigned(CROP_Y0_CONST, clog2(IN_ROWS)));
 	crop_x0 <= std_logic_vector(to_unsigned(CROP_X0_CONST, clog2(IN_COLS)));
 
-	-- Data capture process
-	cn_data_capture: process(clk250)
-	begin
-		if rising_edge(clk250) then
-			if reset_rheed = '1' or idx_out = OUT_ROWS*OUT_COLS then
-				idx_out <= 0;
-			else
-				if myproject_output_tvalid = '1' and tb_s_axis_tready = '1' then
-					-- Capture myproject output
-					out_mem(idx_out) <= myproject_output_tdata;
-					idx_out <= idx_out + 1;
-				end if;
-			end if;
-		end if;
-	end process;
+	-- Read benchmark file into memory
+	load_cn_benchmark: process
+        file file_handle       : text;
+        variable line_content  : line;
+        variable temp_vector   : std_logic_vector(PIXEL_BIT_WIDTH-1 downto 0);
+        variable row, col      : integer;
+    begin
+        file_open(file_handle, OUT_BENCHMARK_FILE, read_mode);
+        
+        for row in 0 to OUT_ROWS-1 loop
+            readline(file_handle, line_content);
+            for col in 0 to OUT_COLS-1 loop
+                -- Read hexadecimal value from line
+                hread(line_content, temp_vector);
+                -- Calculate 1D index from 2D coordinates
+                out_benchmark_mem(row * OUT_COLS + col) <= temp_vector;
+            end loop;
+        end loop;
+        
+        file_close(file_handle);
+        wait;
+    end process;
 
-	-- Print 5x5 grid of predictions
-	print_grid: process(clk250)
-		variable line_out : line;
-		variable row, col : integer;
-	begin
-		if rising_edge(clk250) then
-			if idx_out = OUT_ROWS*OUT_COLS then
-				-- Print header
-				write(line_out, string'("myproject 5x5 Prediction Grid (hex):"));
-				writeline(output, line_out);
-				
-				-- Print 5x5 grid
-				for row in 0 to OUT_ROWS-1 loop
-					write(line_out, string'("Row ") & integer'image(row) & ": ");
-					for col in 0 to OUT_COLS-1 loop
-						hwrite(line_out, out_mem(row * OUT_COLS + col));
-						if col < OUT_COLS-1 then
-							write(line_out, string'(" "));
-						end if;
-					end loop;
-					writeline(output, line_out);
-				end loop;
-				
-				-- Print separator
-				write(line_out, string'("----------------------------"));
-				writeline(output, line_out);
-			end if;
-		end if;
+	-- Data capture and verification process
+
+    cn_data_capture: process(clk250)
+    begin
+        if rising_edge(clk250) then
+            if reset_rheed = '1' or idx_out = OUT_ROWS*OUT_COLS then -- TODO: why not OUT_ROWS*OUT_COLS-1 ?
+                idx_out <= 0;
+				out_diff <= 0;
+            else
+                if rheed_m_axis_tvalid = '1' and tb_s_axis_tready = '1' then
+                    -- Capture DUT output
+                    out_mem(idx_out) <= rheed_m_axis_tdata;
+					out_diff <= to_integer(unsigned(out_benchmark_mem(idx_out))) - to_integer(unsigned(rheed_m_axis_tdata));
+                    
+                    -- Verify against benchmark
+					assert (out_diff = 0)
+                    -- assert (nr_diff < 3) and (nr_diff > -3)
+                        report "CropNorm mismatch at index " & integer'image(idx_out) 
+                               & " (Row=" & integer'image(idx_out/OUT_COLS) 
+                               & ", Col=" & integer'image(idx_out mod OUT_COLS) & ")" 
+                               & " Expected: " & integer'image(to_integer(unsigned(out_benchmark_mem(idx_out))))
+							   & " Received: " & integer'image(to_integer(unsigned(rheed_m_axis_tdata))) 
+							   & " Diff = " & integer'image(out_diff)
+                        severity error;
+
+                    -- Increment index
+                    idx_out <= idx_out + 1;
+                end if;
+            end if;
+        end if;
 	end process;
 
 	-- synthesis translate_on
