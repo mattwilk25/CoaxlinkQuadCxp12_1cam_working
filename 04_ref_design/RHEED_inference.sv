@@ -1,9 +1,9 @@
 module RHEED_inference #(
     parameter PIXEL_BIT_WIDTH = 8,
-    parameter IN_ROWS         = 100,
-    parameter IN_COLS         = 160,
-    parameter OUT_ROWS        = 48,
-    parameter OUT_COLS        = 48
+    parameter IN_ROWS        = 100,
+    parameter IN_COLS        = 160,
+    parameter OUT_ROWS       = 48,
+    parameter OUT_COLS       = 48
 )(
     input  logic clk, 
     input  logic reset,
@@ -54,6 +54,9 @@ module RHEED_inference #(
     assign m_axis_tvalid  = cnn_output_tvalid;
     assign m_axis_tdata   = cnn_output_tdata;
     assign cnn_output_tready = m_axis_tready;
+
+    // Ensure crop_norm only accepts data when CNN is ready
+    assign cn_s_axis_tready = cnn_input_tready & cn_ap_ready;
 
     ///////////////////////////// MODULE INSTANTIATIONS /////////////////////////////
 
@@ -134,8 +137,8 @@ module RHEED_inference #(
     ///////////////////////////// CONTROL LOGIC /////////////////////////////
     typedef enum logic [1:0] {
         IDLE,
-        WAIT_CROP_DONE,
-        START_CNN,
+        START_PROCESSING,
+        STREAM_PIXELS,
         WAIT_CNN_DONE
     } state_t;
 
@@ -153,29 +156,24 @@ module RHEED_inference #(
         next_state = state;
         case (state)
             IDLE: begin
-                if (ap_start)
-                    next_state = WAIT_CROP_DONE;
+                if (ap_start && seq_ap_ready && cn_ap_ready && myproject_ap_ready)
+                    next_state = START_PROCESSING;
             end
-            WAIT_CROP_DONE: begin
-                if (cn_ap_done && myproject_ap_ready)
-                    next_state = START_CNN;
+            START_PROCESSING: begin
+                next_state = STREAM_PIXELS;
             end
-            START_CNN: begin
-                next_state = WAIT_CNN_DONE;
+            STREAM_PIXELS: begin
+                if (cn_ap_done && !cnn_input_tvalid && myproject_ap_done)
+                    next_state = WAIT_CNN_DONE;
             end
             WAIT_CNN_DONE: begin
-                if (myproject_ap_done)
-                    next_state = WAIT_CROP_DONE; 
+                if (myproject_ap_idle)
+                    next_state = IDLE;
             end
         endcase
     end
 
-    // CNN ap_start pulse logic
-    always_ff @(posedge clk or posedge reset) begin
-        if (reset)
-            myproject_ap_start <= 1'b0;
-        else
-            myproject_ap_start <= (state == START_CNN);
-    end
+    // CNN ap_start pulse logic (single-cycle pulse)
+    assign myproject_ap_start = (state == START_PROCESSING);
 
 endmodule
