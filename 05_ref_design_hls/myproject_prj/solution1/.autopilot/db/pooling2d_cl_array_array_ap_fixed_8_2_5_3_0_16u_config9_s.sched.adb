@@ -110,10 +110,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>740965936</coreId>
+						<coreId>539766825</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>6</bitwidth>
+					<bitwidth>7</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -136,7 +136,7 @@
 						<id>42</id>
 						<name>indvar_flatten_write_ln109</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>109</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -144,7 +144,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="11" tracking_level="0" version="0">
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second class_id="12" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -193,7 +193,7 @@
 						<id>43</id>
 						<name>br_ln109</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>109</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -201,7 +201,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -223,7 +223,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>740965936</coreId>
+						<coreId>943481957</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -249,7 +249,7 @@
 						<id>45</id>
 						<name>indvar_flatten_load</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>109</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -257,7 +257,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -279,10 +279,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>740965936</coreId>
+						<coreId>539766825</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>6</bitwidth>
+					<bitwidth>7</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -306,7 +306,7 @@
 						<id>46</id>
 						<name>icmp_ln109</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>109</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -314,7 +314,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -336,7 +336,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>740965936</coreId>
+						<coreId>539766825</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -352,7 +352,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.84</m_delay>
+				<m_delay>0.81</m_delay>
 				<m_topoIndex>5</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -363,7 +363,7 @@
 						<id>47</id>
 						<name>add_ln109</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>109</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -371,7 +371,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -393,10 +393,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>740965936</coreId>
+						<coreId>2708485264</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>6</bitwidth>
+					<bitwidth>7</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>2</count>
@@ -409,7 +409,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.11</m_delay>
+				<m_delay>1.20</m_delay>
 				<m_topoIndex>6</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -420,7 +420,7 @@
 						<id>48</id>
 						<name>br_ln109</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>109</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -428,7 +428,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -478,7 +478,7 @@
 						<id>54</id>
 						<name>layer8_out_read</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -486,7 +486,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -508,7 +508,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>311118640</coreId>
+						<coreId>64</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>128</bitwidth>
@@ -533,9 +533,9 @@
 					<Obj>
 						<type>0</type>
 						<id>55</id>
-						<name>pool_window_V_99</name>
+						<name>pool_window_V_228</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -543,7 +543,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -565,7 +565,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741615973</coreId>
+						<coreId>2710172640</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -589,9 +589,9 @@
 					<Obj>
 						<type>0</type>
 						<id>56</id>
-						<name>pool_window_V_128</name>
+						<name>pool_window_V_257</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -599,7 +599,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -621,7 +621,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316830464</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -648,9 +648,9 @@
 					<Obj>
 						<type>0</type>
 						<id>57</id>
-						<name>pool_window_V_68</name>
+						<name>pool_window_V_185</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -658,7 +658,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -680,7 +680,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>314859904</coreId>
+						<coreId>1953849646</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -707,9 +707,9 @@
 					<Obj>
 						<type>0</type>
 						<id>58</id>
-						<name>pool_window_V_69</name>
+						<name>pool_window_V_186</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -717,7 +717,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -739,7 +739,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321370776</coreId>
+						<coreId>128</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -766,9 +766,9 @@
 					<Obj>
 						<type>0</type>
 						<id>59</id>
-						<name>pool_window_V_70</name>
+						<name>pool_window_V_187</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -776,7 +776,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -798,7 +798,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321815000</coreId>
+						<coreId>320</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -825,9 +825,9 @@
 					<Obj>
 						<type>0</type>
 						<id>60</id>
-						<name>pool_window_V_71</name>
+						<name>pool_window_V_188</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -835,7 +835,66 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_pooling_stream.h</first>
+											<second>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</second>
+										</first>
+										<second>115</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>pool_window.V</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2712658896</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>825</item>
+					<item>826</item>
+					<item>828</item>
+					<item>830</item>
+				</oprand_edges>
+				<opcode>partselect</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>40</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_17">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>61</id>
+						<name>pool_window_V_189</name>
+						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>115</lineNumber>
+						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
+						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -865,65 +924,6 @@
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
-					<item>825</item>
-					<item>826</item>
-					<item>828</item>
-					<item>830</item>
-				</oprand_edges>
-				<opcode>partselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>40</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_17">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>61</id>
-						<name>pool_window_V_72</name>
-						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>115</lineNumber>
-						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
-						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_pooling_stream.h</first>
-											<second>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</second>
-										</first>
-										<second>115</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>pool_window.V</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
 					<item>831</item>
 					<item>832</item>
 					<item>834</item>
@@ -943,9 +943,9 @@
 					<Obj>
 						<type>0</type>
 						<id>62</id>
-						<name>pool_window_V_73</name>
+						<name>pool_window_V_190</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -953,7 +953,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -975,7 +975,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321800048</coreId>
+						<coreId>2710153008</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -1002,9 +1002,9 @@
 					<Obj>
 						<type>0</type>
 						<id>63</id>
-						<name>pool_window_V_74</name>
+						<name>pool_window_V_191</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -1012,7 +1012,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1034,7 +1034,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702390118</coreId>
+						<coreId>64</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -1061,9 +1061,9 @@
 					<Obj>
 						<type>0</type>
 						<id>64</id>
-						<name>pool_window_V_75</name>
+						<name>pool_window_V_192</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -1071,7 +1071,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1093,7 +1093,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>338587456</coreId>
+						<coreId>2712657648</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -1120,9 +1120,9 @@
 					<Obj>
 						<type>0</type>
 						<id>65</id>
-						<name>pool_window_V_76</name>
+						<name>pool_window_V_193</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -1130,7 +1130,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1152,7 +1152,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>323156112</coreId>
+						<coreId>2712657040</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -1179,9 +1179,9 @@
 					<Obj>
 						<type>0</type>
 						<id>66</id>
-						<name>pool_window_V_77</name>
+						<name>pool_window_V_194</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -1189,7 +1189,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1211,7 +1211,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316822672</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -1238,9 +1238,9 @@
 					<Obj>
 						<type>0</type>
 						<id>67</id>
-						<name>pool_window_V_78</name>
+						<name>pool_window_V_195</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -1248,7 +1248,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1270,7 +1270,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316802928</coreId>
+						<coreId>2710155024</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -1297,9 +1297,9 @@
 					<Obj>
 						<type>0</type>
 						<id>68</id>
-						<name>pool_window_V_79</name>
+						<name>pool_window_V_196</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -1307,7 +1307,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1329,7 +1329,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953394531</coreId>
+						<coreId>1936028192</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -1356,9 +1356,9 @@
 					<Obj>
 						<type>0</type>
 						<id>69</id>
-						<name>pool_window_V_80</name>
+						<name>pool_window_V_197</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -1366,7 +1366,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1388,7 +1388,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316778240</coreId>
+						<coreId>2712551776</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -1415,9 +1415,9 @@
 					<Obj>
 						<type>0</type>
 						<id>70</id>
-						<name>pool_window_V_81</name>
+						<name>pool_window_V_198</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>115</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -1425,7 +1425,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1447,7 +1447,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321367104</coreId>
+						<coreId>2712552224</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -1474,9 +1474,9 @@
 					<Obj>
 						<type>0</type>
 						<id>71</id>
-						<name>pool_window_V_82</name>
+						<name>pool_window_V_199</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>shift</contextFuncName>
 						<contextNormFuncName>shift</contextNormFuncName>
@@ -1484,7 +1484,66 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
+											<second>shift</second>
+										</first>
+										<second>85</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>pool_window.V</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2712541640</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>892</item>
+					<item>896</item>
+					<item>897</item>
+					<item>898</item>
+				</oprand_edges>
+				<opcode>memshiftread</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.57</m_delay>
+				<m_topoIndex>51</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_28">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>72</id>
+						<name>pool_window_V_200</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>85</lineNumber>
+						<contextFuncName>shift</contextFuncName>
+						<contextNormFuncName>shift</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1514,65 +1573,6 @@
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
-					<item>892</item>
-					<item>896</item>
-					<item>897</item>
-					<item>898</item>
-				</oprand_edges>
-				<opcode>memshiftread</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.57</m_delay>
-				<m_topoIndex>51</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_28">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>72</id>
-						<name>pool_window_V_83</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>85</lineNumber>
-						<contextFuncName>shift</contextFuncName>
-						<contextNormFuncName>shift</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
-											<second>shift</second>
-										</first>
-										<second>85</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>pool_window.V</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>323156112</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
 					<item>899</item>
 					<item>903</item>
 					<item>904</item>
@@ -1592,9 +1592,9 @@
 					<Obj>
 						<type>0</type>
 						<id>73</id>
-						<name>pool_window_V_84</name>
+						<name>pool_window_V_201</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>shift</contextFuncName>
 						<contextNormFuncName>shift</contextNormFuncName>
@@ -1602,7 +1602,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1624,7 +1624,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316824472</coreId>
+						<coreId>2710155024</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -1651,9 +1651,9 @@
 					<Obj>
 						<type>0</type>
 						<id>74</id>
-						<name>pool_window_V_85</name>
+						<name>pool_window_V_202</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>shift</contextFuncName>
 						<contextNormFuncName>shift</contextNormFuncName>
@@ -1661,7 +1661,538 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
+											<second>shift</second>
+										</first>
+										<second>85</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>pool_window.V</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2713726000</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>913</item>
+					<item>917</item>
+					<item>918</item>
+					<item>919</item>
+				</oprand_edges>
+				<opcode>memshiftread</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.57</m_delay>
+				<m_topoIndex>54</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_31">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>75</id>
+						<name>pool_window_V_203</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>85</lineNumber>
+						<contextFuncName>shift</contextFuncName>
+						<contextNormFuncName>shift</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
+											<second>shift</second>
+										</first>
+										<second>85</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>pool_window.V</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>920</item>
+					<item>924</item>
+					<item>925</item>
+					<item>926</item>
+				</oprand_edges>
+				<opcode>memshiftread</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.57</m_delay>
+				<m_topoIndex>55</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_32">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>76</id>
+						<name>pool_window_V_204</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>85</lineNumber>
+						<contextFuncName>shift</contextFuncName>
+						<contextNormFuncName>shift</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
+											<second>shift</second>
+										</first>
+										<second>85</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>pool_window.V</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>927</item>
+					<item>931</item>
+					<item>932</item>
+					<item>933</item>
+				</oprand_edges>
+				<opcode>memshiftread</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.57</m_delay>
+				<m_topoIndex>56</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_33">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>77</id>
+						<name>pool_window_V_205</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>85</lineNumber>
+						<contextFuncName>shift</contextFuncName>
+						<contextNormFuncName>shift</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
+											<second>shift</second>
+										</first>
+										<second>85</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>pool_window.V</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715997008</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>934</item>
+					<item>938</item>
+					<item>939</item>
+					<item>940</item>
+				</oprand_edges>
+				<opcode>memshiftread</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.57</m_delay>
+				<m_topoIndex>57</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_34">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>78</id>
+						<name>pool_window_V_206</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>85</lineNumber>
+						<contextFuncName>shift</contextFuncName>
+						<contextNormFuncName>shift</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
+											<second>shift</second>
+										</first>
+										<second>85</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>pool_window.V</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>126</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>941</item>
+					<item>945</item>
+					<item>946</item>
+					<item>947</item>
+				</oprand_edges>
+				<opcode>memshiftread</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.57</m_delay>
+				<m_topoIndex>58</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_35">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>79</id>
+						<name>pool_window_V_207</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>85</lineNumber>
+						<contextFuncName>shift</contextFuncName>
+						<contextNormFuncName>shift</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
+											<second>shift</second>
+										</first>
+										<second>85</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>pool_window.V</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>102</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>948</item>
+					<item>952</item>
+					<item>953</item>
+					<item>954</item>
+				</oprand_edges>
+				<opcode>memshiftread</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.57</m_delay>
+				<m_topoIndex>59</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_36">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>80</id>
+						<name>pool_window_V_208</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>85</lineNumber>
+						<contextFuncName>shift</contextFuncName>
+						<contextNormFuncName>shift</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
+											<second>shift</second>
+										</first>
+										<second>85</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>pool_window.V</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715961824</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>955</item>
+					<item>959</item>
+					<item>960</item>
+					<item>961</item>
+				</oprand_edges>
+				<opcode>memshiftread</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.57</m_delay>
+				<m_topoIndex>60</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_37">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>81</id>
+						<name>pool_window_V_209</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>85</lineNumber>
+						<contextFuncName>shift</contextFuncName>
+						<contextNormFuncName>shift</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
+											<second>shift</second>
+										</first>
+										<second>85</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>pool_window.V</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715973680</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>962</item>
+					<item>966</item>
+					<item>967</item>
+					<item>968</item>
+				</oprand_edges>
+				<opcode>memshiftread</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.57</m_delay>
+				<m_topoIndex>61</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_38">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>82</id>
+						<name>pool_window_V_210</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>85</lineNumber>
+						<contextFuncName>shift</contextFuncName>
+						<contextNormFuncName>shift</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
+											<second>shift</second>
+										</first>
+										<second>85</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>pool_window.V</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2714293376</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>4</count>
+					<item_version>0</item_version>
+					<item>969</item>
+					<item>973</item>
+					<item>974</item>
+					<item>975</item>
+				</oprand_edges>
+				<opcode>memshiftread</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.57</m_delay>
+				<m_topoIndex>62</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_39">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>83</id>
+						<name>pool_window_V_211</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>85</lineNumber>
+						<contextFuncName>shift</contextFuncName>
+						<contextNormFuncName>shift</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1691,537 +2222,6 @@
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
-					<item>913</item>
-					<item>917</item>
-					<item>918</item>
-					<item>919</item>
-				</oprand_edges>
-				<opcode>memshiftread</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.57</m_delay>
-				<m_topoIndex>54</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_31">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>75</id>
-						<name>pool_window_V_86</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>85</lineNumber>
-						<contextFuncName>shift</contextFuncName>
-						<contextNormFuncName>shift</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
-											<second>shift</second>
-										</first>
-										<second>85</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>pool_window.V</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>321752496</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>920</item>
-					<item>924</item>
-					<item>925</item>
-					<item>926</item>
-				</oprand_edges>
-				<opcode>memshiftread</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.57</m_delay>
-				<m_topoIndex>55</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_32">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>76</id>
-						<name>pool_window_V_87</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>85</lineNumber>
-						<contextFuncName>shift</contextFuncName>
-						<contextNormFuncName>shift</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
-											<second>shift</second>
-										</first>
-										<second>85</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>pool_window.V</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>321753328</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>927</item>
-					<item>931</item>
-					<item>932</item>
-					<item>933</item>
-				</oprand_edges>
-				<opcode>memshiftread</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.57</m_delay>
-				<m_topoIndex>56</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_33">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>77</id>
-						<name>pool_window_V_88</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>85</lineNumber>
-						<contextFuncName>shift</contextFuncName>
-						<contextNormFuncName>shift</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
-											<second>shift</second>
-										</first>
-										<second>85</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>pool_window.V</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>321754624</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>934</item>
-					<item>938</item>
-					<item>939</item>
-					<item>940</item>
-				</oprand_edges>
-				<opcode>memshiftread</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.57</m_delay>
-				<m_topoIndex>57</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_34">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>78</id>
-						<name>pool_window_V_89</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>85</lineNumber>
-						<contextFuncName>shift</contextFuncName>
-						<contextNormFuncName>shift</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
-											<second>shift</second>
-										</first>
-										<second>85</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>pool_window.V</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>315715328</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>941</item>
-					<item>945</item>
-					<item>946</item>
-					<item>947</item>
-				</oprand_edges>
-				<opcode>memshiftread</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.57</m_delay>
-				<m_topoIndex>58</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_35">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>79</id>
-						<name>pool_window_V_90</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>85</lineNumber>
-						<contextFuncName>shift</contextFuncName>
-						<contextNormFuncName>shift</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
-											<second>shift</second>
-										</first>
-										<second>85</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>pool_window.V</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>315715792</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>948</item>
-					<item>952</item>
-					<item>953</item>
-					<item>954</item>
-				</oprand_edges>
-				<opcode>memshiftread</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.57</m_delay>
-				<m_topoIndex>59</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_36">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>80</id>
-						<name>pool_window_V_91</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>85</lineNumber>
-						<contextFuncName>shift</contextFuncName>
-						<contextNormFuncName>shift</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
-											<second>shift</second>
-										</first>
-										<second>85</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>pool_window.V</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>955</item>
-					<item>959</item>
-					<item>960</item>
-					<item>961</item>
-				</oprand_edges>
-				<opcode>memshiftread</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.57</m_delay>
-				<m_topoIndex>60</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_37">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>81</id>
-						<name>pool_window_V_92</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>85</lineNumber>
-						<contextFuncName>shift</contextFuncName>
-						<contextNormFuncName>shift</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
-											<second>shift</second>
-										</first>
-										<second>85</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>pool_window.V</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>321367104</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>962</item>
-					<item>966</item>
-					<item>967</item>
-					<item>968</item>
-				</oprand_edges>
-				<opcode>memshiftread</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.57</m_delay>
-				<m_topoIndex>61</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_38">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>82</id>
-						<name>pool_window_V_93</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>85</lineNumber>
-						<contextFuncName>shift</contextFuncName>
-						<contextNormFuncName>shift</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
-											<second>shift</second>
-										</first>
-										<second>85</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>pool_window.V</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>969</item>
-					<item>973</item>
-					<item>974</item>
-					<item>975</item>
-				</oprand_edges>
-				<opcode>memshiftread</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.57</m_delay>
-				<m_topoIndex>62</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_39">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>83</id>
-						<name>pool_window_V_94</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>85</lineNumber>
-						<contextFuncName>shift</contextFuncName>
-						<contextNormFuncName>shift</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</first>
-											<second>shift</second>
-										</first>
-										<second>85</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>pool_window.V</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>315713632</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
 					<item>976</item>
 					<item>980</item>
 					<item>981</item>
@@ -2241,9 +2241,9 @@
 					<Obj>
 						<type>0</type>
 						<id>84</id>
-						<name>pool_window_V_95</name>
+						<name>pool_window_V_212</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>shift</contextFuncName>
 						<contextNormFuncName>shift</contextNormFuncName>
@@ -2251,7 +2251,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2273,7 +2273,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322725024</coreId>
+						<coreId>2714298528</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -2300,9 +2300,9 @@
 					<Obj>
 						<type>0</type>
 						<id>85</id>
-						<name>pool_window_V_96</name>
+						<name>pool_window_V_213</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>shift</contextFuncName>
 						<contextNormFuncName>shift</contextNormFuncName>
@@ -2310,7 +2310,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2359,9 +2359,9 @@
 					<Obj>
 						<type>0</type>
 						<id>86</id>
-						<name>pool_window_V_98</name>
+						<name>pool_window_V_214</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>85</lineNumber>
 						<contextFuncName>shift</contextFuncName>
 						<contextNormFuncName>shift</contextNormFuncName>
@@ -2369,7 +2369,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2391,7 +2391,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321367104</coreId>
+						<coreId>2712940496</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -2420,7 +2420,7 @@
 						<id>87</id>
 						<name>pool_window_V</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -2428,119 +2428,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
-											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</second>
-										</first>
-										<second>201</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>pool_window.V</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>7955819</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>1004</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>67</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_44">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>88</id>
-						<name>pool_window_V_100</name>
-						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>201</lineNumber>
-						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
-						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
-											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</second>
-										</first>
-										<second>201</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>pool_window.V</originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>321367104</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>1</count>
-					<item_version>0</item_version>
-					<item>1005</item>
-				</oprand_edges>
-				<opcode>load</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>68</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_45">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>89</id>
-						<name>pool_window_V_102</name>
-						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>201</lineNumber>
-						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
-						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2570,7 +2458,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>1006</item>
+					<item>1004</item>
 				</oprand_edges>
 				<opcode>load</opcode>
 				<m_Display>0</m_Display>
@@ -2578,17 +2466,17 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>69</m_topoIndex>
+				<m_topoIndex>67</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_46">
+			<item class_id_reference="9" object_id="_44">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>90</id>
-						<name>pool_window_V_104</name>
+						<id>88</id>
+						<name>pool_window_V_229</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -2596,7 +2484,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2618,7 +2506,119 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322727600</coreId>
+						<coreId>2714277920</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>1005</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>68</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_45">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>89</id>
+						<name>pool_window_V_231</name>
+						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>201</lineNumber>
+						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
+						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</second>
+										</first>
+										<second>201</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>pool_window.V</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2714280048</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>1</count>
+					<item_version>0</item_version>
+					<item>1006</item>
+				</oprand_edges>
+				<opcode>load</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>69</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_46">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>90</id>
+						<name>pool_window_V_233</name>
+						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>201</lineNumber>
+						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
+						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_conv_stream.h</first>
+											<second>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</second>
+										</first>
+										<second>201</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>pool_window.V</originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2714272768</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -2642,9 +2642,9 @@
 					<Obj>
 						<type>0</type>
 						<id>91</id>
-						<name>pool_window_V_106</name>
+						<name>pool_window_V_235</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -2652,7 +2652,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2698,9 +2698,9 @@
 					<Obj>
 						<type>0</type>
 						<id>92</id>
-						<name>pool_window_V_108</name>
+						<name>pool_window_V_237</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -2708,7 +2708,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2730,7 +2730,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>315720480</coreId>
+						<coreId>2714270192</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -2754,9 +2754,9 @@
 					<Obj>
 						<type>0</type>
 						<id>93</id>
-						<name>pool_window_V_110</name>
+						<name>pool_window_V_239</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -2764,7 +2764,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2786,7 +2786,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2714272320</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -2810,9 +2810,9 @@
 					<Obj>
 						<type>0</type>
 						<id>94</id>
-						<name>pool_window_V_112</name>
+						<name>pool_window_V_241</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -2820,7 +2820,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2842,7 +2842,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>315728208</coreId>
+						<coreId>2714262464</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -2866,9 +2866,9 @@
 					<Obj>
 						<type>0</type>
 						<id>95</id>
-						<name>pool_window_V_114</name>
+						<name>pool_window_V_243</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -2876,7 +2876,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2898,7 +2898,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>315728976</coreId>
+						<coreId>2714264592</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -2922,9 +2922,9 @@
 					<Obj>
 						<type>0</type>
 						<id>96</id>
-						<name>pool_window_V_116</name>
+						<name>pool_window_V_245</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -2932,7 +2932,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2954,7 +2954,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321367104</coreId>
+						<coreId>2714280496</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -2978,9 +2978,9 @@
 					<Obj>
 						<type>0</type>
 						<id>97</id>
-						<name>pool_window_V_118</name>
+						<name>pool_window_V_247</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -2988,7 +2988,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3010,7 +3010,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>315544160</coreId>
+						<coreId>2714283384</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3034,9 +3034,9 @@
 					<Obj>
 						<type>0</type>
 						<id>98</id>
-						<name>pool_window_V_120</name>
+						<name>pool_window_V_249</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3044,7 +3044,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3066,7 +3066,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321367104</coreId>
+						<coreId>2714275344</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3090,9 +3090,9 @@
 					<Obj>
 						<type>0</type>
 						<id>99</id>
-						<name>pool_window_V_122</name>
+						<name>pool_window_V_251</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3100,7 +3100,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3122,7 +3122,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>315706096</coreId>
+						<coreId>2714277472</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3146,9 +3146,9 @@
 					<Obj>
 						<type>0</type>
 						<id>100</id>
-						<name>pool_window_V_124</name>
+						<name>pool_window_V_253</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3156,7 +3156,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3178,7 +3178,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>315725632</coreId>
+						<coreId>2712930192</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3202,9 +3202,9 @@
 					<Obj>
 						<type>0</type>
 						<id>101</id>
-						<name>pool_window_V_126</name>
+						<name>pool_window_V_255</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3212,7 +3212,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3234,7 +3234,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>788537856</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3258,9 +3258,9 @@
 					<Obj>
 						<type>0</type>
 						<id>102</id>
-						<name>pool_window_V_129</name>
+						<name>pool_window_V_258</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3268,7 +3268,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3290,7 +3290,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>315723056</coreId>
+						<coreId>2714254736</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3314,9 +3314,9 @@
 					<Obj>
 						<type>0</type>
 						<id>103</id>
-						<name>pool_window_V_97</name>
+						<name>pool_window_V_227</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3324,7 +3324,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3346,7 +3346,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>315725184</coreId>
+						<coreId>543516513</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3370,9 +3370,9 @@
 					<Obj>
 						<type>0</type>
 						<id>104</id>
-						<name>pool_window_V_101</name>
+						<name>pool_window_V_230</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3380,7 +3380,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3402,7 +3402,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322730176</coreId>
+						<coreId>2714290800</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3426,9 +3426,9 @@
 					<Obj>
 						<type>0</type>
 						<id>105</id>
-						<name>pool_window_V_103</name>
+						<name>pool_window_V_232</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3436,7 +3436,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3458,7 +3458,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1952669952</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3482,9 +3482,9 @@
 					<Obj>
 						<type>0</type>
 						<id>106</id>
-						<name>pool_window_V_105</name>
+						<name>pool_window_V_234</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3492,7 +3492,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3514,7 +3514,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>315717904</coreId>
+						<coreId>2714301104</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3538,9 +3538,9 @@
 					<Obj>
 						<type>0</type>
 						<id>107</id>
-						<name>pool_window_V_107</name>
+						<name>pool_window_V_236</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3548,7 +3548,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3570,7 +3570,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2712672528</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3594,9 +3594,9 @@
 					<Obj>
 						<type>0</type>
 						<id>108</id>
-						<name>pool_window_V_109</name>
+						<name>pool_window_V_238</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3604,7 +3604,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3626,7 +3626,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2714241856</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3650,9 +3650,9 @@
 					<Obj>
 						<type>0</type>
 						<id>109</id>
-						<name>pool_window_V_111</name>
+						<name>pool_window_V_240</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3660,7 +3660,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3682,7 +3682,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321367104</coreId>
+						<coreId>741882740</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3706,9 +3706,9 @@
 					<Obj>
 						<type>0</type>
 						<id>110</id>
-						<name>pool_window_V_113</name>
+						<name>pool_window_V_242</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3716,7 +3716,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3738,7 +3738,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322723088</coreId>
+						<coreId>2714249584</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3762,9 +3762,9 @@
 					<Obj>
 						<type>0</type>
 						<id>111</id>
-						<name>pool_window_V_115</name>
+						<name>pool_window_V_244</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3772,7 +3772,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3794,7 +3794,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>310663264</coreId>
+						<coreId>2714251712</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3818,9 +3818,9 @@
 					<Obj>
 						<type>0</type>
 						<id>112</id>
-						<name>pool_window_V_117</name>
+						<name>pool_window_V_246</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3828,7 +3828,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3850,7 +3850,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321791936</coreId>
+						<coreId>2714257312</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3874,9 +3874,9 @@
 					<Obj>
 						<type>0</type>
 						<id>113</id>
-						<name>pool_window_V_119</name>
+						<name>pool_window_V_248</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3884,7 +3884,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3906,7 +3906,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>824192062</coreId>
+						<coreId>1534226292</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3930,9 +3930,9 @@
 					<Obj>
 						<type>0</type>
 						<id>114</id>
-						<name>pool_window_V_121</name>
+						<name>pool_window_V_250</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3940,7 +3940,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -3962,7 +3962,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741882980</coreId>
+						<coreId>2714247008</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -3986,9 +3986,9 @@
 					<Obj>
 						<type>0</type>
 						<id>115</id>
-						<name>pool_window_V_123</name>
+						<name>pool_window_V_252</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -3996,7 +3996,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4018,7 +4018,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321746128</coreId>
+						<coreId>1701519394</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -4042,9 +4042,9 @@
 					<Obj>
 						<type>0</type>
 						<id>116</id>
-						<name>pool_window_V_125</name>
+						<name>pool_window_V_254</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4052,7 +4052,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4074,7 +4074,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2714283072</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -4098,9 +4098,9 @@
 					<Obj>
 						<type>0</type>
 						<id>117</id>
-						<name>pool_window_V_127</name>
+						<name>pool_window_V_256</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4108,7 +4108,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4130,7 +4130,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316614448</coreId>
+						<coreId>1397508187</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -4154,9 +4154,9 @@
 					<Obj>
 						<type>0</type>
 						<id>118</id>
-						<name>pool_window_V_130</name>
+						<name>pool_window_V_259</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>201</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4164,7 +4164,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4186,7 +4186,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1663050309</coreId>
+						<coreId>2714288224</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -4210,9 +4210,9 @@
 					<Obj>
 						<type>0</type>
 						<id>119</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_99_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_189_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4220,7 +4220,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4242,7 +4242,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1847602228</coreId>
+						<coreId>2714290352</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4268,9 +4268,9 @@
 					<Obj>
 						<type>0</type>
 						<id>120</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_98_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_190_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4278,7 +4278,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4300,7 +4300,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321268064</coreId>
+						<coreId>2714296232</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4326,9 +4326,9 @@
 					<Obj>
 						<type>0</type>
 						<id>121</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_97_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_191_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4336,7 +4336,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4358,7 +4358,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>980706670</coreId>
+						<coreId>2714244432</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4384,9 +4384,9 @@
 					<Obj>
 						<type>0</type>
 						<id>122</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_96_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_192_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4394,7 +4394,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4416,7 +4416,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321024064</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4442,9 +4442,9 @@
 					<Obj>
 						<type>0</type>
 						<id>123</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_95_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_193_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4452,7 +4452,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4474,7 +4474,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321367104</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4500,9 +4500,9 @@
 					<Obj>
 						<type>0</type>
 						<id>124</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_94_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_194_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4510,7 +4510,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4532,7 +4532,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322759984</coreId>
+						<coreId>2712939408</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4558,9 +4558,9 @@
 					<Obj>
 						<type>0</type>
 						<id>125</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_93_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_195_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4568,7 +4568,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4590,7 +4590,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2712551280</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4616,9 +4616,9 @@
 					<Obj>
 						<type>0</type>
 						<id>126</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_92_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_196_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4626,7 +4626,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4648,7 +4648,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316800096</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4674,9 +4674,9 @@
 					<Obj>
 						<type>0</type>
 						<id>127</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_91_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_197_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4684,7 +4684,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4706,7 +4706,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1210187897</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4732,9 +4732,9 @@
 					<Obj>
 						<type>0</type>
 						<id>128</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_90_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_198_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4742,7 +4742,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4764,7 +4764,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2712936256</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4790,9 +4790,9 @@
 					<Obj>
 						<type>0</type>
 						<id>129</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_89_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_199_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4800,7 +4800,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4822,7 +4822,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316802928</coreId>
+						<coreId>2712927616</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4848,9 +4848,9 @@
 					<Obj>
 						<type>0</type>
 						<id>130</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_88_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_200_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4858,7 +4858,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4880,7 +4880,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4906,9 +4906,9 @@
 					<Obj>
 						<type>0</type>
 						<id>131</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_87_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_201_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4916,7 +4916,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4938,7 +4938,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1819307375</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -4964,9 +4964,9 @@
 					<Obj>
 						<type>0</type>
 						<id>132</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_86_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_202_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -4974,7 +4974,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -4996,7 +4996,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316778240</coreId>
+						<coreId>2714239280</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5022,9 +5022,9 @@
 					<Obj>
 						<type>0</type>
 						<id>133</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_85_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_203_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5032,7 +5032,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5054,7 +5054,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>256</coreId>
+						<coreId>673197056</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5080,9 +5080,9 @@
 					<Obj>
 						<type>0</type>
 						<id>134</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_84_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_204_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5090,7 +5090,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5138,9 +5138,9 @@
 					<Obj>
 						<type>0</type>
 						<id>135</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_83_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_205_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5148,7 +5148,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5170,7 +5170,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321363456</coreId>
+						<coreId>2714259888</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5196,9 +5196,9 @@
 					<Obj>
 						<type>0</type>
 						<id>136</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_82_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_206_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5206,7 +5206,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5228,7 +5228,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321748240</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5254,9 +5254,9 @@
 					<Obj>
 						<type>0</type>
 						<id>137</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_81_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_207_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5264,7 +5264,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5286,7 +5286,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>126</coreId>
+						<coreId>2715979264</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5312,9 +5312,9 @@
 					<Obj>
 						<type>0</type>
 						<id>138</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_80_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_208_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5322,7 +5322,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5344,7 +5344,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1919247974</coreId>
+						<coreId>212</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5370,9 +5370,9 @@
 					<Obj>
 						<type>0</type>
 						<id>139</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_79_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_209_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5380,7 +5380,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5402,7 +5402,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316371184</coreId>
+						<coreId>1819242352</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5428,9 +5428,9 @@
 					<Obj>
 						<type>0</type>
 						<id>140</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_78_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_210_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5438,7 +5438,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5460,7 +5460,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>824192062</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5486,9 +5486,9 @@
 					<Obj>
 						<type>0</type>
 						<id>141</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_77_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_211_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5496,7 +5496,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5518,7 +5518,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>338473952</coreId>
+						<coreId>1847602230</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5544,9 +5544,9 @@
 					<Obj>
 						<type>0</type>
 						<id>142</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_76_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_212_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5554,7 +5554,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5576,7 +5576,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316748400</coreId>
+						<coreId>2715634736</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5602,9 +5602,9 @@
 					<Obj>
 						<type>0</type>
 						<id>143</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_75_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_213_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5612,7 +5612,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5634,7 +5634,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316767976</coreId>
+						<coreId>2715985984</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5660,9 +5660,9 @@
 					<Obj>
 						<type>0</type>
 						<id>144</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_74_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_214_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5670,7 +5670,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5692,7 +5692,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715639400</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5718,9 +5718,9 @@
 					<Obj>
 						<type>0</type>
 						<id>145</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_73_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_215_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5728,7 +5728,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5750,7 +5750,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715937136</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5776,9 +5776,9 @@
 					<Obj>
 						<type>0</type>
 						<id>146</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_72_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_216_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5786,7 +5786,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5808,7 +5808,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>256</coreId>
+						<coreId>1330007625</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5834,9 +5834,9 @@
 					<Obj>
 						<type>0</type>
 						<id>147</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_71_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_217_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5844,7 +5844,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5866,7 +5866,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316748400</coreId>
+						<coreId>160</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5892,9 +5892,9 @@
 					<Obj>
 						<type>0</type>
 						<id>148</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_70_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_218_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5902,7 +5902,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5924,7 +5924,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316760624</coreId>
+						<coreId>2707519984</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -5950,9 +5950,9 @@
 					<Obj>
 						<type>0</type>
 						<id>149</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_69_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_219_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -5960,7 +5960,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -5982,7 +5982,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316763080</coreId>
+						<coreId>2715981232</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -6008,9 +6008,9 @@
 					<Obj>
 						<type>0</type>
 						<id>150</id>
-						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_68_write_ln214</name>
+						<name>p_ZZN4nnet22compute_pool_buffer_2dINS_5arrayI9ap_ufixedILi8ELi2EL9ap_q_mode4EL9ap_220_write_ln214</name>
 						<fileName>firmware/nnet_utils/nnet_conv_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>214</lineNumber>
 						<contextFuncName>kernel_shift_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>kernel_shift_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_config9_s</contextNormFuncName>
@@ -6018,7 +6018,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6040,7 +6040,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316764160</coreId>
+						<coreId>2715983168</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -6066,9 +6066,9 @@
 					<Obj>
 						<type>0</type>
 						<id>151</id>
-						<name>sX_1_load</name>
+						<name>sX_2_load</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -6076,7 +6076,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6098,7 +6098,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>313166712</coreId>
+						<coreId>2713684784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6124,7 +6124,7 @@
 						<id>152</id>
 						<name>icmp_ln55</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -6132,7 +6132,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6154,7 +6154,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>313171248</coreId>
+						<coreId>2712923136</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -6179,9 +6179,9 @@
 					<Obj>
 						<type>0</type>
 						<id>153</id>
-						<name>pX_1_load</name>
+						<name>pX_2_load</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>76</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -6189,7 +6189,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6211,7 +6211,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>313172320</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6237,7 +6237,7 @@
 						<id>154</id>
 						<name>br_ln55</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -6245,7 +6245,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6267,7 +6267,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>304</coreId>
+						<coreId>2712926376</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -6293,9 +6293,9 @@
 					<Obj>
 						<type>0</type>
 						<id>156</id>
-						<name>sY_1_load</name>
+						<name>sY_2_load</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -6303,7 +6303,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6325,7 +6325,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>313175776</coreId>
+						<coreId>1663050309</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6349,9 +6349,9 @@
 					<Obj>
 						<type>0</type>
 						<id>157</id>
-						<name>icmp_ln55_4</name>
+						<name>icmp_ln55_7</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -6359,7 +6359,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6381,7 +6381,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1296651342</coreId>
+						<coreId>171847458</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -6406,9 +6406,9 @@
 					<Obj>
 						<type>0</type>
 						<id>158</id>
-						<name>pY_1_load</name>
+						<name>pY_2_load</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -6416,7 +6416,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6438,7 +6438,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1030185332</coreId>
+						<coreId>1852142702</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -6462,9 +6462,9 @@
 					<Obj>
 						<type>0</type>
 						<id>159</id>
-						<name>icmp_ln55_5</name>
+						<name>icmp_ln55_8</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -6472,7 +6472,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6494,7 +6494,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1176513601</coreId>
+						<coreId>1953523012</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -6519,9 +6519,9 @@
 					<Obj>
 						<type>0</type>
 						<id>160</id>
-						<name>icmp_ln55_6</name>
+						<name>icmp_ln55_9</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -6529,7 +6529,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6551,7 +6551,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1835365491</coreId>
+						<coreId>757935405</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -6578,7 +6578,7 @@
 						<id>161</id>
 						<name>and_ln55</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -6586,7 +6586,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6608,7 +6608,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1734439795</coreId>
+						<coreId>2712663960</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -6633,9 +6633,9 @@
 					<Obj>
 						<type>0</type>
 						<id>162</id>
-						<name>and_ln55_2</name>
+						<name>and_ln55_3</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -6643,7 +6643,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6665,7 +6665,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316627216</coreId>
+						<coreId>2712665656</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -6692,7 +6692,7 @@
 						<id>163</id>
 						<name>br_ln55</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>55</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -6700,7 +6700,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6722,7 +6722,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>389</coreId>
+						<coreId>2712667480</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -6750,7 +6750,7 @@
 						<id>165</id>
 						<name>icmp_ln1651</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6758,7 +6758,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6780,7 +6780,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316736344</coreId>
+						<coreId>2712669304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -6807,7 +6807,7 @@
 						<id>166</id>
 						<name>xor_ln1651</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6815,7 +6815,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6864,7 +6864,7 @@
 						<id>167</id>
 						<name>select_ln65</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -6872,7 +6872,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6894,7 +6894,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316739296</coreId>
+						<coreId>2712671728</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -6920,9 +6920,9 @@
 					<Obj>
 						<type>0</type>
 						<id>168</id>
-						<name>icmp_ln1651_90</name>
+						<name>icmp_ln1651_215</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6930,7 +6930,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -6952,7 +6952,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>577</coreId>
+						<coreId>1869833472</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -6977,9 +6977,9 @@
 					<Obj>
 						<type>0</type>
 						<id>169</id>
-						<name>xor_ln1651_90</name>
+						<name>xor_ln1651_215</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -6987,7 +6987,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7009,7 +7009,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316741616</coreId>
+						<coreId>2712670704</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -7034,9 +7034,9 @@
 					<Obj>
 						<type>0</type>
 						<id>170</id>
-						<name>select_ln65_90</name>
+						<name>select_ln65_215</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -7044,7 +7044,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7066,7 +7066,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>2712551280</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -7092,9 +7092,9 @@
 					<Obj>
 						<type>0</type>
 						<id>171</id>
-						<name>icmp_ln1651_91</name>
+						<name>icmp_ln1651_216</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7102,7 +7102,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7124,7 +7124,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321370384</coreId>
+						<coreId>2712557040</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -7149,9 +7149,9 @@
 					<Obj>
 						<type>0</type>
 						<id>172</id>
-						<name>xor_ln1651_91</name>
+						<name>xor_ln1651_216</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7159,7 +7159,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7181,7 +7181,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321804304</coreId>
+						<coreId>2712558672</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -7208,7 +7208,7 @@
 						<id>173</id>
 						<name>res_pack_data</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -7216,7 +7216,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7238,7 +7238,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321805584</coreId>
+						<coreId>2712559976</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -7264,9 +7264,9 @@
 					<Obj>
 						<type>0</type>
 						<id>174</id>
-						<name>icmp_ln1651_92</name>
+						<name>icmp_ln1651_217</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7274,7 +7274,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7321,9 +7321,9 @@
 					<Obj>
 						<type>0</type>
 						<id>175</id>
-						<name>xor_ln1651_92</name>
+						<name>xor_ln1651_217</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7331,7 +7331,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7353,7 +7353,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2712542720</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -7378,9 +7378,9 @@
 					<Obj>
 						<type>0</type>
 						<id>176</id>
-						<name>select_ln65_92</name>
+						<name>select_ln65_217</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -7388,7 +7388,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7410,7 +7410,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321809456</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -7436,9 +7436,9 @@
 					<Obj>
 						<type>0</type>
 						<id>177</id>
-						<name>icmp_ln1651_93</name>
+						<name>icmp_ln1651_218</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7446,236 +7446,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>4294967295</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>410</item>
-					<item>411</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.78</m_delay>
-				<m_topoIndex>145</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_132">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>178</id>
-						<name>xor_ln1651_93</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>316778240</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>412</item>
-					<item>413</item>
-				</oprand_edges>
-				<opcode>xor</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>146</m_topoIndex>
-				<m_clusterGroupNumber>6</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_133">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>179</id>
-						<name>select_ln65_93</name>
-						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>65</lineNumber>
-						<contextFuncName>operator()</contextFuncName>
-						<contextNormFuncName>operator_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_common.h</first>
-											<second>operator()</second>
-										</first>
-										<second>65</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>310459616</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>414</item>
-					<item>415</item>
-					<item>416</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.33</m_delay>
-				<m_topoIndex>147</m_topoIndex>
-				<m_clusterGroupNumber>6</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_134">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>180</id>
-						<name>icmp_ln1651_94</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>417</item>
-					<item>418</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.78</m_delay>
-				<m_topoIndex>244</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_135">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>181</id>
-						<name>xor_ln1651_94</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7705,6 +7476,235 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
+					<item>410</item>
+					<item>411</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.78</m_delay>
+				<m_topoIndex>145</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_132">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>178</id>
+						<name>xor_ln1651_218</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715693608</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>412</item>
+					<item>413</item>
+				</oprand_edges>
+				<opcode>xor</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>146</m_topoIndex>
+				<m_clusterGroupNumber>6</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_133">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>179</id>
+						<name>select_ln65_218</name>
+						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>65</lineNumber>
+						<contextFuncName>operator()</contextFuncName>
+						<contextNormFuncName>operator_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_common.h</first>
+											<second>operator()</second>
+										</first>
+										<second>65</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715694576</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>414</item>
+					<item>415</item>
+					<item>416</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.33</m_delay>
+				<m_topoIndex>147</m_topoIndex>
+				<m_clusterGroupNumber>6</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_134">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>180</id>
+						<name>icmp_ln1651_219</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715695704</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>417</item>
+					<item>418</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.78</m_delay>
+				<m_topoIndex>244</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_135">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>181</id>
+						<name>xor_ln1651_219</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715697120</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
 					<item>419</item>
 					<item>420</item>
 				</oprand_edges>
@@ -7722,9 +7722,9 @@
 					<Obj>
 						<type>0</type>
 						<id>182</id>
-						<name>res_pack_data_6</name>
+						<name>res_pack_data_15</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -7732,7 +7732,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7754,7 +7754,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316802160</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -7780,9 +7780,9 @@
 					<Obj>
 						<type>0</type>
 						<id>183</id>
-						<name>icmp_ln1651_95</name>
+						<name>icmp_ln1651_220</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7790,7 +7790,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7812,7 +7812,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316802736</coreId>
+						<coreId>2715699664</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -7837,9 +7837,9 @@
 					<Obj>
 						<type>0</type>
 						<id>184</id>
-						<name>xor_ln1651_95</name>
+						<name>xor_ln1651_220</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7847,7 +7847,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7894,9 +7894,9 @@
 					<Obj>
 						<type>0</type>
 						<id>185</id>
-						<name>select_ln65_95</name>
+						<name>select_ln65_220</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -7904,7 +7904,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7926,7 +7926,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>320109616</coreId>
+						<coreId>2715985984</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -7952,9 +7952,9 @@
 					<Obj>
 						<type>0</type>
 						<id>186</id>
-						<name>icmp_ln1651_96</name>
+						<name>icmp_ln1651_221</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -7962,7 +7962,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -7984,7 +7984,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316807312</coreId>
+						<coreId>2715708576</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8009,9 +8009,9 @@
 					<Obj>
 						<type>0</type>
 						<id>187</id>
-						<name>xor_ln1651_96</name>
+						<name>xor_ln1651_221</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8019,7 +8019,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8041,7 +8041,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316416368</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8066,9 +8066,9 @@
 					<Obj>
 						<type>0</type>
 						<id>188</id>
-						<name>select_ln65_96</name>
+						<name>select_ln65_221</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -8076,7 +8076,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8098,7 +8098,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715721936</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -8124,9 +8124,9 @@
 					<Obj>
 						<type>0</type>
 						<id>189</id>
-						<name>icmp_ln1651_97</name>
+						<name>icmp_ln1651_222</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8134,7 +8134,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8156,7 +8156,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316429440</coreId>
+						<coreId>2715723128</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8181,9 +8181,9 @@
 					<Obj>
 						<type>0</type>
 						<id>190</id>
-						<name>xor_ln1651_97</name>
+						<name>xor_ln1651_222</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8191,7 +8191,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8213,7 +8213,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715724672</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8238,9 +8238,9 @@
 					<Obj>
 						<type>0</type>
 						<id>191</id>
-						<name>res_pack_data_7</name>
+						<name>res_pack_data_16</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -8248,7 +8248,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8296,9 +8296,9 @@
 					<Obj>
 						<type>0</type>
 						<id>192</id>
-						<name>icmp_ln1651_98</name>
+						<name>icmp_ln1651_223</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8306,64 +8306,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>316431568</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>445</item>
-					<item>446</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.78</m_delay>
-				<m_topoIndex>154</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_147">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>193</id>
-						<name>xor_ln1651_98</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8393,6 +8336,63 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
+					<item>445</item>
+					<item>446</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.78</m_delay>
+				<m_topoIndex>154</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_147">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>193</id>
+						<name>xor_ln1651_223</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715708576</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
 					<item>447</item>
 					<item>448</item>
 				</oprand_edges>
@@ -8410,9 +8410,9 @@
 					<Obj>
 						<type>0</type>
 						<id>194</id>
-						<name>select_ln65_98</name>
+						<name>select_ln65_223</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -8420,7 +8420,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8442,7 +8442,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316436416</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -8468,9 +8468,9 @@
 					<Obj>
 						<type>0</type>
 						<id>195</id>
-						<name>icmp_ln1651_99</name>
+						<name>icmp_ln1651_224</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8478,64 +8478,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>316416368</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>452</item>
-					<item>453</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.78</m_delay>
-				<m_topoIndex>157</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_150">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>196</id>
-						<name>xor_ln1651_99</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8565,6 +8508,63 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
+					<item>452</item>
+					<item>453</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.78</m_delay>
+				<m_topoIndex>157</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_150">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>196</id>
+						<name>xor_ln1651_224</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715732856</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
 					<item>454</item>
 					<item>455</item>
 				</oprand_edges>
@@ -8582,9 +8582,9 @@
 					<Obj>
 						<type>0</type>
 						<id>197</id>
-						<name>select_ln65_99</name>
+						<name>select_ln65_224</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -8592,7 +8592,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8614,7 +8614,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316440192</coreId>
+						<coreId>2715769168</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -8640,9 +8640,9 @@
 					<Obj>
 						<type>0</type>
 						<id>198</id>
-						<name>icmp_ln1651_100</name>
+						<name>icmp_ln1651_225</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8650,7 +8650,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8672,7 +8672,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316446016</coreId>
+						<coreId>2715768416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8697,9 +8697,9 @@
 					<Obj>
 						<type>0</type>
 						<id>199</id>
-						<name>xor_ln1651_100</name>
+						<name>xor_ln1651_225</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8707,7 +8707,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8729,7 +8729,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316456352</coreId>
+						<coreId>2715773112</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8754,9 +8754,9 @@
 					<Obj>
 						<type>0</type>
 						<id>200</id>
-						<name>res_pack_data_8</name>
+						<name>res_pack_data_17</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -8764,7 +8764,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8786,7 +8786,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316460696</coreId>
+						<coreId>48</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -8812,9 +8812,9 @@
 					<Obj>
 						<type>0</type>
 						<id>201</id>
-						<name>icmp_ln1651_101</name>
+						<name>icmp_ln1651_226</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8822,7 +8822,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8844,7 +8844,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>796095592</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8869,9 +8869,9 @@
 					<Obj>
 						<type>0</type>
 						<id>202</id>
-						<name>xor_ln1651_101</name>
+						<name>xor_ln1651_226</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8879,7 +8879,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8901,7 +8901,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316446016</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -8926,9 +8926,9 @@
 					<Obj>
 						<type>0</type>
 						<id>203</id>
-						<name>select_ln65_101</name>
+						<name>select_ln65_226</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -8936,7 +8936,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -8958,7 +8958,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715776832</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -8984,9 +8984,9 @@
 					<Obj>
 						<type>0</type>
 						<id>204</id>
-						<name>icmp_ln1651_102</name>
+						<name>icmp_ln1651_227</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -8994,7 +8994,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9016,7 +9016,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1031369833</coreId>
+						<coreId>2715778200</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9041,9 +9041,9 @@
 					<Obj>
 						<type>0</type>
 						<id>205</id>
-						<name>xor_ln1651_102</name>
+						<name>xor_ln1651_227</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9051,7 +9051,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9073,7 +9073,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316466040</coreId>
+						<coreId>2715779744</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9098,9 +9098,9 @@
 					<Obj>
 						<type>0</type>
 						<id>206</id>
-						<name>select_ln65_102</name>
+						<name>select_ln65_227</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -9108,7 +9108,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9130,7 +9130,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1601332582</coreId>
+						<coreId>2715783008</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -9156,9 +9156,9 @@
 					<Obj>
 						<type>0</type>
 						<id>207</id>
-						<name>icmp_ln1651_103</name>
+						<name>icmp_ln1651_228</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9166,7 +9166,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9188,7 +9188,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316468656</coreId>
+						<coreId>2715782304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9213,9 +9213,9 @@
 					<Obj>
 						<type>0</type>
 						<id>208</id>
-						<name>xor_ln1651_103</name>
+						<name>xor_ln1651_228</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9223,7 +9223,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9245,7 +9245,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715734416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9270,9 +9270,9 @@
 					<Obj>
 						<type>0</type>
 						<id>209</id>
-						<name>res_pack_data_9</name>
+						<name>res_pack_data_18</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -9280,7 +9280,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9302,7 +9302,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316544928</coreId>
+						<coreId>2715733664</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -9328,9 +9328,9 @@
 					<Obj>
 						<type>0</type>
 						<id>210</id>
-						<name>icmp_ln1651_104</name>
+						<name>icmp_ln1651_229</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9338,7 +9338,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9360,7 +9360,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885420404</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9385,9 +9385,9 @@
 					<Obj>
 						<type>0</type>
 						<id>211</id>
-						<name>xor_ln1651_104</name>
+						<name>xor_ln1651_229</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9395,7 +9395,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9417,7 +9417,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316558176</coreId>
+						<coreId>224</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9442,9 +9442,9 @@
 					<Obj>
 						<type>0</type>
 						<id>212</id>
-						<name>select_ln65_104</name>
+						<name>select_ln65_229</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -9452,7 +9452,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9474,7 +9474,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316559480</coreId>
+						<coreId>269</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -9500,9 +9500,9 @@
 					<Obj>
 						<type>0</type>
 						<id>213</id>
-						<name>icmp_ln1651_105</name>
+						<name>icmp_ln1651_230</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9510,7 +9510,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9532,7 +9532,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1885414971</coreId>
+						<coreId>2715741008</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9557,9 +9557,9 @@
 					<Obj>
 						<type>0</type>
 						<id>214</id>
-						<name>xor_ln1651_105</name>
+						<name>xor_ln1651_230</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9567,7 +9567,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9589,7 +9589,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316544928</coreId>
+						<coreId>2715742688</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9614,9 +9614,9 @@
 					<Obj>
 						<type>0</type>
 						<id>215</id>
-						<name>select_ln65_105</name>
+						<name>select_ln65_230</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -9624,7 +9624,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9646,7 +9646,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316563864</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -9672,9 +9672,9 @@
 					<Obj>
 						<type>0</type>
 						<id>216</id>
-						<name>icmp_ln1651_106</name>
+						<name>icmp_ln1651_231</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9682,7 +9682,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9704,7 +9704,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1936614756</coreId>
+						<coreId>2715745024</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9729,9 +9729,9 @@
 					<Obj>
 						<type>0</type>
 						<id>217</id>
-						<name>xor_ln1651_106</name>
+						<name>xor_ln1651_231</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9739,7 +9739,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9761,7 +9761,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316566168</coreId>
+						<coreId>1702258035</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9786,9 +9786,9 @@
 					<Obj>
 						<type>0</type>
 						<id>218</id>
-						<name>res_pack_data_10</name>
+						<name>res_pack_data_19</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -9796,7 +9796,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9818,7 +9818,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>2715678928</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -9844,9 +9844,9 @@
 					<Obj>
 						<type>0</type>
 						<id>219</id>
-						<name>icmp_ln1651_107</name>
+						<name>icmp_ln1651_232</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9854,7 +9854,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9876,7 +9876,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316569432</coreId>
+						<coreId>1145981250</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9901,9 +9901,9 @@
 					<Obj>
 						<type>0</type>
 						<id>220</id>
-						<name>xor_ln1651_107</name>
+						<name>xor_ln1651_232</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -9911,7 +9911,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -9933,7 +9933,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316614448</coreId>
+						<coreId>2715706816</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -9958,9 +9958,9 @@
 					<Obj>
 						<type>0</type>
 						<id>221</id>
-						<name>select_ln65_107</name>
+						<name>select_ln65_232</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -9968,7 +9968,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10016,9 +10016,9 @@
 					<Obj>
 						<type>0</type>
 						<id>222</id>
-						<name>icmp_ln1651_108</name>
+						<name>icmp_ln1651_233</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10026,7 +10026,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10048,7 +10048,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715709216</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10073,9 +10073,9 @@
 					<Obj>
 						<type>0</type>
 						<id>223</id>
-						<name>xor_ln1651_108</name>
+						<name>xor_ln1651_233</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10083,7 +10083,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10130,9 +10130,9 @@
 					<Obj>
 						<type>0</type>
 						<id>224</id>
-						<name>select_ln65_108</name>
+						<name>select_ln65_233</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -10140,7 +10140,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10188,9 +10188,9 @@
 					<Obj>
 						<type>0</type>
 						<id>225</id>
-						<name>icmp_ln1651_109</name>
+						<name>icmp_ln1651_234</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10198,7 +10198,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10220,7 +10220,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316750560</coreId>
+						<coreId>2715712928</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10245,9 +10245,9 @@
 					<Obj>
 						<type>0</type>
 						<id>226</id>
-						<name>xor_ln1651_109</name>
+						<name>xor_ln1651_234</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10255,7 +10255,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10277,7 +10277,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316752088</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10302,9 +10302,9 @@
 					<Obj>
 						<type>0</type>
 						<id>227</id>
-						<name>res_pack_data_11</name>
+						<name>res_pack_data_20</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -10312,7 +10312,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10334,7 +10334,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715713952</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -10360,9 +10360,9 @@
 					<Obj>
 						<type>0</type>
 						<id>228</id>
-						<name>icmp_ln1651_110</name>
+						<name>icmp_ln1651_235</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10370,7 +10370,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10392,7 +10392,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316621056</coreId>
+						<coreId>7955819</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10417,9 +10417,9 @@
 					<Obj>
 						<type>0</type>
 						<id>229</id>
-						<name>xor_ln1651_110</name>
+						<name>xor_ln1651_235</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10427,7 +10427,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10449,7 +10449,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316756224</coreId>
+						<coreId>2715665760</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10474,9 +10474,9 @@
 					<Obj>
 						<type>0</type>
 						<id>230</id>
-						<name>select_ln65_110</name>
+						<name>select_ln65_235</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -10484,7 +10484,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10506,7 +10506,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316758432</coreId>
+						<coreId>2715675872</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -10532,9 +10532,9 @@
 					<Obj>
 						<type>0</type>
 						<id>231</id>
-						<name>icmp_ln1651_111</name>
+						<name>icmp_ln1651_236</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10542,7 +10542,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10564,7 +10564,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>2715666416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10589,9 +10589,9 @@
 					<Obj>
 						<type>0</type>
 						<id>232</id>
-						<name>xor_ln1651_111</name>
+						<name>xor_ln1651_236</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10599,7 +10599,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10621,7 +10621,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316611104</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10646,9 +10646,9 @@
 					<Obj>
 						<type>0</type>
 						<id>233</id>
-						<name>select_ln65_111</name>
+						<name>select_ln65_236</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -10656,7 +10656,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10678,7 +10678,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316601376</coreId>
+						<coreId>1330007625</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -10704,9 +10704,9 @@
 					<Obj>
 						<type>0</type>
 						<id>234</id>
-						<name>icmp_ln1651_112</name>
+						<name>icmp_ln1651_237</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10714,7 +10714,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10736,7 +10736,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>757935405</coreId>
+						<coreId>2715681088</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10761,9 +10761,9 @@
 					<Obj>
 						<type>0</type>
 						<id>235</id>
-						<name>xor_ln1651_112</name>
+						<name>xor_ln1651_237</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10771,7 +10771,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10793,7 +10793,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316615672</coreId>
+						<coreId>2715679280</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10818,9 +10818,9 @@
 					<Obj>
 						<type>0</type>
 						<id>236</id>
-						<name>res_pack_data_12</name>
+						<name>res_pack_data_21</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -10828,7 +10828,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10850,7 +10850,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>224</coreId>
+						<coreId>2715668592</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -10876,9 +10876,9 @@
 					<Obj>
 						<type>0</type>
 						<id>237</id>
-						<name>icmp_ln1651_113</name>
+						<name>icmp_ln1651_238</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10886,7 +10886,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10908,7 +10908,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316618584</coreId>
+						<coreId>1313423963</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10933,9 +10933,9 @@
 					<Obj>
 						<type>0</type>
 						<id>238</id>
-						<name>xor_ln1651_113</name>
+						<name>xor_ln1651_238</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -10943,7 +10943,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -10965,7 +10965,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316619856</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -10990,9 +10990,9 @@
 					<Obj>
 						<type>0</type>
 						<id>239</id>
-						<name>select_ln65_113</name>
+						<name>select_ln65_238</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -11000,7 +11000,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11022,7 +11022,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715688016</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -11048,9 +11048,9 @@
 					<Obj>
 						<type>0</type>
 						<id>240</id>
-						<name>icmp_ln1651_114</name>
+						<name>icmp_ln1651_239</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11058,7 +11058,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11080,7 +11080,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316614448</coreId>
+						<coreId>2715618624</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -11105,9 +11105,9 @@
 					<Obj>
 						<type>0</type>
 						<id>241</id>
-						<name>xor_ln1651_114</name>
+						<name>xor_ln1651_239</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11115,7 +11115,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11137,7 +11137,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715641280</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -11162,9 +11162,9 @@
 					<Obj>
 						<type>0</type>
 						<id>242</id>
-						<name>select_ln65_114</name>
+						<name>select_ln65_239</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -11172,7 +11172,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11194,7 +11194,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715642800</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -11220,9 +11220,9 @@
 					<Obj>
 						<type>0</type>
 						<id>243</id>
-						<name>icmp_ln1651_115</name>
+						<name>icmp_ln1651_240</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11230,7 +11230,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11252,7 +11252,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316576904</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -11277,9 +11277,9 @@
 					<Obj>
 						<type>0</type>
 						<id>244</id>
-						<name>xor_ln1651_115</name>
+						<name>xor_ln1651_240</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11287,7 +11287,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11309,7 +11309,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316578448</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -11334,9 +11334,9 @@
 					<Obj>
 						<type>0</type>
 						<id>245</id>
-						<name>select_ln65_115</name>
+						<name>select_ln65_240</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -11344,7 +11344,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11366,7 +11366,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316579376</coreId>
+						<coreId>2715646464</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -11392,9 +11392,9 @@
 					<Obj>
 						<type>0</type>
 						<id>246</id>
-						<name>icmp_ln1651_116</name>
+						<name>icmp_ln1651_241</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11402,7 +11402,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11424,7 +11424,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316581008</coreId>
+						<coreId>2715647880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -11449,9 +11449,9 @@
 					<Obj>
 						<type>0</type>
 						<id>247</id>
-						<name>xor_ln1651_116</name>
+						<name>xor_ln1651_241</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11459,7 +11459,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11481,7 +11481,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316589712</coreId>
+						<coreId>2715649424</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -11506,9 +11506,9 @@
 					<Obj>
 						<type>0</type>
 						<id>248</id>
-						<name>select_ln65_116</name>
+						<name>select_ln65_241</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -11516,7 +11516,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11538,7 +11538,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316583992</coreId>
+						<coreId>2715652408</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -11564,9 +11564,9 @@
 					<Obj>
 						<type>0</type>
 						<id>249</id>
-						<name>icmp_ln1651_117</name>
+						<name>icmp_ln1651_242</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11574,7 +11574,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11596,7 +11596,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953244772</coreId>
+						<coreId>2715651984</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -11621,9 +11621,9 @@
 					<Obj>
 						<type>0</type>
 						<id>250</id>
-						<name>xor_ln1651_117</name>
+						<name>xor_ln1651_242</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11631,7 +11631,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11653,7 +11653,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316569296</coreId>
+						<coreId>1414419794</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -11678,9 +11678,9 @@
 					<Obj>
 						<type>0</type>
 						<id>251</id>
-						<name>select_ln65_117</name>
+						<name>select_ln65_242</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -11688,7 +11688,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11710,7 +11710,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316588096</coreId>
+						<coreId>2715780368</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -11736,9 +11736,9 @@
 					<Obj>
 						<type>0</type>
 						<id>252</id>
-						<name>icmp_ln1651_118</name>
+						<name>icmp_ln1651_243</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11746,7 +11746,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11793,9 +11793,9 @@
 					<Obj>
 						<type>0</type>
 						<id>253</id>
-						<name>xor_ln1651_118</name>
+						<name>xor_ln1651_243</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11803,7 +11803,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11825,7 +11825,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>539769716</coreId>
+						<coreId>2715806464</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -11850,9 +11850,9 @@
 					<Obj>
 						<type>0</type>
 						<id>254</id>
-						<name>select_ln65_118</name>
+						<name>select_ln65_243</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -11860,7 +11860,179 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_common.h</first>
+											<second>operator()</second>
+										</first>
+										<second>65</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715807768</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>589</item>
+					<item>590</item>
+					<item>591</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.33</m_delay>
+				<m_topoIndex>270</m_topoIndex>
+				<m_clusterGroupNumber>31</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_209">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>255</id>
+						<name>icmp_ln1651_244</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715808912</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>592</item>
+					<item>593</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.78</m_delay>
+				<m_topoIndex>196</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_210">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>256</id>
+						<name>xor_ln1651_244</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715810400</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>594</item>
+					<item>595</item>
+				</oprand_edges>
+				<opcode>xor</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>197</m_topoIndex>
+				<m_clusterGroupNumber>32</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_211">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>257</id>
+						<name>select_ln65_244</name>
+						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>65</lineNumber>
+						<contextFuncName>operator()</contextFuncName>
+						<contextNormFuncName>operator_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11890,9 +12062,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>589</item>
-					<item>590</item>
-					<item>591</item>
+					<item>596</item>
+					<item>597</item>
+					<item>598</item>
 				</oprand_edges>
 				<opcode>select</opcode>
 				<m_Display>0</m_Display>
@@ -11900,17 +12072,17 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.33</m_delay>
-				<m_topoIndex>270</m_topoIndex>
-				<m_clusterGroupNumber>31</m_clusterGroupNumber>
+				<m_topoIndex>198</m_topoIndex>
+				<m_clusterGroupNumber>32</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_209">
+			<item class_id_reference="9" object_id="_212">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>255</id>
-						<name>icmp_ln1651_119</name>
+						<id>258</id>
+						<name>icmp_ln1651_245</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -11918,7 +12090,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -11948,178 +12120,6 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>592</item>
-					<item>593</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.78</m_delay>
-				<m_topoIndex>196</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_210">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>256</id>
-						<name>xor_ln1651_119</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1768316784</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>594</item>
-					<item>595</item>
-				</oprand_edges>
-				<opcode>xor</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>197</m_topoIndex>
-				<m_clusterGroupNumber>32</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_211">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>257</id>
-						<name>select_ln65_119</name>
-						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>65</lineNumber>
-						<contextFuncName>operator()</contextFuncName>
-						<contextNormFuncName>operator_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_common.h</first>
-											<second>operator()</second>
-										</first>
-										<second>65</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1478638969</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>596</item>
-					<item>597</item>
-					<item>598</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.33</m_delay>
-				<m_topoIndex>198</m_topoIndex>
-				<m_clusterGroupNumber>32</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_212">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>258</id>
-						<name>icmp_ln1651_120</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1478638848</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
 					<item>599</item>
 					<item>600</item>
 				</oprand_edges>
@@ -12137,9 +12137,9 @@
 					<Obj>
 						<type>0</type>
 						<id>259</id>
-						<name>xor_ln1651_120</name>
+						<name>xor_ln1651_245</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -12147,7 +12147,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12169,7 +12169,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316549424</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -12194,9 +12194,9 @@
 					<Obj>
 						<type>0</type>
 						<id>260</id>
-						<name>select_ln65_120</name>
+						<name>select_ln65_245</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -12204,7 +12204,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12226,7 +12226,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1702258035</coreId>
+						<coreId>2715816000</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -12252,9 +12252,9 @@
 					<Obj>
 						<type>0</type>
 						<id>261</id>
-						<name>icmp_ln1651_121</name>
+						<name>icmp_ln1651_246</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -12262,64 +12262,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>316551408</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>606</item>
-					<item>607</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.78</m_delay>
-				<m_topoIndex>271</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_216">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>262</id>
-						<name>xor_ln1651_121</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12349,6 +12292,63 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
+					<item>606</item>
+					<item>607</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.78</m_delay>
+				<m_topoIndex>271</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_216">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>262</id>
+						<name>xor_ln1651_246</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>1981</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
 					<item>608</item>
 					<item>609</item>
 				</oprand_edges>
@@ -12366,9 +12366,9 @@
 					<Obj>
 						<type>0</type>
 						<id>263</id>
-						<name>select_ln65_121</name>
+						<name>select_ln65_246</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -12376,7 +12376,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12398,7 +12398,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316497248</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -12424,9 +12424,9 @@
 					<Obj>
 						<type>0</type>
 						<id>264</id>
-						<name>icmp_ln1651_122</name>
+						<name>icmp_ln1651_247</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -12434,7 +12434,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12456,7 +12456,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1852793632</coreId>
+						<coreId>2715822912</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -12481,9 +12481,9 @@
 					<Obj>
 						<type>0</type>
 						<id>265</id>
-						<name>xor_ln1651_122</name>
+						<name>xor_ln1651_247</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -12491,7 +12491,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12513,7 +12513,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316508672</coreId>
+						<coreId>4944</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -12538,9 +12538,9 @@
 					<Obj>
 						<type>0</type>
 						<id>266</id>
-						<name>select_ln65_122</name>
+						<name>select_ln65_247</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -12548,7 +12548,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12570,7 +12570,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316509976</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -12596,9 +12596,9 @@
 					<Obj>
 						<type>0</type>
 						<id>267</id>
-						<name>icmp_ln1651_123</name>
+						<name>icmp_ln1651_248</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -12606,7 +12606,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12628,7 +12628,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316511120</coreId>
+						<coreId>2715823104</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -12653,9 +12653,9 @@
 					<Obj>
 						<type>0</type>
 						<id>268</id>
-						<name>xor_ln1651_123</name>
+						<name>xor_ln1651_248</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -12663,7 +12663,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12710,9 +12710,9 @@
 					<Obj>
 						<type>0</type>
 						<id>269</id>
-						<name>select_ln65_123</name>
+						<name>select_ln65_248</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -12720,7 +12720,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12742,7 +12742,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1280199007</coreId>
+						<coreId>2715828384</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -12768,9 +12768,9 @@
 					<Obj>
 						<type>0</type>
 						<id>270</id>
-						<name>icmp_ln1651_124</name>
+						<name>icmp_ln1651_249</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -12778,7 +12778,236 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715807808</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>627</item>
+					<item>628</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.78</m_delay>
+				<m_topoIndex>274</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_225">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>271</id>
+						<name>xor_ln1651_249</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715831024</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>629</item>
+					<item>630</item>
+				</oprand_edges>
+				<opcode>xor</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>275</m_topoIndex>
+				<m_clusterGroupNumber>37</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_226">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>272</id>
+						<name>select_ln65_249</name>
+						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>65</lineNumber>
+						<contextFuncName>operator()</contextFuncName>
+						<contextNormFuncName>operator_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_common.h</first>
+											<second>operator()</second>
+										</first>
+										<second>65</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715832328</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>631</item>
+					<item>632</item>
+					<item>633</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.33</m_delay>
+				<m_topoIndex>276</m_topoIndex>
+				<m_clusterGroupNumber>37</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_227">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>273</id>
+						<name>icmp_ln1651_250</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715955488</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>634</item>
+					<item>635</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.78</m_delay>
+				<m_topoIndex>208</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_228">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>274</id>
+						<name>xor_ln1651_250</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -12808,235 +13037,6 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>627</item>
-					<item>628</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.78</m_delay>
-				<m_topoIndex>274</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_225">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>271</id>
-						<name>xor_ln1651_124</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>629</item>
-					<item>630</item>
-				</oprand_edges>
-				<opcode>xor</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>275</m_topoIndex>
-				<m_clusterGroupNumber>37</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_226">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>272</id>
-						<name>select_ln65_124</name>
-						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>65</lineNumber>
-						<contextFuncName>operator()</contextFuncName>
-						<contextNormFuncName>operator_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_common.h</first>
-											<second>operator()</second>
-										</first>
-										<second>65</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>316518208</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>631</item>
-					<item>632</item>
-					<item>633</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.33</m_delay>
-				<m_topoIndex>276</m_topoIndex>
-				<m_clusterGroupNumber>37</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_227">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>273</id>
-						<name>icmp_ln1651_125</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>741550437</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>634</item>
-					<item>635</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.78</m_delay>
-				<m_topoIndex>208</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_228">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>274</id>
-						<name>xor_ln1651_125</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>316446016</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
 					<item>636</item>
 					<item>637</item>
 				</oprand_edges>
@@ -13054,9 +13054,9 @@
 					<Obj>
 						<type>0</type>
 						<id>275</id>
-						<name>select_ln65_125</name>
+						<name>select_ln65_250</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -13064,7 +13064,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13086,7 +13086,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>2715958448</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -13112,9 +13112,9 @@
 					<Obj>
 						<type>0</type>
 						<id>276</id>
-						<name>icmp_ln1651_126</name>
+						<name>icmp_ln1651_251</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -13122,7 +13122,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13169,9 +13169,9 @@
 					<Obj>
 						<type>0</type>
 						<id>277</id>
-						<name>xor_ln1651_126</name>
+						<name>xor_ln1651_251</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -13179,7 +13179,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13201,7 +13201,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316475120</coreId>
+						<coreId>2715960656</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -13226,9 +13226,9 @@
 					<Obj>
 						<type>0</type>
 						<id>278</id>
-						<name>select_ln65_126</name>
+						<name>select_ln65_251</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -13236,7 +13236,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13258,7 +13258,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>640900913</coreId>
+						<coreId>22</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -13284,9 +13284,9 @@
 					<Obj>
 						<type>0</type>
 						<id>279</id>
-						<name>icmp_ln1651_127</name>
+						<name>icmp_ln1651_252</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -13294,7 +13294,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13316,7 +13316,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316477344</coreId>
+						<coreId>2715963880</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -13341,9 +13341,9 @@
 					<Obj>
 						<type>0</type>
 						<id>280</id>
-						<name>xor_ln1651_127</name>
+						<name>xor_ln1651_252</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -13351,7 +13351,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13373,7 +13373,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316479248</coreId>
+						<coreId>2715962688</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -13398,9 +13398,9 @@
 					<Obj>
 						<type>0</type>
 						<id>281</id>
-						<name>select_ln65_127</name>
+						<name>select_ln65_252</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -13408,7 +13408,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13430,7 +13430,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1414419794</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -13456,9 +13456,9 @@
 					<Obj>
 						<type>0</type>
 						<id>282</id>
-						<name>icmp_ln1651_128</name>
+						<name>icmp_ln1651_253</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -13466,7 +13466,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13488,7 +13488,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316478496</coreId>
+						<coreId>2715966976</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -13513,9 +13513,9 @@
 					<Obj>
 						<type>0</type>
 						<id>283</id>
-						<name>xor_ln1651_128</name>
+						<name>xor_ln1651_253</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -13523,7 +13523,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13545,7 +13545,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715969264</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -13570,9 +13570,9 @@
 					<Obj>
 						<type>0</type>
 						<id>284</id>
-						<name>select_ln65_128</name>
+						<name>select_ln65_253</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -13580,7 +13580,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13602,7 +13602,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316484432</coreId>
+						<coreId>1702258035</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -13628,9 +13628,9 @@
 					<Obj>
 						<type>0</type>
 						<id>285</id>
-						<name>icmp_ln1651_129</name>
+						<name>icmp_ln1651_254</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -13638,7 +13638,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13660,7 +13660,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316416368</coreId>
+						<coreId>2715971248</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -13685,9 +13685,9 @@
 					<Obj>
 						<type>0</type>
 						<id>286</id>
-						<name>xor_ln1651_129</name>
+						<name>xor_ln1651_254</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -13695,7 +13695,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13717,7 +13717,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715750776</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -13742,9 +13742,9 @@
 					<Obj>
 						<type>0</type>
 						<id>287</id>
-						<name>select_ln65_129</name>
+						<name>select_ln65_254</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -13752,7 +13752,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13774,7 +13774,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316444480</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -13800,9 +13800,9 @@
 					<Obj>
 						<type>0</type>
 						<id>288</id>
-						<name>icmp_ln1651_130</name>
+						<name>icmp_ln1651_255</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -13810,7 +13810,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -13832,7 +13832,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316445672</coreId>
+						<coreId>2715763088</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -13857,9 +13857,9 @@
 					<Obj>
 						<type>0</type>
 						<id>289</id>
-						<name>xor_ln1651_130</name>
+						<name>xor_ln1651_255</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -13867,351 +13867,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1601200443</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>671</item>
-					<item>672</item>
-				</oprand_edges>
-				<opcode>xor</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>281</m_topoIndex>
-				<m_clusterGroupNumber>43</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_244">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>290</id>
-						<name>select_ln65_130</name>
-						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>65</lineNumber>
-						<contextFuncName>operator()</contextFuncName>
-						<contextNormFuncName>operator_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_common.h</first>
-											<second>operator()</second>
-										</first>
-										<second>65</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>316423760</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>673</item>
-					<item>674</item>
-					<item>675</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.33</m_delay>
-				<m_topoIndex>282</m_topoIndex>
-				<m_clusterGroupNumber>43</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_245">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>291</id>
-						<name>icmp_ln1651_131</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>1869438831</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>676</item>
-					<item>677</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.78</m_delay>
-				<m_topoIndex>220</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_246">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>292</id>
-						<name>xor_ln1651_131</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>316456048</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>678</item>
-					<item>679</item>
-				</oprand_edges>
-				<opcode>xor</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>221</m_topoIndex>
-				<m_clusterGroupNumber>44</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_247">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>293</id>
-						<name>select_ln65_131</name>
-						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>65</lineNumber>
-						<contextFuncName>operator()</contextFuncName>
-						<contextNormFuncName>operator_s</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_common.h</first>
-											<second>operator()</second>
-										</first>
-										<second>65</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>316452760</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>680</item>
-					<item>681</item>
-					<item>682</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.33</m_delay>
-				<m_topoIndex>222</m_topoIndex>
-				<m_clusterGroupNumber>44</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_248">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>294</id>
-						<name>icmp_ln1651_132</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
-											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
-										</first>
-										<second>1651</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<control></control>
-						<opType></opType>
-						<implIndex></implIndex>
-						<coreName></coreName>
-						<isStorage>0</isStorage>
-						<storageDepth>0</storageDepth>
-						<coreId>316453904</coreId>
-						<rtlModuleName></rtlModuleName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>683</item>
-					<item>684</item>
-				</oprand_edges>
-				<opcode>icmp</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.78</m_delay>
-				<m_topoIndex>223</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_249">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>295</id>
-						<name>xor_ln1651_132</name>
-						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
-						<lineNumber>1651</lineNumber>
-						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14241,8 +13897,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>685</item>
-					<item>686</item>
+					<item>671</item>
+					<item>672</item>
 				</oprand_edges>
 				<opcode>xor</opcode>
 				<m_Display>0</m_Display>
@@ -14250,17 +13906,17 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>224</m_topoIndex>
-				<m_clusterGroupNumber>45</m_clusterGroupNumber>
+				<m_topoIndex>281</m_topoIndex>
+				<m_clusterGroupNumber>43</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_250">
+			<item class_id_reference="9" object_id="_244">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>296</id>
-						<name>select_ln65_132</name>
+						<id>290</id>
+						<name>select_ln65_255</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -14268,7 +13924,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14290,7 +13946,351 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>480</coreId>
+						<coreId>2715754928</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>673</item>
+					<item>674</item>
+					<item>675</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.33</m_delay>
+				<m_topoIndex>282</m_topoIndex>
+				<m_clusterGroupNumber>43</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_245">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>291</id>
+						<name>icmp_ln1651_256</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715738224</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>676</item>
+					<item>677</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.78</m_delay>
+				<m_topoIndex>220</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_246">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>292</id>
+						<name>xor_ln1651_256</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>678</item>
+					<item>679</item>
+				</oprand_edges>
+				<opcode>xor</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>221</m_topoIndex>
+				<m_clusterGroupNumber>44</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_247">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>293</id>
+						<name>select_ln65_256</name>
+						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>65</lineNumber>
+						<contextFuncName>operator()</contextFuncName>
+						<contextNormFuncName>operator_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_common.h</first>
+											<second>operator()</second>
+										</first>
+										<second>65</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715758880</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>8</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>680</item>
+					<item>681</item>
+					<item>682</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.33</m_delay>
+				<m_topoIndex>222</m_topoIndex>
+				<m_clusterGroupNumber>44</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_248">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>294</id>
+						<name>icmp_ln1651_257</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>0</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>683</item>
+					<item>684</item>
+				</oprand_edges>
+				<opcode>icmp</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.78</m_delay>
+				<m_topoIndex>223</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_249">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>295</id>
+						<name>xor_ln1651_257</name>
+						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>1651</lineNumber>
+						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</first>
+											<second>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+										</first>
+										<second>1651</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>2715758288</coreId>
+						<rtlModuleName></rtlModuleName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>685</item>
+					<item>686</item>
+				</oprand_edges>
+				<opcode>xor</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>224</m_topoIndex>
+				<m_clusterGroupNumber>45</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_250">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>296</id>
+						<name>select_ln65_257</name>
+						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
+						<lineNumber>65</lineNumber>
+						<contextFuncName>operator()</contextFuncName>
+						<contextNormFuncName>operator_s</contextNormFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_common.h</first>
+											<second>operator()</second>
+										</first>
+										<second>65</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<control></control>
+						<opType></opType>
+						<implIndex></implIndex>
+						<coreName></coreName>
+						<isStorage>0</isStorage>
+						<storageDepth>0</storageDepth>
+						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -14316,9 +14316,9 @@
 					<Obj>
 						<type>0</type>
 						<id>297</id>
-						<name>icmp_ln1651_133</name>
+						<name>icmp_ln1651_258</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -14326,7 +14326,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14373,9 +14373,9 @@
 					<Obj>
 						<type>0</type>
 						<id>298</id>
-						<name>xor_ln1651_133</name>
+						<name>xor_ln1651_258</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -14383,7 +14383,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14405,7 +14405,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316414912</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -14430,9 +14430,9 @@
 					<Obj>
 						<type>0</type>
 						<id>299</id>
-						<name>select_ln65_133</name>
+						<name>select_ln65_258</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -14440,7 +14440,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14462,7 +14462,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1667327520</coreId>
+						<coreId>2715767328</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -14488,9 +14488,9 @@
 					<Obj>
 						<type>0</type>
 						<id>300</id>
-						<name>icmp_ln1651_134</name>
+						<name>icmp_ln1651_259</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -14498,7 +14498,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14520,7 +14520,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316417312</coreId>
+						<coreId>2715644176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -14545,9 +14545,9 @@
 					<Obj>
 						<type>0</type>
 						<id>301</id>
-						<name>xor_ln1651_134</name>
+						<name>xor_ln1651_259</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -14555,7 +14555,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14577,7 +14577,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316419040</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -14602,9 +14602,9 @@
 					<Obj>
 						<type>0</type>
 						<id>302</id>
-						<name>select_ln65_134</name>
+						<name>select_ln65_259</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -14612,7 +14612,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14634,7 +14634,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715657536</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -14660,9 +14660,9 @@
 					<Obj>
 						<type>0</type>
 						<id>303</id>
-						<name>icmp_ln1651_135</name>
+						<name>icmp_ln1651_260</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -14670,7 +14670,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14692,7 +14692,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316421024</coreId>
+						<coreId>2715658728</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -14717,9 +14717,9 @@
 					<Obj>
 						<type>0</type>
 						<id>304</id>
-						<name>xor_ln1651_135</name>
+						<name>xor_ln1651_260</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -14727,7 +14727,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14749,7 +14749,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715660272</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -14774,9 +14774,9 @@
 					<Obj>
 						<type>0</type>
 						<id>305</id>
-						<name>select_ln65_135</name>
+						<name>select_ln65_260</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -14784,7 +14784,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14806,7 +14806,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316424400</coreId>
+						<coreId>2715660208</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -14832,9 +14832,9 @@
 					<Obj>
 						<type>0</type>
 						<id>306</id>
-						<name>icmp_ln1651_136</name>
+						<name>icmp_ln1651_261</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -14842,7 +14842,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14864,7 +14864,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1768710004</coreId>
+						<coreId>2712931264</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -14889,9 +14889,9 @@
 					<Obj>
 						<type>0</type>
 						<id>307</id>
-						<name>xor_ln1651_136</name>
+						<name>xor_ln1651_261</name>
 						<fileName>/tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>1651</lineNumber>
 						<contextFuncName>operator&amp;gt;=&amp;lt;8, 2, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
 						<contextNormFuncName>operator_ge_8_2_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
@@ -14899,7 +14899,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14921,7 +14921,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316767552</coreId>
+						<coreId>2715666368</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -14946,9 +14946,9 @@
 					<Obj>
 						<type>0</type>
 						<id>308</id>
-						<name>select_ln65_136</name>
+						<name>select_ln65_261</name>
 						<fileName>firmware/nnet_utils/nnet_common.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>65</lineNumber>
 						<contextFuncName>operator()</contextFuncName>
 						<contextNormFuncName>operator_s</contextNormFuncName>
@@ -14956,7 +14956,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -14978,7 +14978,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316777936</coreId>
+						<coreId>2715668432</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
@@ -15006,7 +15006,7 @@
 						<id>309</id>
 						<name>or_ln72_s</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15014,7 +15014,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15036,7 +15036,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316778880</coreId>
+						<coreId>2715666856</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>128</bitwidth>
@@ -15078,7 +15078,7 @@
 						<id>310</id>
 						<name>layer9_out_write_ln72</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15086,7 +15086,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15108,7 +15108,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715671432</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -15125,7 +15125,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>2.18</m_delay>
+				<m_delay>2.03</m_delay>
 				<m_topoIndex>290</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -15136,7 +15136,7 @@
 						<id>311</id>
 						<name>br_ln73</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>73</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15144,7 +15144,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15166,7 +15166,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -15192,7 +15192,7 @@
 						<id>313</id>
 						<name>add_ln76</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>76</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15200,7 +15200,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15222,7 +15222,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316638560</coreId>
+						<coreId>2715785552</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -15249,7 +15249,7 @@
 						<id>314</id>
 						<name>icmp_ln76</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>76</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15257,7 +15257,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15279,7 +15279,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316786768</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -15306,7 +15306,7 @@
 						<id>315</id>
 						<name>br_ln76</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>76</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15314,7 +15314,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15336,7 +15336,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321818400</coreId>
+						<coreId>2715787528</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -15362,9 +15362,9 @@
 					<Obj>
 						<type>0</type>
 						<id>317</id>
-						<name>pX_1_write_ln89</name>
+						<name>pX_2_write_ln89</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>89</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15372,7 +15372,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15394,7 +15394,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321820112</coreId>
+						<coreId>2715788896</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -15422,7 +15422,7 @@
 						<id>318</id>
 						<name>select_ln91</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>91</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15430,7 +15430,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15452,7 +15452,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321821680</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -15480,7 +15480,7 @@
 						<id>319</id>
 						<name>add_ln91</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>91</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15488,7 +15488,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15510,7 +15510,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321367104</coreId>
+						<coreId>2715793136</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -15535,9 +15535,9 @@
 					<Obj>
 						<type>0</type>
 						<id>320</id>
-						<name>sX_1_write_ln91</name>
+						<name>sX_2_write_ln91</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>91</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15545,7 +15545,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15567,7 +15567,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>784</coreId>
+						<coreId>2715794984</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -15611,7 +15611,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2715796840</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -15635,9 +15635,9 @@
 					<Obj>
 						<type>0</type>
 						<id>323</id>
-						<name>pX_1_write_ln78</name>
+						<name>pX_2_write_ln78</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>78</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15645,7 +15645,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15667,7 +15667,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321829256</coreId>
+						<coreId>1869833586</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -15693,9 +15693,9 @@
 					<Obj>
 						<type>0</type>
 						<id>324</id>
-						<name>sX_1_write_ln79</name>
+						<name>sX_2_write_ln79</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>79</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15703,7 +15703,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15751,9 +15751,9 @@
 					<Obj>
 						<type>0</type>
 						<id>325</id>
-						<name>pY_1_load_1</name>
+						<name>pY_2_load_1</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>80</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15761,7 +15761,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15783,7 +15783,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>2296604913</coreId>
+						<coreId>2715801760</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -15809,7 +15809,7 @@
 						<id>326</id>
 						<name>add_ln80</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>80</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15817,7 +15817,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15839,7 +15839,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316510320</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -15866,7 +15866,7 @@
 						<id>327</id>
 						<name>icmp_ln80</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>80</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15874,7 +15874,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15896,7 +15896,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316510320</coreId>
+						<coreId>588</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -15923,7 +15923,7 @@
 						<id>328</id>
 						<name>br_ln80</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>80</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15931,7 +15931,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -15953,7 +15953,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316510320</coreId>
+						<coreId>542329928</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -15979,9 +15979,9 @@
 					<Obj>
 						<type>0</type>
 						<id>330</id>
-						<name>pY_1_write_ln84</name>
+						<name>pY_2_write_ln84</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>84</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -15989,7 +15989,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16011,7 +16011,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>151666223</coreId>
+						<coreId>2712627584</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -16038,9 +16038,9 @@
 					<Obj>
 						<type>0</type>
 						<id>331</id>
-						<name>sY_1_load_1</name>
+						<name>sY_2_load_1</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -16048,7 +16048,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16070,7 +16070,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1952917040</coreId>
+						<coreId>784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16096,7 +16096,7 @@
 						<id>332</id>
 						<name>icmp_ln86</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -16104,7 +16104,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16126,7 +16126,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>575620686</coreId>
+						<coreId>176</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -16153,7 +16153,7 @@
 						<id>333</id>
 						<name>select_ln86</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -16161,7 +16161,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16183,7 +16183,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316532520</coreId>
+						<coreId>1952917049</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16211,7 +16211,7 @@
 						<id>334</id>
 						<name>add_ln86</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -16219,7 +16219,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16241,7 +16241,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1953067621</coreId>
+						<coreId>2712635080</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16284,7 +16284,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741550437</coreId>
+						<coreId>2712636904</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -16308,9 +16308,9 @@
 					<Obj>
 						<type>0</type>
 						<id>337</id>
-						<name>pY_1_write_ln81</name>
+						<name>pY_2_write_ln81</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>81</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -16318,7 +16318,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16340,7 +16340,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316517712</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -16369,7 +16369,7 @@
 						<id>338</id>
 						<name>br_ln83</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>83</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -16377,7 +16377,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16399,7 +16399,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316539280</coreId>
+						<coreId>3144914784</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -16425,7 +16425,7 @@
 						<id>340</id>
 						<name>storemerge</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -16433,7 +16433,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16455,7 +16455,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>541938255</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16482,9 +16482,9 @@
 					<Obj>
 						<type>0</type>
 						<id>341</id>
-						<name>sY_1_write_ln82</name>
+						<name>sY_2_write_ln82</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -16492,7 +16492,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16514,7 +16514,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316489328</coreId>
+						<coreId>304</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -16543,7 +16543,7 @@
 						<id>342</id>
 						<name>br_ln88</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>88</lineNumber>
 						<contextFuncName>compute_pool_buffer_2d&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>compute_pool_buffer_2d_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -16551,7 +16551,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16573,7 +16573,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316491344</coreId>
+						<coreId>1819113532</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -16599,7 +16599,7 @@
 						<id>344</id>
 						<name>indvar_flatten_write_ln111</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>111</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -16607,7 +16607,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16629,7 +16629,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>741353829</coreId>
+						<coreId>2712945296</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -16658,7 +16658,7 @@
 						<id>345</id>
 						<name>br_ln111</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>111</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -16666,7 +16666,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16688,7 +16688,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>2712943040</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -16714,7 +16714,7 @@
 						<id>347</id>
 						<name>_ln118</name>
 						<fileName>firmware/nnet_utils/nnet_pooling_stream.h</fileName>
-						<fileDirectory>/home/mattwilk/8bit6fractional/RHEED_hls</fileDirectory>
+						<fileDirectory>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</fileDirectory>
 						<lineNumber>118</lineNumber>
 						<contextFuncName>pooling2d_cl&amp;lt;nnet::array&amp;lt;ap_ufixed&amp;lt;8, 2, AP_RND_CONV, AP_SAT, 0&amp;gt;, 16&amp;gt;, nnet::array&amp;lt;ap_fixed&amp;lt;8, 2, AP_TRN, AP_WRAP, 0&amp;gt;, 16&amp;gt;, config9&amp;gt;</contextFuncName>
 						<contextNormFuncName>pooling2d_cl_nnet_array_ap_ufixed_8_2_AP_RND_CONV_AP_SAT_0_16_nnet_array_ap_fixed_8_2_AP_TRN_AP_WRAP_0_16_config9_s</contextNormFuncName>
@@ -16722,7 +16722,7 @@
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/mattwilk/8bit6fractional/RHEED_hls</first>
+								<first>/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -16744,7 +16744,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>7959552</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>0</bitwidth>
@@ -16820,10 +16820,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>338741600</coreId>
+						<coreId>148</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>6</bitwidth>
+					<bitwidth>7</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>
@@ -16851,13 +16851,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>338536240</coreId>
+						<coreId>3144922128</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>6</bitwidth>
+					<bitwidth>7</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>49</content>
+				<content>81</content>
 			</item>
 			<item class_id_reference="16" object_id="_297">
 				<Value>
@@ -16882,10 +16882,10 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316483056</coreId>
+						<coreId>3144922128</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
-					<bitwidth>6</bitwidth>
+					<bitwidth>7</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>1</content>
@@ -16913,7 +16913,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316500800</coreId>
+						<coreId>1648194659</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -16944,7 +16944,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316501792</coreId>
+						<coreId>2712952976</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>1</bitwidth>
@@ -16975,13 +16975,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316503088</coreId>
+						<coreId>2712952560</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>7</content>
+				<content>9</content>
 			</item>
 			<item class_id_reference="16" object_id="_301">
 				<Value>
@@ -17006,7 +17006,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>2712966112</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17037,7 +17037,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1952673280</coreId>
+						<coreId>6775156</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17068,7 +17068,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1330007625</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17099,7 +17099,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316604344</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17130,7 +17130,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>311415024</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17161,7 +17161,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316605008</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17192,7 +17192,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316605616</coreId>
+						<coreId>2712970616</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17223,7 +17223,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316605888</coreId>
+						<coreId>1814457443</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17254,7 +17254,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316606496</coreId>
+						<coreId>976909413</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17285,7 +17285,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316601376</coreId>
+						<coreId>1834971487</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17316,7 +17316,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316601376</coreId>
+						<coreId>1868525665</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17347,7 +17347,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>807414835</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17378,7 +17378,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>176</coreId>
+						<coreId>2036429426</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17409,7 +17409,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322699304</coreId>
+						<coreId>1631206004</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17440,7 +17440,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322698664</coreId>
+						<coreId>840969272</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17471,7 +17471,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1307</coreId>
+						<coreId>645215793</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17502,7 +17502,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>742093927</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17533,7 +17533,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322699952</coreId>
+						<coreId>1885414944</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17564,7 +17564,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322700688</coreId>
+						<coreId>2714661148</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17595,7 +17595,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322722000</coreId>
+						<coreId>2714661323</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17626,7 +17626,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322700272</coreId>
+						<coreId>2714661631</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17657,7 +17657,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322702464</coreId>
+						<coreId>2714661852</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17688,7 +17688,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322703072</coreId>
+						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17719,7 +17719,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322703760</coreId>
+						<coreId>539767328</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17750,7 +17750,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322704368</coreId>
+						<coreId>11</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17781,7 +17781,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322704640</coreId>
+						<coreId>0</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17812,7 +17812,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>3</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17843,7 +17843,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>641216871</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17874,7 +17874,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322706432</coreId>
+						<coreId>539769712</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17905,7 +17905,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1701519394</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17936,7 +17936,7 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322708872</coreId>
+						<coreId>1852714853</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>32</bitwidth>
@@ -17967,13 +17967,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322709216</coreId>
+						<coreId>1869635878</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_333">
 				<Value>
@@ -17998,13 +17998,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>1685024000</coreId>
+						<coreId>997420912</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_334">
 				<Value>
@@ -18029,13 +18029,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322710784</coreId>
+						<coreId>1030185332</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_335">
 				<Value>
@@ -18060,13 +18060,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322711024</coreId>
+						<coreId>841823281</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_336">
 				<Value>
@@ -18091,13 +18091,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>959589684</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_337">
 				<Value>
@@ -18122,13 +18122,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>304</coreId>
+						<coreId>574449505</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_338">
 				<Value>
@@ -18153,13 +18153,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322713736</coreId>
+						<coreId>574449505</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_339">
 				<Value>
@@ -18184,13 +18184,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322713648</coreId>
+						<coreId>1702390118</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_340">
 				<Value>
@@ -18215,13 +18215,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316503664</coreId>
+						<coreId>2712953136</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_341">
 				<Value>
@@ -18246,13 +18246,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316498256</coreId>
+						<coreId>2715656464</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_342">
 				<Value>
@@ -18277,13 +18277,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316593168</coreId>
+						<coreId>2712958240</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_343">
 				<Value>
@@ -18308,13 +18308,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316598048</coreId>
+						<coreId>2712963120</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_344">
 				<Value>
@@ -18339,13 +18339,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>316601488</coreId>
+						<coreId>2712966560</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_345">
 				<Value>
@@ -18370,13 +18370,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>321367104</coreId>
+						<coreId>1814062958</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_346">
 				<Value>
@@ -18401,13 +18401,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>322715472</coreId>
+						<coreId>1836016416</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 			<item class_id_reference="16" object_id="_347">
 				<Value>
@@ -18432,13 +18432,13 @@
 						<coreName></coreName>
 						<isStorage>0</isStorage>
 						<storageDepth>0</storageDepth>
-						<coreId>0</coreId>
+						<coreId>1768452922</coreId>
 						<rtlModuleName></rtlModuleName>
 					</Obj>
 					<bitwidth>8</bitwidth>
 				</Value>
 				<const_type>4</const_type>
-				<content>6</content>
+				<content>8</content>
 			</item>
 		</consts>
 		<blocks class_id="17" tracking_level="0" version="0">
@@ -18879,7 +18879,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>842342444</coreId>
+					<coreId>842211372</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -18912,7 +18912,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>842342444</coreId>
+					<coreId>842211372</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -18947,7 +18947,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>321824912</coreId>
+					<coreId>2715797440</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -18983,7 +18983,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>575620686</coreId>
+					<coreId>2712551280</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -19019,7 +19019,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>1920298867</coreId>
+					<coreId>1568</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -19051,7 +19051,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>316487304</coreId>
+					<coreId>304</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -19084,7 +19084,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>316490864</coreId>
+					<coreId>2712943072</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -19116,7 +19116,7 @@
 					<coreName></coreName>
 					<isStorage>0</isStorage>
 					<storageDepth>0</storageDepth>
-					<coreId>48</coreId>
+					<coreId>2712947296</coreId>
 					<rtlModuleName></rtlModuleName>
 				</Obj>
 				<node_objs>
@@ -24131,8 +24131,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>52</mMinLatency>
-			<mMaxLatency>52</mMaxLatency>
+			<mMinLatency>84</mMinLatency>
+			<mMaxLatency>84</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -24185,10 +24185,10 @@
 			</basic_blocks>
 			<mII>1</mII>
 			<mDepth>3</mDepth>
-			<mMinTripCount>49</mMinTripCount>
-			<mMaxTripCount>49</mMaxTripCount>
-			<mMinLatency>50</mMinLatency>
-			<mMaxLatency>50</mMaxLatency>
+			<mMinTripCount>81</mMinTripCount>
+			<mMaxTripCount>81</mMaxTripCount>
+			<mMinLatency>82</mMinLatency>
+			<mMaxLatency>82</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>

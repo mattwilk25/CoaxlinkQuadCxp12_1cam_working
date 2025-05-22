@@ -236,23 +236,23 @@ class AESL_RUNTIME_BC {
     fstream file_token;
     string mName;
 };
-unsigned int ap_apatb_input_1_cap_bc;
-static AESL_RUNTIME_BC __xlx_input_1_V_size_Reader("../tv/stream_size/stream_size_in_input_1.dat");
-unsigned int ap_apatb_layer17_out_cap_bc;
-static AESL_RUNTIME_BC __xlx_layer17_out_V_size_Reader("../tv/stream_size/stream_size_out_layer17_out.dat");
+unsigned int ap_apatb_q_conv2d_batchnorm_5_input_cap_bc;
+static AESL_RUNTIME_BC __xlx_q_conv2d_batchnorm_5_input_V_size_Reader("../tv/stream_size/stream_size_in_q_conv2d_batchnorm_5_input.dat");
+unsigned int ap_apatb_layer18_out_cap_bc;
+static AESL_RUNTIME_BC __xlx_layer18_out_V_size_Reader("../tv/stream_size/stream_size_out_layer18_out.dat");
 using hls::sim::Byte;
 struct __cosim_s1__ { char data[1]; };
 struct __cosim_s5__ { char data[5]; };
 extern "C" void myproject(__cosim_s1__*, __cosim_s5__*);
-extern "C" void apatb_myproject_hw(volatile void * __xlx_apatb_param_input_1, volatile void * __xlx_apatb_param_layer17_out) {
+extern "C" void apatb_myproject_hw(volatile void * __xlx_apatb_param_q_conv2d_batchnorm_5_input, volatile void * __xlx_apatb_param_layer18_out) {
 using hls::sim::createStream;
-auto* sinput_1 = createStream((hls::stream<__cosim_s1__>*)__xlx_apatb_param_input_1);
-  //Create input buffer for layer17_out
-  ap_apatb_layer17_out_cap_bc = __xlx_layer17_out_V_size_Reader.read_size();
-  __cosim_s5__* __xlx_layer17_out_input_buffer= new __cosim_s5__[ap_apatb_layer17_out_cap_bc];
-auto* slayer17_out = createStream((hls::stream<__cosim_s5__>*)__xlx_apatb_param_layer17_out);
+auto* sq_conv2d_batchnorm_5_input = createStream((hls::stream<__cosim_s1__>*)__xlx_apatb_param_q_conv2d_batchnorm_5_input);
+  //Create input buffer for layer18_out
+  ap_apatb_layer18_out_cap_bc = __xlx_layer18_out_V_size_Reader.read_size();
+  __cosim_s5__* __xlx_layer18_out_input_buffer= new __cosim_s5__[ap_apatb_layer18_out_cap_bc];
+auto* slayer18_out = createStream((hls::stream<__cosim_s5__>*)__xlx_apatb_param_layer18_out);
   // DUT call
-  myproject(sinput_1->data<__cosim_s1__>(), slayer17_out->data<__cosim_s5__>());
-sinput_1->transfer((hls::stream<__cosim_s1__>*)__xlx_apatb_param_input_1);
-slayer17_out->transfer((hls::stream<__cosim_s5__>*)__xlx_apatb_param_layer17_out);
+  myproject(sq_conv2d_batchnorm_5_input->data<__cosim_s1__>(), slayer18_out->data<__cosim_s5__>());
+sq_conv2d_batchnorm_5_input->transfer((hls::stream<__cosim_s1__>*)__xlx_apatb_param_q_conv2d_batchnorm_5_input);
+slayer18_out->transfer((hls::stream<__cosim_s5__>*)__xlx_apatb_param_layer18_out);
 }

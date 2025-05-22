@@ -1,12 +1,12 @@
 ---
-MainSourceFile:  /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+MainSourceFile:  /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
 Diagnostics:     
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_1211_1:  '
     FileOffset:      1211
     FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
         Offset:          776913
         Length:          0
         ReplacementText: 'VITIS_LOOP_1211_1: '
@@ -15,7 +15,7 @@ Diagnostics:
     FileOffset:      676
     FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
         Offset:          984433
         Length:          0
         ReplacementText: 'VITIS_LOOP_676_1: '
@@ -24,7 +24,7 @@ Diagnostics:
     FileOffset:      690
     FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
         Offset:          984876
         Length:          0
         ReplacementText: 'VITIS_LOOP_690_1: '
@@ -33,7 +33,7 @@ Diagnostics:
     FileOffset:      704
     FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
         Offset:          985320
         Length:          0
         ReplacementText: 'VITIS_LOOP_704_1: '
@@ -42,638 +42,638 @@ Diagnostics:
     FileOffset:      1245
     FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
         Offset:          1247315
         Length:          0
         ReplacementText: 'VITIS_LOOP_1245_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_27_1:  '
     FileOffset:      27
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_types.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_types.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
         Offset:          1597051
         Length:          0
         ReplacementText: 'VITIS_LOOP_27_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_40_1:  '
     FileOffset:      40
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_types.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_types.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
         Offset:          1597426
         Length:          0
         ReplacementText: 'VITIS_LOOP_40_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_265_1:  '
     FileOffset:      265
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2251480
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2251573
         Length:          0
         ReplacementText: 'VITIS_LOOP_265_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_275_1:  '
     FileOffset:      275
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2251867
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2251960
         Length:          0
         ReplacementText: 'VITIS_LOOP_275_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_286_1:  '
     FileOffset:      286
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2252202
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2252295
         Length:          0
         ReplacementText: 'VITIS_LOOP_286_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_293_1:  '
     FileOffset:      293
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2252425
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2252518
         Length:          0
         ReplacementText: 'VITIS_LOOP_293_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_295_2:  '
     FileOffset:      295
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2252520
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2252613
         Length:          0
         ReplacementText: 'VITIS_LOOP_295_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_307_1:  '
     FileOffset:      307
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2252884
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2252977
         Length:          0
         ReplacementText: 'VITIS_LOOP_307_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_309_2:  '
     FileOffset:      309
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2252966
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2253059
         Length:          0
         ReplacementText: 'VITIS_LOOP_309_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_324_1:  '
     FileOffset:      324
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2253309
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2253402
         Length:          0
         ReplacementText: 'VITIS_LOOP_324_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_344_1:  '
     FileOffset:      344
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2253762
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2253855
         Length:          0
         ReplacementText: 'VITIS_LOOP_344_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_345_2:  '
     FileOffset:      345
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2253807
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2253900
         Length:          0
         ReplacementText: 'VITIS_LOOP_345_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_360_1:  '
     FileOffset:      360
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2254216
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2254309
         Length:          0
         ReplacementText: 'VITIS_LOOP_360_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_367_1:  '
     FileOffset:      367
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_helpers.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2254429
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2254522
         Length:          0
         ReplacementText: 'VITIS_LOOP_367_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_31_1:  '
     FileOffset:      31
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2257547
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2257640
         Length:          0
         ReplacementText: 'VITIS_LOOP_31_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_43_1:  '
     FileOffset:      43
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2257800
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2257893
         Length:          0
         ReplacementText: 'VITIS_LOOP_43_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_57_1:  '
     FileOffset:      57
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2258161
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2258254
         Length:          0
         ReplacementText: 'VITIS_LOOP_57_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_84_1:  '
     FileOffset:      84
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2258977
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2259070
         Length:          0
         ReplacementText: 'VITIS_LOOP_84_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_114_1:  '
     FileOffset:      114
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2259638
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2259731
         Length:          0
         ReplacementText: 'VITIS_LOOP_114_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_151_1:  '
     FileOffset:      151
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2260772
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2260865
         Length:          0
         ReplacementText: 'VITIS_LOOP_151_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_162_1:  '
     FileOffset:      162
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2261134
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2261227
         Length:          0
         ReplacementText: 'VITIS_LOOP_162_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_195_1:  '
     FileOffset:      195
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2262037
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2262130
         Length:          0
         ReplacementText: 'VITIS_LOOP_195_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_209_2:  '
     FileOffset:      209
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2262556
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2262649
         Length:          0
         ReplacementText: 'VITIS_LOOP_209_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_243_1:  '
     FileOffset:      243
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2263396
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2263489
         Length:          0
         ReplacementText: 'VITIS_LOOP_243_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_252_2:  '
     FileOffset:      252
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2263666
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2263759
         Length:          0
         ReplacementText: 'VITIS_LOOP_252_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_266_3:  '
     FileOffset:      266
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2264190
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2264283
         Length:          0
         ReplacementText: 'VITIS_LOOP_266_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_273_1:  '
     FileOffset:      273
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2264424
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2264517
         Length:          0
         ReplacementText: 'VITIS_LOOP_273_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_286_1:  '
     FileOffset:      286
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2264784
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2264877
         Length:          0
         ReplacementText: 'VITIS_LOOP_286_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_323_1:  '
     FileOffset:      323
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2265713
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2265806
         Length:          0
         ReplacementText: 'VITIS_LOOP_323_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_328_2:  '
     FileOffset:      328
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2265830
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2265923
         Length:          0
         ReplacementText: 'VITIS_LOOP_328_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_329_3:  '
     FileOffset:      329
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2265884
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2265977
         Length:          0
         ReplacementText: 'VITIS_LOOP_329_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_346_4:  '
     FileOffset:      346
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2266465
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2266558
         Length:          0
         ReplacementText: 'VITIS_LOOP_346_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_359_1:  '
     FileOffset:      359
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2266952
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2267045
         Length:          0
         ReplacementText: 'VITIS_LOOP_359_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_367_2:  '
     FileOffset:      367
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2267093
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2267186
         Length:          0
         ReplacementText: 'VITIS_LOOP_367_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_402_1:  '
     FileOffset:      402
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2268058
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2268151
         Length:          0
         ReplacementText: 'VITIS_LOOP_402_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_432_1:  '
     FileOffset:      432
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2268695
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2268788
         Length:          0
         ReplacementText: 'VITIS_LOOP_432_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_451_1:  '
     FileOffset:      451
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2269208
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2269301
         Length:          0
         ReplacementText: 'VITIS_LOOP_451_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_467_1:  '
     FileOffset:      467
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2269666
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2269759
         Length:          0
         ReplacementText: 'VITIS_LOOP_467_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_485_1:  '
     FileOffset:      485
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2270120
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2270213
         Length:          0
         ReplacementText: 'VITIS_LOOP_485_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_502_1:  '
     FileOffset:      502
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2270507
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2270600
         Length:          0
         ReplacementText: 'VITIS_LOOP_502_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_519_1:  '
     FileOffset:      519
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2270902
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2270995
         Length:          0
         ReplacementText: 'VITIS_LOOP_519_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_549_1:  '
     FileOffset:      549
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2271568
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2271661
         Length:          0
         ReplacementText: 'VITIS_LOOP_549_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_568_1:  '
     FileOffset:      568
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2272142
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2272235
         Length:          0
         ReplacementText: 'VITIS_LOOP_568_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_598_1:  '
     FileOffset:      598
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2272808
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2272901
         Length:          0
         ReplacementText: 'VITIS_LOOP_598_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_617_1:  '
     FileOffset:      617
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2273362
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2273455
         Length:          0
         ReplacementText: 'VITIS_LOOP_617_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_647_1:  '
     FileOffset:      647
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2273994
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2274087
         Length:          0
         ReplacementText: 'VITIS_LOOP_647_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_674_1:  '
     FileOffset:      674
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2274820
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2274913
         Length:          0
         ReplacementText: 'VITIS_LOOP_674_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_703_1:  '
     FileOffset:      703
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2275438
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2275531
         Length:          0
         ReplacementText: 'VITIS_LOOP_703_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_724_1:  '
     FileOffset:      724
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2276049
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2276142
         Length:          0
         ReplacementText: 'VITIS_LOOP_724_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_742_1:  '
     FileOffset:      742
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2276438
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2276531
         Length:          0
         ReplacementText: 'VITIS_LOOP_742_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_762_1:  '
     FileOffset:      762
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2276834
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2276927
         Length:          0
         ReplacementText: 'VITIS_LOOP_762_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_73_1:  '
     FileOffset:      73
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2278910
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2279003
         Length:          0
         ReplacementText: 'VITIS_LOOP_73_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_80_2:  '
     FileOffset:      80
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2279050
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2279143
         Length:          0
         ReplacementText: 'VITIS_LOOP_80_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_89_3:  '
     FileOffset:      89
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2279315
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2279408
         Length:          0
         ReplacementText: 'VITIS_LOOP_89_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_98_4:  '
     FileOffset:      98
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2279509
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2279602
         Length:          0
         ReplacementText: 'VITIS_LOOP_98_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_102_5:  '
     FileOffset:      102
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2279602
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2279695
         Length:          0
         ReplacementText: 'VITIS_LOOP_102_5: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_113_6:  '
     FileOffset:      113
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2279928
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2280021
         Length:          0
         ReplacementText: 'VITIS_LOOP_113_6: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_117_7:  '
     FileOffset:      117
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2280038
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2280131
         Length:          0
         ReplacementText: 'VITIS_LOOP_117_7: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_141_1:  '
     FileOffset:      141
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2280988
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2281081
         Length:          0
         ReplacementText: 'VITIS_LOOP_141_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_145_2:  '
     FileOffset:      145
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2281074
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2281167
         Length:          0
         ReplacementText: 'VITIS_LOOP_145_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_164_1:  '
     FileOffset:      164
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2281734
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2281827
         Length:          0
         ReplacementText: 'VITIS_LOOP_164_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_187_1:  '
     FileOffset:      187
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2282666
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2282759
         Length:          0
         ReplacementText: 'VITIS_LOOP_187_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_190_2:  '
     FileOffset:      190
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2282804
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2282897
         Length:          0
         ReplacementText: 'VITIS_LOOP_190_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_195_3:  '
     FileOffset:      195
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2282954
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2283047
         Length:          0
         ReplacementText: 'VITIS_LOOP_195_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_199_4:  '
     FileOffset:      199
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2283078
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2283171
         Length:          0
         ReplacementText: 'VITIS_LOOP_199_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_213_1:  '
     FileOffset:      213
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2288921
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2289014
         Length:          0
         ReplacementText: 'VITIS_LOOP_213_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_222_2:  '
     FileOffset:      222
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2289205
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2289298
         Length:          0
         ReplacementText: 'VITIS_LOOP_222_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_328_1:  '
     FileOffset:      328
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2292418
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2292511
         Length:          0
         ReplacementText: 'VITIS_LOOP_328_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_333_2:  '
     FileOffset:      333
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2292560
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2292653
         Length:          0
         ReplacementText: 'VITIS_LOOP_333_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_341_3:  '
     FileOffset:      341
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_activation_stream.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_activation_stream.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2292764
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2292857
         Length:          0
         ReplacementText: 'VITIS_LOOP_341_3: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -681,8 +681,8 @@ Diagnostics:
     FileOffset:      62
     FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2328485
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2328578
         Length:          0
         ReplacementText: 'VITIS_LOOP_62_1: '
   - DiagnosticName:  xilinx-label-all-loops
@@ -690,197 +690,197 @@ Diagnostics:
     FileOffset:      69
     FilePath:        /tools/Xilinx/Vitis_HLS/2022.2/common/technology/autopilot/ap_shift_reg.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2328689
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2328782
         Length:          0
         ReplacementText: 'VITIS_LOOP_69_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_14_1:  '
     FileOffset:      14
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_dense_compressed.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_dense_compressed.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2345524
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2345617
         Length:          0
         ReplacementText: 'VITIS_LOOP_14_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_74_1:  '
     FileOffset:      74
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_dense_compressed.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_dense_compressed.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2347395
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2347488
         Length:          0
         ReplacementText: 'VITIS_LOOP_74_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_13_1:  '
     FileOffset:      13
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2351607
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2351700
         Length:          0
         ReplacementText: 'VITIS_LOOP_13_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_22_1:  '
     FileOffset:      22
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2351794
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2351887
         Length:          0
         ReplacementText: 'VITIS_LOOP_22_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_34_1:  '
     FileOffset:      34
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2352045
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2352138
         Length:          0
         ReplacementText: 'VITIS_LOOP_34_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_46_1:  '
     FileOffset:      46
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2352228
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2352321
         Length:          0
         ReplacementText: 'VITIS_LOOP_46_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_114_1:  '
     FileOffset:      114
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2353870
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2353963
         Length:          0
         ReplacementText: 'VITIS_LOOP_114_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_116_2:  '
     FileOffset:      116
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2353927
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2354020
         Length:          0
         ReplacementText: 'VITIS_LOOP_116_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_121_3:  '
     FileOffset:      121
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2354094
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2354187
         Length:          0
         ReplacementText: 'VITIS_LOOP_121_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_155_1:  '
     FileOffset:      155
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2355484
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2355577
         Length:          0
         ReplacementText: 'VITIS_LOOP_155_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_157_2:  '
     FileOffset:      157
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2355577
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2355670
         Length:          0
         ReplacementText: 'VITIS_LOOP_157_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_211_1:  '
     FileOffset:      211
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2357743
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2357836
         Length:          0
         ReplacementText: 'VITIS_LOOP_211_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_213_2:  '
     FileOffset:      213
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2357800
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2357893
         Length:          0
         ReplacementText: 'VITIS_LOOP_213_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_215_3:  '
     FileOffset:      215
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2357883
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2357976
         Length:          0
         ReplacementText: 'VITIS_LOOP_215_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_220_4:  '
     FileOffset:      220
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2358086
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2358179
         Length:          0
         ReplacementText: 'VITIS_LOOP_220_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_222_5:  '
     FileOffset:      222
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2358162
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2358255
         Length:          0
         ReplacementText: 'VITIS_LOOP_222_5: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_270_1:  '
     FileOffset:      270
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2360696
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2360789
         Length:          0
         ReplacementText: 'VITIS_LOOP_270_1: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_272_2:  '
     FileOffset:      272
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2360753
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2360846
         Length:          0
         ReplacementText: 'VITIS_LOOP_272_2: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_274_3:  '
     FileOffset:      274
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2360836
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2360929
         Length:          0
         ReplacementText: 'VITIS_LOOP_274_3: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_279_4:  '
     FileOffset:      279
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2361039
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2361132
         Length:          0
         ReplacementText: 'VITIS_LOOP_279_4: '
   - DiagnosticName:  xilinx-label-all-loops
     Message:         'Added loop label VITIS_LOOP_281_5:  '
     FileOffset:      281
-    FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
+    FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/firmware/nnet_utils/nnet_pooling.h
     Replacements:    
-      - FilePath:        /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
-        Offset:          2361115
+      - FilePath:        /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/myproject.pp.0.cpp
+        Offset:          2361208
         Length:          0
         ReplacementText: 'VITIS_LOOP_281_5: '
 ...

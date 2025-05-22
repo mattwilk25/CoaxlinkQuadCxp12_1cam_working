@@ -44,7 +44,7 @@ set SCTraceOption all
 set TargetInfo xcku035:-fbva676:-2-e
 set SourceFiles {sc {} c ../../firmware/myproject.cpp}
 set SourceFlags {sc {} c -std=c++0x}
-set DirectiveFile /home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/solution1.directive
+set DirectiveFile /home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/solution1.directive
 set TBFiles {verilog {../../tb_data ../../firmware/weights ../../myproject_test.cpp} bc {../../tb_data ../../firmware/weights ../../myproject_test.cpp} vhdl {../../tb_data ../../firmware/weights ../../myproject_test.cpp} sc {../../tb_data ../../firmware/weights ../../myproject_test.cpp} cas {../../tb_data ../../firmware/weights ../../myproject_test.cpp} c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

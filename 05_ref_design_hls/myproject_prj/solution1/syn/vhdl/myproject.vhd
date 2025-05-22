@@ -11,15 +11,15 @@ use IEEE.numeric_std.all;
 
 entity myproject is
 port (
-    input_1_TDATA : IN STD_LOGIC_VECTOR (7 downto 0);
-    layer17_out_TDATA : OUT STD_LOGIC_VECTOR (39 downto 0);
+    q_conv2d_batchnorm_5_input_TDATA : IN STD_LOGIC_VECTOR (7 downto 0);
+    layer18_out_TDATA : OUT STD_LOGIC_VECTOR (39 downto 0);
     ap_clk : IN STD_LOGIC;
     ap_rst_n : IN STD_LOGIC;
-    input_1_TVALID : IN STD_LOGIC;
-    input_1_TREADY : OUT STD_LOGIC;
+    q_conv2d_batchnorm_5_input_TVALID : IN STD_LOGIC;
+    q_conv2d_batchnorm_5_input_TREADY : OUT STD_LOGIC;
     ap_start : IN STD_LOGIC;
-    layer17_out_TVALID : OUT STD_LOGIC;
-    layer17_out_TREADY : IN STD_LOGIC;
+    layer18_out_TVALID : OUT STD_LOGIC;
+    layer18_out_TREADY : IN STD_LOGIC;
     ap_done : OUT STD_LOGIC;
     ap_ready : OUT STD_LOGIC;
     ap_idle : OUT STD_LOGIC );
@@ -29,51 +29,51 @@ end;
 architecture behav of myproject is 
     attribute CORE_GENERATION_INFO : STRING;
     attribute CORE_GENERATION_INFO of behav : architecture is
-    "myproject_myproject,hls_ip_2022_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xcku035-fbva676-2-e,HLS_INPUT_CLOCK=5.000000,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=4.262857,HLS_SYN_LAT=131289,HLS_SYN_TPT=48386,HLS_SYN_MEM=288,HLS_SYN_DSP=0,HLS_SYN_FF=18885,HLS_SYN_LUT=39208,HLS_VERSION=2022_2}";
+    "myproject_myproject,hls_ip_2022_2,{HLS_INPUT_TYPE=cxx,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xcku035-fbva676-2-e,HLS_INPUT_CLOCK=5.000000,HLS_INPUT_ARCH=dataflow,HLS_SYN_CLOCK=4.375000,HLS_SYN_LAT=99057,HLS_SYN_TPT=39170,HLS_SYN_MEM=62,HLS_SYN_DSP=0,HLS_SYN_FF=23334,HLS_SYN_LUT=108229,HLS_VERSION=2022_2}";
     constant ap_const_logic_1 : STD_LOGIC := '1';
     constant ap_const_logic_0 : STD_LOGIC := '0';
 
     signal ap_rst_n_inv : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_ap_start : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_ap_done : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_ap_continue : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_ap_idle : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_ap_ready : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_start_out : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_start_write : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_input_1_TREADY : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_layer2_out_din : STD_LOGIC_VECTOR (47 downto 0);
-    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_layer2_out_write : STD_LOGIC;
-    signal relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_ap_start : STD_LOGIC;
-    signal relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_ap_done : STD_LOGIC;
-    signal relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_ap_continue : STD_LOGIC;
-    signal relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_ap_idle : STD_LOGIC;
-    signal relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_ap_ready : STD_LOGIC;
-    signal relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_layer2_out_read : STD_LOGIC;
-    signal relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_layer4_out_din : STD_LOGIC_VECTOR (47 downto 0);
-    signal relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_layer4_out_write : STD_LOGIC;
-    signal relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_start_out : STD_LOGIC;
-    signal relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_start_write : STD_LOGIC;
-    signal pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_ap_start : STD_LOGIC;
-    signal pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_ap_done : STD_LOGIC;
-    signal pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_ap_continue : STD_LOGIC;
-    signal pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_ap_idle : STD_LOGIC;
-    signal pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_ap_ready : STD_LOGIC;
-    signal pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_layer4_out_read : STD_LOGIC;
-    signal pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_layer5_out_din : STD_LOGIC_VECTOR (47 downto 0);
-    signal pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_layer5_out_write : STD_LOGIC;
-    signal pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_start_out : STD_LOGIC;
-    signal pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_start_write : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_start : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_done : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_continue : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_idle : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_ready : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_start_out : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_start_write : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer5_out_read : STD_LOGIC;
-    signal conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer6_out_din : STD_LOGIC_VECTOR (127 downto 0);
-    signal conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer6_out_write : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_ap_start : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_ap_done : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_ap_continue : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_ap_idle : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_ap_ready : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_start_out : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_start_write : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_q_conv2d_batchnorm_5_input_TREADY : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_layer2_out_din : STD_LOGIC_VECTOR (63 downto 0);
+    signal conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_layer2_out_write : STD_LOGIC;
+    signal relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_ap_start : STD_LOGIC;
+    signal relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_ap_done : STD_LOGIC;
+    signal relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_ap_continue : STD_LOGIC;
+    signal relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_ap_idle : STD_LOGIC;
+    signal relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_ap_ready : STD_LOGIC;
+    signal relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_layer2_out_read : STD_LOGIC;
+    signal relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_layer4_out_din : STD_LOGIC_VECTOR (63 downto 0);
+    signal relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_layer4_out_write : STD_LOGIC;
+    signal relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_start_out : STD_LOGIC;
+    signal relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_start_write : STD_LOGIC;
+    signal pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_ap_start : STD_LOGIC;
+    signal pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_ap_done : STD_LOGIC;
+    signal pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_ap_continue : STD_LOGIC;
+    signal pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_ap_idle : STD_LOGIC;
+    signal pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_ap_ready : STD_LOGIC;
+    signal pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_layer4_out_read : STD_LOGIC;
+    signal pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_layer5_out_din : STD_LOGIC_VECTOR (63 downto 0);
+    signal pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_layer5_out_write : STD_LOGIC;
+    signal pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_start_out : STD_LOGIC;
+    signal pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_start_write : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_start : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_done : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_continue : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_idle : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_ready : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_start_out : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_start_write : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer5_out_read : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer6_out_din : STD_LOGIC_VECTOR (127 downto 0);
+    signal conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer6_out_write : STD_LOGIC;
     signal relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_ap_start : STD_LOGIC;
     signal relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_ap_done : STD_LOGIC;
     signal relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_ap_continue : STD_LOGIC;
@@ -94,116 +94,146 @@ architecture behav of myproject is
     signal pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_layer9_out_write : STD_LOGIC;
     signal pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_start_out : STD_LOGIC;
     signal pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_start_write : STD_LOGIC;
-    signal dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_ap_start : STD_LOGIC;
-    signal dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_ap_done : STD_LOGIC;
-    signal dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_ap_continue : STD_LOGIC;
-    signal dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_ap_idle : STD_LOGIC;
-    signal dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_ap_ready : STD_LOGIC;
-    signal dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_start_out : STD_LOGIC;
-    signal dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_start_write : STD_LOGIC;
-    signal dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_layer9_out_read : STD_LOGIC;
-    signal dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_layer11_out_din : STD_LOGIC_VECTOR (783 downto 0);
-    signal dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_layer11_out_write : STD_LOGIC;
-    signal relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_ap_start : STD_LOGIC;
-    signal relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_ap_done : STD_LOGIC;
-    signal relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_ap_continue : STD_LOGIC;
-    signal relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_ap_idle : STD_LOGIC;
-    signal relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_ap_ready : STD_LOGIC;
-    signal relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_start_out : STD_LOGIC;
-    signal relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_start_write : STD_LOGIC;
-    signal relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_layer11_out_read : STD_LOGIC;
-    signal relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_layer13_out_din : STD_LOGIC_VECTOR (783 downto 0);
-    signal relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_layer13_out_write : STD_LOGIC;
-    signal dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_ap_start : STD_LOGIC;
-    signal dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_ap_done : STD_LOGIC;
-    signal dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_ap_continue : STD_LOGIC;
-    signal dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_ap_idle : STD_LOGIC;
-    signal dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_ap_ready : STD_LOGIC;
-    signal dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_layer13_out_read : STD_LOGIC;
-    signal dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_layer14_out_din : STD_LOGIC_VECTOR (415 downto 0);
-    signal dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_layer14_out_write : STD_LOGIC;
-    signal dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_start_out : STD_LOGIC;
-    signal dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_start_write : STD_LOGIC;
-    signal relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_ap_start : STD_LOGIC;
-    signal relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_ap_done : STD_LOGIC;
-    signal relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_ap_continue : STD_LOGIC;
-    signal relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_ap_idle : STD_LOGIC;
-    signal relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_ap_ready : STD_LOGIC;
-    signal relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_start_out : STD_LOGIC;
-    signal relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_start_write : STD_LOGIC;
-    signal relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_layer14_out_read : STD_LOGIC;
-    signal relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_layer16_out_din : STD_LOGIC_VECTOR (415 downto 0);
-    signal relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_layer16_out_write : STD_LOGIC;
-    signal dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_start : STD_LOGIC;
-    signal dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_done : STD_LOGIC;
-    signal dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_continue : STD_LOGIC;
-    signal dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_idle : STD_LOGIC;
-    signal dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_ready : STD_LOGIC;
-    signal dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_layer16_out_read : STD_LOGIC;
-    signal dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_layer17_out_TDATA : STD_LOGIC_VECTOR (39 downto 0);
-    signal dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_layer17_out_TVALID : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_ap_start : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_ap_done : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_ap_continue : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_ap_idle : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_ap_ready : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_layer9_out_read : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_start_out : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_start_write : STD_LOGIC;
+    signal conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_layer10_out_din : STD_LOGIC_VECTOR (255 downto 0);
+    signal conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_layer10_out_write : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_ap_start : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_ap_done : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_ap_continue : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_ap_idle : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_ap_ready : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_layer10_out_read : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_layer12_out_din : STD_LOGIC_VECTOR (255 downto 0);
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_layer12_out_write : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_start_out : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_start_write : STD_LOGIC;
+    signal pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_ap_start : STD_LOGIC;
+    signal pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_ap_done : STD_LOGIC;
+    signal pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_ap_continue : STD_LOGIC;
+    signal pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_ap_idle : STD_LOGIC;
+    signal pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_ap_ready : STD_LOGIC;
+    signal pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_layer12_out_read : STD_LOGIC;
+    signal pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_layer13_out_din : STD_LOGIC_VECTOR (255 downto 0);
+    signal pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_layer13_out_write : STD_LOGIC;
+    signal pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_start_out : STD_LOGIC;
+    signal pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_start_write : STD_LOGIC;
+    signal global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_ap_start : STD_LOGIC;
+    signal global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_ap_done : STD_LOGIC;
+    signal global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_ap_continue : STD_LOGIC;
+    signal global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_ap_idle : STD_LOGIC;
+    signal global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_ap_ready : STD_LOGIC;
+    signal global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_start_out : STD_LOGIC;
+    signal global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_start_write : STD_LOGIC;
+    signal global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_layer13_out_read : STD_LOGIC;
+    signal global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_layer14_out_din : STD_LOGIC_VECTOR (255 downto 0);
+    signal global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_layer14_out_write : STD_LOGIC;
+    signal dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_ap_start : STD_LOGIC;
+    signal dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_ap_done : STD_LOGIC;
+    signal dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_ap_continue : STD_LOGIC;
+    signal dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_ap_idle : STD_LOGIC;
+    signal dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_ap_ready : STD_LOGIC;
+    signal dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_layer14_out_read : STD_LOGIC;
+    signal dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_layer15_out_din : STD_LOGIC_VECTOR (255 downto 0);
+    signal dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_layer15_out_write : STD_LOGIC;
+    signal dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_start_out : STD_LOGIC;
+    signal dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_start_write : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_ap_start : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_ap_done : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_ap_continue : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_ap_idle : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_ap_ready : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_start_out : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_start_write : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_layer15_out_read : STD_LOGIC;
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_layer17_out_din : STD_LOGIC_VECTOR (255 downto 0);
+    signal relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_layer17_out_write : STD_LOGIC;
+    signal dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_start : STD_LOGIC;
+    signal dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_done : STD_LOGIC;
+    signal dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_continue : STD_LOGIC;
+    signal dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_idle : STD_LOGIC;
+    signal dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_ready : STD_LOGIC;
+    signal dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_layer17_out_read : STD_LOGIC;
+    signal dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_layer18_out_TDATA : STD_LOGIC_VECTOR (39 downto 0);
+    signal dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_layer18_out_TVALID : STD_LOGIC;
     signal layer2_out_full_n : STD_LOGIC;
-    signal layer2_out_dout : STD_LOGIC_VECTOR (47 downto 0);
-    signal layer2_out_num_data_valid : STD_LOGIC_VECTOR (11 downto 0);
-    signal layer2_out_fifo_cap : STD_LOGIC_VECTOR (11 downto 0);
+    signal layer2_out_dout : STD_LOGIC_VECTOR (63 downto 0);
+    signal layer2_out_num_data_valid : STD_LOGIC_VECTOR (12 downto 0);
+    signal layer2_out_fifo_cap : STD_LOGIC_VECTOR (12 downto 0);
     signal layer2_out_empty_n : STD_LOGIC;
     signal layer4_out_full_n : STD_LOGIC;
-    signal layer4_out_dout : STD_LOGIC_VECTOR (47 downto 0);
-    signal layer4_out_num_data_valid : STD_LOGIC_VECTOR (11 downto 0);
-    signal layer4_out_fifo_cap : STD_LOGIC_VECTOR (11 downto 0);
+    signal layer4_out_dout : STD_LOGIC_VECTOR (63 downto 0);
+    signal layer4_out_num_data_valid : STD_LOGIC_VECTOR (12 downto 0);
+    signal layer4_out_fifo_cap : STD_LOGIC_VECTOR (12 downto 0);
     signal layer4_out_empty_n : STD_LOGIC;
     signal layer5_out_full_n : STD_LOGIC;
-    signal layer5_out_dout : STD_LOGIC_VECTOR (47 downto 0);
+    signal layer5_out_dout : STD_LOGIC_VECTOR (63 downto 0);
     signal layer5_out_num_data_valid : STD_LOGIC_VECTOR (7 downto 0);
     signal layer5_out_fifo_cap : STD_LOGIC_VECTOR (7 downto 0);
     signal layer5_out_empty_n : STD_LOGIC;
     signal layer6_out_full_n : STD_LOGIC;
     signal layer6_out_dout : STD_LOGIC_VECTOR (127 downto 0);
-    signal layer6_out_num_data_valid : STD_LOGIC_VECTOR (6 downto 0);
-    signal layer6_out_fifo_cap : STD_LOGIC_VECTOR (6 downto 0);
+    signal layer6_out_num_data_valid : STD_LOGIC_VECTOR (7 downto 0);
+    signal layer6_out_fifo_cap : STD_LOGIC_VECTOR (7 downto 0);
     signal layer6_out_empty_n : STD_LOGIC;
     signal layer8_out_full_n : STD_LOGIC;
     signal layer8_out_dout : STD_LOGIC_VECTOR (127 downto 0);
-    signal layer8_out_num_data_valid : STD_LOGIC_VECTOR (6 downto 0);
-    signal layer8_out_fifo_cap : STD_LOGIC_VECTOR (6 downto 0);
+    signal layer8_out_num_data_valid : STD_LOGIC_VECTOR (7 downto 0);
+    signal layer8_out_fifo_cap : STD_LOGIC_VECTOR (7 downto 0);
     signal layer8_out_empty_n : STD_LOGIC;
     signal layer9_out_full_n : STD_LOGIC;
     signal layer9_out_dout : STD_LOGIC_VECTOR (127 downto 0);
     signal layer9_out_num_data_valid : STD_LOGIC_VECTOR (4 downto 0);
     signal layer9_out_fifo_cap : STD_LOGIC_VECTOR (4 downto 0);
     signal layer9_out_empty_n : STD_LOGIC;
-    signal layer11_out_full_n : STD_LOGIC;
-    signal layer11_out_dout : STD_LOGIC_VECTOR (783 downto 0);
-    signal layer11_out_num_data_valid : STD_LOGIC_VECTOR (1 downto 0);
-    signal layer11_out_fifo_cap : STD_LOGIC_VECTOR (1 downto 0);
-    signal layer11_out_empty_n : STD_LOGIC;
+    signal layer10_out_full_n : STD_LOGIC;
+    signal layer10_out_dout : STD_LOGIC_VECTOR (255 downto 0);
+    signal layer10_out_num_data_valid : STD_LOGIC_VECTOR (2 downto 0);
+    signal layer10_out_fifo_cap : STD_LOGIC_VECTOR (2 downto 0);
+    signal layer10_out_empty_n : STD_LOGIC;
+    signal layer12_out_full_n : STD_LOGIC;
+    signal layer12_out_dout : STD_LOGIC_VECTOR (255 downto 0);
+    signal layer12_out_num_data_valid : STD_LOGIC_VECTOR (2 downto 0);
+    signal layer12_out_fifo_cap : STD_LOGIC_VECTOR (2 downto 0);
+    signal layer12_out_empty_n : STD_LOGIC;
     signal layer13_out_full_n : STD_LOGIC;
-    signal layer13_out_dout : STD_LOGIC_VECTOR (783 downto 0);
+    signal layer13_out_dout : STD_LOGIC_VECTOR (255 downto 0);
     signal layer13_out_num_data_valid : STD_LOGIC_VECTOR (1 downto 0);
     signal layer13_out_fifo_cap : STD_LOGIC_VECTOR (1 downto 0);
     signal layer13_out_empty_n : STD_LOGIC;
     signal layer14_out_full_n : STD_LOGIC;
-    signal layer14_out_dout : STD_LOGIC_VECTOR (415 downto 0);
+    signal layer14_out_dout : STD_LOGIC_VECTOR (255 downto 0);
     signal layer14_out_num_data_valid : STD_LOGIC_VECTOR (1 downto 0);
     signal layer14_out_fifo_cap : STD_LOGIC_VECTOR (1 downto 0);
     signal layer14_out_empty_n : STD_LOGIC;
-    signal layer16_out_full_n : STD_LOGIC;
-    signal layer16_out_dout : STD_LOGIC_VECTOR (415 downto 0);
-    signal layer16_out_num_data_valid : STD_LOGIC_VECTOR (1 downto 0);
-    signal layer16_out_fifo_cap : STD_LOGIC_VECTOR (1 downto 0);
-    signal layer16_out_empty_n : STD_LOGIC;
-    signal start_for_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_din : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_full_n : STD_LOGIC;
-    signal start_for_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_empty_n : STD_LOGIC;
-    signal start_for_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_din : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_full_n : STD_LOGIC;
-    signal start_for_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_empty_n : STD_LOGIC;
-    signal start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_din : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_full_n : STD_LOGIC;
-    signal start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_empty_n : STD_LOGIC;
+    signal layer15_out_full_n : STD_LOGIC;
+    signal layer15_out_dout : STD_LOGIC_VECTOR (255 downto 0);
+    signal layer15_out_num_data_valid : STD_LOGIC_VECTOR (1 downto 0);
+    signal layer15_out_fifo_cap : STD_LOGIC_VECTOR (1 downto 0);
+    signal layer15_out_empty_n : STD_LOGIC;
+    signal layer17_out_full_n : STD_LOGIC;
+    signal layer17_out_dout : STD_LOGIC_VECTOR (255 downto 0);
+    signal layer17_out_num_data_valid : STD_LOGIC_VECTOR (1 downto 0);
+    signal layer17_out_fifo_cap : STD_LOGIC_VECTOR (1 downto 0);
+    signal layer17_out_empty_n : STD_LOGIC;
+    signal start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_din : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_full_n : STD_LOGIC;
+    signal start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_empty_n : STD_LOGIC;
+    signal start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_din : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_full_n : STD_LOGIC;
+    signal start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_empty_n : STD_LOGIC;
+    signal start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_din : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_full_n : STD_LOGIC;
+    signal start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_empty_n : STD_LOGIC;
     signal start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_din : STD_LOGIC_VECTOR (0 downto 0);
     signal start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_full_n : STD_LOGIC;
     signal start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
@@ -212,28 +242,36 @@ architecture behav of myproject is
     signal start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_full_n : STD_LOGIC;
     signal start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
     signal start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_empty_n : STD_LOGIC;
-    signal start_for_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_din : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_full_n : STD_LOGIC;
-    signal start_for_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_empty_n : STD_LOGIC;
-    signal start_for_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_din : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_full_n : STD_LOGIC;
-    signal start_for_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_empty_n : STD_LOGIC;
-    signal start_for_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_din : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_full_n : STD_LOGIC;
-    signal start_for_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_empty_n : STD_LOGIC;
-    signal start_for_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_din : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_full_n : STD_LOGIC;
-    signal start_for_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_empty_n : STD_LOGIC;
-    signal start_for_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_din : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_full_n : STD_LOGIC;
-    signal start_for_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
-    signal start_for_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_empty_n : STD_LOGIC;
+    signal start_for_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_din : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_full_n : STD_LOGIC;
+    signal start_for_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_empty_n : STD_LOGIC;
+    signal start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_din : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_full_n : STD_LOGIC;
+    signal start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_empty_n : STD_LOGIC;
+    signal start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_din : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_full_n : STD_LOGIC;
+    signal start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_empty_n : STD_LOGIC;
+    signal start_for_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_din : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_full_n : STD_LOGIC;
+    signal start_for_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_empty_n : STD_LOGIC;
+    signal start_for_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_din : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_full_n : STD_LOGIC;
+    signal start_for_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_empty_n : STD_LOGIC;
+    signal start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_din : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_full_n : STD_LOGIC;
+    signal start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_empty_n : STD_LOGIC;
+    signal start_for_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_din : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_full_n : STD_LOGIC;
+    signal start_for_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_dout : STD_LOGIC_VECTOR (0 downto 0);
+    signal start_for_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_empty_n : STD_LOGIC;
 
-    component myproject_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_s IS
+    component myproject_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_s IS
     port (
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
@@ -245,18 +283,18 @@ architecture behav of myproject is
         ap_ready : OUT STD_LOGIC;
         start_out : OUT STD_LOGIC;
         start_write : OUT STD_LOGIC;
-        input_1_TDATA : IN STD_LOGIC_VECTOR (7 downto 0);
-        input_1_TVALID : IN STD_LOGIC;
-        input_1_TREADY : OUT STD_LOGIC;
-        layer2_out_din : OUT STD_LOGIC_VECTOR (47 downto 0);
-        layer2_out_num_data_valid : IN STD_LOGIC_VECTOR (11 downto 0);
-        layer2_out_fifo_cap : IN STD_LOGIC_VECTOR (11 downto 0);
+        q_conv2d_batchnorm_5_input_TDATA : IN STD_LOGIC_VECTOR (7 downto 0);
+        q_conv2d_batchnorm_5_input_TVALID : IN STD_LOGIC;
+        q_conv2d_batchnorm_5_input_TREADY : OUT STD_LOGIC;
+        layer2_out_din : OUT STD_LOGIC_VECTOR (63 downto 0);
+        layer2_out_num_data_valid : IN STD_LOGIC_VECTOR (12 downto 0);
+        layer2_out_fifo_cap : IN STD_LOGIC_VECTOR (12 downto 0);
         layer2_out_full_n : IN STD_LOGIC;
         layer2_out_write : OUT STD_LOGIC );
     end component;
 
 
-    component myproject_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_s IS
+    component myproject_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_s IS
     port (
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
@@ -266,14 +304,14 @@ architecture behav of myproject is
         ap_continue : IN STD_LOGIC;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
-        layer2_out_dout : IN STD_LOGIC_VECTOR (47 downto 0);
-        layer2_out_num_data_valid : IN STD_LOGIC_VECTOR (11 downto 0);
-        layer2_out_fifo_cap : IN STD_LOGIC_VECTOR (11 downto 0);
+        layer2_out_dout : IN STD_LOGIC_VECTOR (63 downto 0);
+        layer2_out_num_data_valid : IN STD_LOGIC_VECTOR (12 downto 0);
+        layer2_out_fifo_cap : IN STD_LOGIC_VECTOR (12 downto 0);
         layer2_out_empty_n : IN STD_LOGIC;
         layer2_out_read : OUT STD_LOGIC;
-        layer4_out_din : OUT STD_LOGIC_VECTOR (47 downto 0);
-        layer4_out_num_data_valid : IN STD_LOGIC_VECTOR (11 downto 0);
-        layer4_out_fifo_cap : IN STD_LOGIC_VECTOR (11 downto 0);
+        layer4_out_din : OUT STD_LOGIC_VECTOR (63 downto 0);
+        layer4_out_num_data_valid : IN STD_LOGIC_VECTOR (12 downto 0);
+        layer4_out_fifo_cap : IN STD_LOGIC_VECTOR (12 downto 0);
         layer4_out_full_n : IN STD_LOGIC;
         layer4_out_write : OUT STD_LOGIC;
         start_out : OUT STD_LOGIC;
@@ -281,7 +319,7 @@ architecture behav of myproject is
     end component;
 
 
-    component myproject_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_s IS
+    component myproject_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_s IS
     port (
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
@@ -291,12 +329,12 @@ architecture behav of myproject is
         ap_continue : IN STD_LOGIC;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
-        layer4_out_dout : IN STD_LOGIC_VECTOR (47 downto 0);
-        layer4_out_num_data_valid : IN STD_LOGIC_VECTOR (11 downto 0);
-        layer4_out_fifo_cap : IN STD_LOGIC_VECTOR (11 downto 0);
+        layer4_out_dout : IN STD_LOGIC_VECTOR (63 downto 0);
+        layer4_out_num_data_valid : IN STD_LOGIC_VECTOR (12 downto 0);
+        layer4_out_fifo_cap : IN STD_LOGIC_VECTOR (12 downto 0);
         layer4_out_empty_n : IN STD_LOGIC;
         layer4_out_read : OUT STD_LOGIC;
-        layer5_out_din : OUT STD_LOGIC_VECTOR (47 downto 0);
+        layer5_out_din : OUT STD_LOGIC_VECTOR (63 downto 0);
         layer5_out_num_data_valid : IN STD_LOGIC_VECTOR (7 downto 0);
         layer5_out_fifo_cap : IN STD_LOGIC_VECTOR (7 downto 0);
         layer5_out_full_n : IN STD_LOGIC;
@@ -306,7 +344,7 @@ architecture behav of myproject is
     end component;
 
 
-    component myproject_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_s IS
+    component myproject_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_s IS
     port (
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
@@ -318,14 +356,14 @@ architecture behav of myproject is
         ap_ready : OUT STD_LOGIC;
         start_out : OUT STD_LOGIC;
         start_write : OUT STD_LOGIC;
-        layer5_out_dout : IN STD_LOGIC_VECTOR (47 downto 0);
+        layer5_out_dout : IN STD_LOGIC_VECTOR (63 downto 0);
         layer5_out_num_data_valid : IN STD_LOGIC_VECTOR (7 downto 0);
         layer5_out_fifo_cap : IN STD_LOGIC_VECTOR (7 downto 0);
         layer5_out_empty_n : IN STD_LOGIC;
         layer5_out_read : OUT STD_LOGIC;
         layer6_out_din : OUT STD_LOGIC_VECTOR (127 downto 0);
-        layer6_out_num_data_valid : IN STD_LOGIC_VECTOR (6 downto 0);
-        layer6_out_fifo_cap : IN STD_LOGIC_VECTOR (6 downto 0);
+        layer6_out_num_data_valid : IN STD_LOGIC_VECTOR (7 downto 0);
+        layer6_out_fifo_cap : IN STD_LOGIC_VECTOR (7 downto 0);
         layer6_out_full_n : IN STD_LOGIC;
         layer6_out_write : OUT STD_LOGIC );
     end component;
@@ -342,13 +380,13 @@ architecture behav of myproject is
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
         layer6_out_dout : IN STD_LOGIC_VECTOR (127 downto 0);
-        layer6_out_num_data_valid : IN STD_LOGIC_VECTOR (6 downto 0);
-        layer6_out_fifo_cap : IN STD_LOGIC_VECTOR (6 downto 0);
+        layer6_out_num_data_valid : IN STD_LOGIC_VECTOR (7 downto 0);
+        layer6_out_fifo_cap : IN STD_LOGIC_VECTOR (7 downto 0);
         layer6_out_empty_n : IN STD_LOGIC;
         layer6_out_read : OUT STD_LOGIC;
         layer8_out_din : OUT STD_LOGIC_VECTOR (127 downto 0);
-        layer8_out_num_data_valid : IN STD_LOGIC_VECTOR (6 downto 0);
-        layer8_out_fifo_cap : IN STD_LOGIC_VECTOR (6 downto 0);
+        layer8_out_num_data_valid : IN STD_LOGIC_VECTOR (7 downto 0);
+        layer8_out_fifo_cap : IN STD_LOGIC_VECTOR (7 downto 0);
         layer8_out_full_n : IN STD_LOGIC;
         layer8_out_write : OUT STD_LOGIC;
         start_out : OUT STD_LOGIC;
@@ -367,8 +405,8 @@ architecture behav of myproject is
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
         layer8_out_dout : IN STD_LOGIC_VECTOR (127 downto 0);
-        layer8_out_num_data_valid : IN STD_LOGIC_VECTOR (6 downto 0);
-        layer8_out_fifo_cap : IN STD_LOGIC_VECTOR (6 downto 0);
+        layer8_out_num_data_valid : IN STD_LOGIC_VECTOR (7 downto 0);
+        layer8_out_fifo_cap : IN STD_LOGIC_VECTOR (7 downto 0);
         layer8_out_empty_n : IN STD_LOGIC;
         layer8_out_read : OUT STD_LOGIC;
         layer9_out_din : OUT STD_LOGIC_VECTOR (127 downto 0);
@@ -381,7 +419,7 @@ architecture behav of myproject is
     end component;
 
 
-    component myproject_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_s IS
+    component myproject_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_s IS
     port (
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
@@ -391,47 +429,22 @@ architecture behav of myproject is
         ap_continue : IN STD_LOGIC;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
-        start_out : OUT STD_LOGIC;
-        start_write : OUT STD_LOGIC;
         layer9_out_dout : IN STD_LOGIC_VECTOR (127 downto 0);
         layer9_out_num_data_valid : IN STD_LOGIC_VECTOR (4 downto 0);
         layer9_out_fifo_cap : IN STD_LOGIC_VECTOR (4 downto 0);
         layer9_out_empty_n : IN STD_LOGIC;
         layer9_out_read : OUT STD_LOGIC;
-        layer11_out_din : OUT STD_LOGIC_VECTOR (783 downto 0);
-        layer11_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
-        layer11_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
-        layer11_out_full_n : IN STD_LOGIC;
-        layer11_out_write : OUT STD_LOGIC );
-    end component;
-
-
-    component myproject_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_s IS
-    port (
-        ap_clk : IN STD_LOGIC;
-        ap_rst : IN STD_LOGIC;
-        ap_start : IN STD_LOGIC;
-        start_full_n : IN STD_LOGIC;
-        ap_done : OUT STD_LOGIC;
-        ap_continue : IN STD_LOGIC;
-        ap_idle : OUT STD_LOGIC;
-        ap_ready : OUT STD_LOGIC;
         start_out : OUT STD_LOGIC;
         start_write : OUT STD_LOGIC;
-        layer11_out_dout : IN STD_LOGIC_VECTOR (783 downto 0);
-        layer11_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
-        layer11_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
-        layer11_out_empty_n : IN STD_LOGIC;
-        layer11_out_read : OUT STD_LOGIC;
-        layer13_out_din : OUT STD_LOGIC_VECTOR (783 downto 0);
-        layer13_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
-        layer13_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
-        layer13_out_full_n : IN STD_LOGIC;
-        layer13_out_write : OUT STD_LOGIC );
+        layer10_out_din : OUT STD_LOGIC_VECTOR (255 downto 0);
+        layer10_out_num_data_valid : IN STD_LOGIC_VECTOR (2 downto 0);
+        layer10_out_fifo_cap : IN STD_LOGIC_VECTOR (2 downto 0);
+        layer10_out_full_n : IN STD_LOGIC;
+        layer10_out_write : OUT STD_LOGIC );
     end component;
 
 
-    component myproject_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_s IS
+    component myproject_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_s IS
     port (
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
@@ -441,22 +454,47 @@ architecture behav of myproject is
         ap_continue : IN STD_LOGIC;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
-        layer13_out_dout : IN STD_LOGIC_VECTOR (783 downto 0);
-        layer13_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
-        layer13_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
-        layer13_out_empty_n : IN STD_LOGIC;
-        layer13_out_read : OUT STD_LOGIC;
-        layer14_out_din : OUT STD_LOGIC_VECTOR (415 downto 0);
-        layer14_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
-        layer14_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
-        layer14_out_full_n : IN STD_LOGIC;
-        layer14_out_write : OUT STD_LOGIC;
+        layer10_out_dout : IN STD_LOGIC_VECTOR (255 downto 0);
+        layer10_out_num_data_valid : IN STD_LOGIC_VECTOR (2 downto 0);
+        layer10_out_fifo_cap : IN STD_LOGIC_VECTOR (2 downto 0);
+        layer10_out_empty_n : IN STD_LOGIC;
+        layer10_out_read : OUT STD_LOGIC;
+        layer12_out_din : OUT STD_LOGIC_VECTOR (255 downto 0);
+        layer12_out_num_data_valid : IN STD_LOGIC_VECTOR (2 downto 0);
+        layer12_out_fifo_cap : IN STD_LOGIC_VECTOR (2 downto 0);
+        layer12_out_full_n : IN STD_LOGIC;
+        layer12_out_write : OUT STD_LOGIC;
         start_out : OUT STD_LOGIC;
         start_write : OUT STD_LOGIC );
     end component;
 
 
-    component myproject_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_s IS
+    component myproject_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_s IS
+    port (
+        ap_clk : IN STD_LOGIC;
+        ap_rst : IN STD_LOGIC;
+        ap_start : IN STD_LOGIC;
+        start_full_n : IN STD_LOGIC;
+        ap_done : OUT STD_LOGIC;
+        ap_continue : IN STD_LOGIC;
+        ap_idle : OUT STD_LOGIC;
+        ap_ready : OUT STD_LOGIC;
+        layer12_out_dout : IN STD_LOGIC_VECTOR (255 downto 0);
+        layer12_out_num_data_valid : IN STD_LOGIC_VECTOR (2 downto 0);
+        layer12_out_fifo_cap : IN STD_LOGIC_VECTOR (2 downto 0);
+        layer12_out_empty_n : IN STD_LOGIC;
+        layer12_out_read : OUT STD_LOGIC;
+        layer13_out_din : OUT STD_LOGIC_VECTOR (255 downto 0);
+        layer13_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
+        layer13_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
+        layer13_out_full_n : IN STD_LOGIC;
+        layer13_out_write : OUT STD_LOGIC;
+        start_out : OUT STD_LOGIC;
+        start_write : OUT STD_LOGIC );
+    end component;
+
+
+    component myproject_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_s IS
     port (
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
@@ -468,20 +506,70 @@ architecture behav of myproject is
         ap_ready : OUT STD_LOGIC;
         start_out : OUT STD_LOGIC;
         start_write : OUT STD_LOGIC;
-        layer14_out_dout : IN STD_LOGIC_VECTOR (415 downto 0);
+        layer13_out_dout : IN STD_LOGIC_VECTOR (255 downto 0);
+        layer13_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
+        layer13_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
+        layer13_out_empty_n : IN STD_LOGIC;
+        layer13_out_read : OUT STD_LOGIC;
+        layer14_out_din : OUT STD_LOGIC_VECTOR (255 downto 0);
+        layer14_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
+        layer14_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
+        layer14_out_full_n : IN STD_LOGIC;
+        layer14_out_write : OUT STD_LOGIC );
+    end component;
+
+
+    component myproject_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_s IS
+    port (
+        ap_clk : IN STD_LOGIC;
+        ap_rst : IN STD_LOGIC;
+        ap_start : IN STD_LOGIC;
+        start_full_n : IN STD_LOGIC;
+        ap_done : OUT STD_LOGIC;
+        ap_continue : IN STD_LOGIC;
+        ap_idle : OUT STD_LOGIC;
+        ap_ready : OUT STD_LOGIC;
+        layer14_out_dout : IN STD_LOGIC_VECTOR (255 downto 0);
         layer14_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
         layer14_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
         layer14_out_empty_n : IN STD_LOGIC;
         layer14_out_read : OUT STD_LOGIC;
-        layer16_out_din : OUT STD_LOGIC_VECTOR (415 downto 0);
-        layer16_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
-        layer16_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
-        layer16_out_full_n : IN STD_LOGIC;
-        layer16_out_write : OUT STD_LOGIC );
+        layer15_out_din : OUT STD_LOGIC_VECTOR (255 downto 0);
+        layer15_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
+        layer15_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
+        layer15_out_full_n : IN STD_LOGIC;
+        layer15_out_write : OUT STD_LOGIC;
+        start_out : OUT STD_LOGIC;
+        start_write : OUT STD_LOGIC );
     end component;
 
 
-    component myproject_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_s IS
+    component myproject_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_s IS
+    port (
+        ap_clk : IN STD_LOGIC;
+        ap_rst : IN STD_LOGIC;
+        ap_start : IN STD_LOGIC;
+        start_full_n : IN STD_LOGIC;
+        ap_done : OUT STD_LOGIC;
+        ap_continue : IN STD_LOGIC;
+        ap_idle : OUT STD_LOGIC;
+        ap_ready : OUT STD_LOGIC;
+        start_out : OUT STD_LOGIC;
+        start_write : OUT STD_LOGIC;
+        layer15_out_dout : IN STD_LOGIC_VECTOR (255 downto 0);
+        layer15_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
+        layer15_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
+        layer15_out_empty_n : IN STD_LOGIC;
+        layer15_out_read : OUT STD_LOGIC;
+        layer17_out_din : OUT STD_LOGIC_VECTOR (255 downto 0);
+        layer17_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
+        layer17_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
+        layer17_out_full_n : IN STD_LOGIC;
+        layer17_out_write : OUT STD_LOGIC );
+    end component;
+
+
+    component myproject_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_s IS
     port (
         ap_clk : IN STD_LOGIC;
         ap_rst : IN STD_LOGIC;
@@ -490,44 +578,44 @@ architecture behav of myproject is
         ap_continue : IN STD_LOGIC;
         ap_idle : OUT STD_LOGIC;
         ap_ready : OUT STD_LOGIC;
-        layer16_out_dout : IN STD_LOGIC_VECTOR (415 downto 0);
-        layer16_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
-        layer16_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
-        layer16_out_empty_n : IN STD_LOGIC;
-        layer16_out_read : OUT STD_LOGIC;
-        layer17_out_TREADY : IN STD_LOGIC;
-        layer17_out_TDATA : OUT STD_LOGIC_VECTOR (39 downto 0);
-        layer17_out_TVALID : OUT STD_LOGIC );
+        layer17_out_dout : IN STD_LOGIC_VECTOR (255 downto 0);
+        layer17_out_num_data_valid : IN STD_LOGIC_VECTOR (1 downto 0);
+        layer17_out_fifo_cap : IN STD_LOGIC_VECTOR (1 downto 0);
+        layer17_out_empty_n : IN STD_LOGIC;
+        layer17_out_read : OUT STD_LOGIC;
+        layer18_out_TREADY : IN STD_LOGIC;
+        layer18_out_TDATA : OUT STD_LOGIC_VECTOR (39 downto 0);
+        layer18_out_TVALID : OUT STD_LOGIC );
     end component;
 
 
-    component myproject_fifo_w48_d1936_A IS
+    component myproject_fifo_w64_d2116_A IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
         if_read_ce : IN STD_LOGIC;
         if_write_ce : IN STD_LOGIC;
-        if_din : IN STD_LOGIC_VECTOR (47 downto 0);
+        if_din : IN STD_LOGIC_VECTOR (63 downto 0);
         if_full_n : OUT STD_LOGIC;
         if_write : IN STD_LOGIC;
-        if_dout : OUT STD_LOGIC_VECTOR (47 downto 0);
-        if_num_data_valid : OUT STD_LOGIC_VECTOR (11 downto 0);
-        if_fifo_cap : OUT STD_LOGIC_VECTOR (11 downto 0);
+        if_dout : OUT STD_LOGIC_VECTOR (63 downto 0);
+        if_num_data_valid : OUT STD_LOGIC_VECTOR (12 downto 0);
+        if_fifo_cap : OUT STD_LOGIC_VECTOR (12 downto 0);
         if_empty_n : OUT STD_LOGIC;
         if_read : IN STD_LOGIC );
     end component;
 
 
-    component myproject_fifo_w48_d121_A IS
+    component myproject_fifo_w64_d121_A IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
         if_read_ce : IN STD_LOGIC;
         if_write_ce : IN STD_LOGIC;
-        if_din : IN STD_LOGIC_VECTOR (47 downto 0);
+        if_din : IN STD_LOGIC_VECTOR (63 downto 0);
         if_full_n : OUT STD_LOGIC;
         if_write : IN STD_LOGIC;
-        if_dout : OUT STD_LOGIC_VECTOR (47 downto 0);
+        if_dout : OUT STD_LOGIC_VECTOR (63 downto 0);
         if_num_data_valid : OUT STD_LOGIC_VECTOR (7 downto 0);
         if_fifo_cap : OUT STD_LOGIC_VECTOR (7 downto 0);
         if_empty_n : OUT STD_LOGIC;
@@ -535,7 +623,7 @@ architecture behav of myproject is
     end component;
 
 
-    component myproject_fifo_w128_d49_A IS
+    component myproject_fifo_w128_d81_A IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
@@ -545,14 +633,14 @@ architecture behav of myproject is
         if_full_n : OUT STD_LOGIC;
         if_write : IN STD_LOGIC;
         if_dout : OUT STD_LOGIC_VECTOR (127 downto 0);
-        if_num_data_valid : OUT STD_LOGIC_VECTOR (6 downto 0);
-        if_fifo_cap : OUT STD_LOGIC_VECTOR (6 downto 0);
+        if_num_data_valid : OUT STD_LOGIC_VECTOR (7 downto 0);
+        if_fifo_cap : OUT STD_LOGIC_VECTOR (7 downto 0);
         if_empty_n : OUT STD_LOGIC;
         if_read : IN STD_LOGIC );
     end component;
 
 
-    component myproject_fifo_w128_d9_A IS
+    component myproject_fifo_w128_d16_A IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
@@ -569,16 +657,33 @@ architecture behav of myproject is
     end component;
 
 
-    component myproject_fifo_w784_d1_S IS
+    component myproject_fifo_w256_d4_S IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
         if_read_ce : IN STD_LOGIC;
         if_write_ce : IN STD_LOGIC;
-        if_din : IN STD_LOGIC_VECTOR (783 downto 0);
+        if_din : IN STD_LOGIC_VECTOR (255 downto 0);
         if_full_n : OUT STD_LOGIC;
         if_write : IN STD_LOGIC;
-        if_dout : OUT STD_LOGIC_VECTOR (783 downto 0);
+        if_dout : OUT STD_LOGIC_VECTOR (255 downto 0);
+        if_num_data_valid : OUT STD_LOGIC_VECTOR (2 downto 0);
+        if_fifo_cap : OUT STD_LOGIC_VECTOR (2 downto 0);
+        if_empty_n : OUT STD_LOGIC;
+        if_read : IN STD_LOGIC );
+    end component;
+
+
+    component myproject_fifo_w256_d1_S IS
+    port (
+        clk : IN STD_LOGIC;
+        reset : IN STD_LOGIC;
+        if_read_ce : IN STD_LOGIC;
+        if_write_ce : IN STD_LOGIC;
+        if_din : IN STD_LOGIC_VECTOR (255 downto 0);
+        if_full_n : OUT STD_LOGIC;
+        if_write : IN STD_LOGIC;
+        if_dout : OUT STD_LOGIC_VECTOR (255 downto 0);
         if_num_data_valid : OUT STD_LOGIC_VECTOR (1 downto 0);
         if_fifo_cap : OUT STD_LOGIC_VECTOR (1 downto 0);
         if_empty_n : OUT STD_LOGIC;
@@ -586,24 +691,7 @@ architecture behav of myproject is
     end component;
 
 
-    component myproject_fifo_w416_d1_S IS
-    port (
-        clk : IN STD_LOGIC;
-        reset : IN STD_LOGIC;
-        if_read_ce : IN STD_LOGIC;
-        if_write_ce : IN STD_LOGIC;
-        if_din : IN STD_LOGIC_VECTOR (415 downto 0);
-        if_full_n : OUT STD_LOGIC;
-        if_write : IN STD_LOGIC;
-        if_dout : OUT STD_LOGIC_VECTOR (415 downto 0);
-        if_num_data_valid : OUT STD_LOGIC_VECTOR (1 downto 0);
-        if_fifo_cap : OUT STD_LOGIC_VECTOR (1 downto 0);
-        if_empty_n : OUT STD_LOGIC;
-        if_read : IN STD_LOGIC );
-    end component;
-
-
-    component myproject_start_for_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0 IS
+    component myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0 IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
@@ -618,7 +706,7 @@ architecture behav of myproject is
     end component;
 
 
-    component myproject_start_for_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5bil IS
+    component myproject_start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5chv IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
@@ -633,7 +721,7 @@ architecture behav of myproject is
     end component;
 
 
-    component myproject_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0 IS
+    component myproject_start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0 IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
@@ -678,7 +766,7 @@ architecture behav of myproject is
     end component;
 
 
-    component myproject_start_for_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0 IS
+    component myproject_start_for_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10civ IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
@@ -693,7 +781,7 @@ architecture behav of myproject is
     end component;
 
 
-    component myproject_start_for_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13bjl IS
+    component myproject_start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12cjv IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
@@ -708,7 +796,7 @@ architecture behav of myproject is
     end component;
 
 
-    component myproject_start_for_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0 IS
+    component myproject_start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0 IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
@@ -723,7 +811,7 @@ architecture behav of myproject is
     end component;
 
 
-    component myproject_start_for_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16bkl IS
+    component myproject_start_for_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0 IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
@@ -738,7 +826,37 @@ architecture behav of myproject is
     end component;
 
 
-    component myproject_start_for_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0 IS
+    component myproject_start_for_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0 IS
+    port (
+        clk : IN STD_LOGIC;
+        reset : IN STD_LOGIC;
+        if_read_ce : IN STD_LOGIC;
+        if_write_ce : IN STD_LOGIC;
+        if_din : IN STD_LOGIC_VECTOR (0 downto 0);
+        if_full_n : OUT STD_LOGIC;
+        if_write : IN STD_LOGIC;
+        if_dout : OUT STD_LOGIC_VECTOR (0 downto 0);
+        if_empty_n : OUT STD_LOGIC;
+        if_read : IN STD_LOGIC );
+    end component;
+
+
+    component myproject_start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17ckv IS
+    port (
+        clk : IN STD_LOGIC;
+        reset : IN STD_LOGIC;
+        if_read_ce : IN STD_LOGIC;
+        if_write_ce : IN STD_LOGIC;
+        if_din : IN STD_LOGIC_VECTOR (0 downto 0);
+        if_full_n : OUT STD_LOGIC;
+        if_write : IN STD_LOGIC;
+        if_dout : OUT STD_LOGIC_VECTOR (0 downto 0);
+        if_empty_n : OUT STD_LOGIC;
+        if_read : IN STD_LOGIC );
+    end component;
+
+
+    component myproject_start_for_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0 IS
     port (
         clk : IN STD_LOGIC;
         reset : IN STD_LOGIC;
@@ -755,95 +873,95 @@ architecture behav of myproject is
 
 
 begin
-    conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0 : component myproject_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_s
+    conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0 : component myproject_conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst_n_inv,
-        ap_start => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_ap_start,
-        start_full_n => start_for_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_full_n,
-        ap_done => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_ap_done,
-        ap_continue => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_ap_continue,
-        ap_idle => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_ap_idle,
-        ap_ready => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_ap_ready,
-        start_out => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_start_out,
-        start_write => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_start_write,
-        input_1_TDATA => input_1_TDATA,
-        input_1_TVALID => input_1_TVALID,
-        input_1_TREADY => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_input_1_TREADY,
-        layer2_out_din => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_layer2_out_din,
+        ap_start => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_ap_start,
+        start_full_n => start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_full_n,
+        ap_done => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_ap_done,
+        ap_continue => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_ap_continue,
+        ap_idle => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_ap_idle,
+        ap_ready => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_ap_ready,
+        start_out => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_start_out,
+        start_write => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_start_write,
+        q_conv2d_batchnorm_5_input_TDATA => q_conv2d_batchnorm_5_input_TDATA,
+        q_conv2d_batchnorm_5_input_TVALID => q_conv2d_batchnorm_5_input_TVALID,
+        q_conv2d_batchnorm_5_input_TREADY => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_q_conv2d_batchnorm_5_input_TREADY,
+        layer2_out_din => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_layer2_out_din,
         layer2_out_num_data_valid => layer2_out_num_data_valid,
         layer2_out_fifo_cap => layer2_out_fifo_cap,
         layer2_out_full_n => layer2_out_full_n,
-        layer2_out_write => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_layer2_out_write);
+        layer2_out_write => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_layer2_out_write);
 
-    relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0 : component myproject_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_s
+    relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0 : component myproject_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst_n_inv,
-        ap_start => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_ap_start,
-        start_full_n => start_for_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_full_n,
-        ap_done => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_ap_done,
-        ap_continue => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_ap_continue,
-        ap_idle => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_ap_idle,
-        ap_ready => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_ap_ready,
+        ap_start => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_ap_start,
+        start_full_n => start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_full_n,
+        ap_done => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_ap_done,
+        ap_continue => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_ap_continue,
+        ap_idle => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_ap_idle,
+        ap_ready => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_ap_ready,
         layer2_out_dout => layer2_out_dout,
         layer2_out_num_data_valid => layer2_out_num_data_valid,
         layer2_out_fifo_cap => layer2_out_fifo_cap,
         layer2_out_empty_n => layer2_out_empty_n,
-        layer2_out_read => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_layer2_out_read,
-        layer4_out_din => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_layer4_out_din,
+        layer2_out_read => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_layer2_out_read,
+        layer4_out_din => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_layer4_out_din,
         layer4_out_num_data_valid => layer4_out_num_data_valid,
         layer4_out_fifo_cap => layer4_out_fifo_cap,
         layer4_out_full_n => layer4_out_full_n,
-        layer4_out_write => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_layer4_out_write,
-        start_out => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_start_out,
-        start_write => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_start_write);
+        layer4_out_write => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_layer4_out_write,
+        start_out => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_start_out,
+        start_write => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_start_write);
 
-    pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0 : component myproject_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_s
+    pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0 : component myproject_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst_n_inv,
-        ap_start => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_ap_start,
-        start_full_n => start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_full_n,
-        ap_done => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_ap_done,
-        ap_continue => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_ap_continue,
-        ap_idle => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_ap_idle,
-        ap_ready => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_ap_ready,
+        ap_start => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_ap_start,
+        start_full_n => start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_full_n,
+        ap_done => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_ap_done,
+        ap_continue => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_ap_continue,
+        ap_idle => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_ap_idle,
+        ap_ready => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_ap_ready,
         layer4_out_dout => layer4_out_dout,
         layer4_out_num_data_valid => layer4_out_num_data_valid,
         layer4_out_fifo_cap => layer4_out_fifo_cap,
         layer4_out_empty_n => layer4_out_empty_n,
-        layer4_out_read => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_layer4_out_read,
-        layer5_out_din => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_layer5_out_din,
+        layer4_out_read => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_layer4_out_read,
+        layer5_out_din => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_layer5_out_din,
         layer5_out_num_data_valid => layer5_out_num_data_valid,
         layer5_out_fifo_cap => layer5_out_fifo_cap,
         layer5_out_full_n => layer5_out_full_n,
-        layer5_out_write => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_layer5_out_write,
-        start_out => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_start_out,
-        start_write => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_start_write);
+        layer5_out_write => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_layer5_out_write,
+        start_out => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_start_out,
+        start_write => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_start_write);
 
-    conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0 : component myproject_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_s
+    conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0 : component myproject_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst_n_inv,
-        ap_start => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_start,
+        ap_start => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_start,
         start_full_n => start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_full_n,
-        ap_done => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_done,
-        ap_continue => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_continue,
-        ap_idle => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_idle,
-        ap_ready => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_ready,
-        start_out => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_start_out,
-        start_write => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_start_write,
+        ap_done => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_done,
+        ap_continue => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_continue,
+        ap_idle => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_idle,
+        ap_ready => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_ready,
+        start_out => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_start_out,
+        start_write => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_start_write,
         layer5_out_dout => layer5_out_dout,
         layer5_out_num_data_valid => layer5_out_num_data_valid,
         layer5_out_fifo_cap => layer5_out_fifo_cap,
         layer5_out_empty_n => layer5_out_empty_n,
-        layer5_out_read => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer5_out_read,
-        layer6_out_din => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer6_out_din,
+        layer5_out_read => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer5_out_read,
+        layer6_out_din => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer6_out_din,
         layer6_out_num_data_valid => layer6_out_num_data_valid,
         layer6_out_fifo_cap => layer6_out_fifo_cap,
         layer6_out_full_n => layer6_out_full_n,
-        layer6_out_write => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer6_out_write);
+        layer6_out_write => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer6_out_write);
 
     relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0 : component myproject_relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_s
     port map (
@@ -873,7 +991,7 @@ begin
         ap_clk => ap_clk,
         ap_rst => ap_rst_n_inv,
         ap_start => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_ap_start,
-        start_full_n => start_for_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_full_n,
+        start_full_n => start_for_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_full_n,
         ap_done => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_ap_done,
         ap_continue => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_ap_continue,
         ap_idle => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_ap_idle,
@@ -891,177 +1009,223 @@ begin
         start_out => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_start_out,
         start_write => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_start_write);
 
-    dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0 : component myproject_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_s
+    conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0 : component myproject_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst_n_inv,
-        ap_start => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_ap_start,
-        start_full_n => start_for_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_full_n,
-        ap_done => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_ap_done,
-        ap_continue => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_ap_continue,
-        ap_idle => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_ap_idle,
-        ap_ready => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_ap_ready,
-        start_out => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_start_out,
-        start_write => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_start_write,
+        ap_start => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_ap_start,
+        start_full_n => start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_full_n,
+        ap_done => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_ap_done,
+        ap_continue => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_ap_continue,
+        ap_idle => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_ap_idle,
+        ap_ready => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_ap_ready,
         layer9_out_dout => layer9_out_dout,
         layer9_out_num_data_valid => layer9_out_num_data_valid,
         layer9_out_fifo_cap => layer9_out_fifo_cap,
         layer9_out_empty_n => layer9_out_empty_n,
-        layer9_out_read => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_layer9_out_read,
-        layer11_out_din => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_layer11_out_din,
-        layer11_out_num_data_valid => layer11_out_num_data_valid,
-        layer11_out_fifo_cap => layer11_out_fifo_cap,
-        layer11_out_full_n => layer11_out_full_n,
-        layer11_out_write => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_layer11_out_write);
+        layer9_out_read => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_layer9_out_read,
+        start_out => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_start_out,
+        start_write => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_start_write,
+        layer10_out_din => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_layer10_out_din,
+        layer10_out_num_data_valid => layer10_out_num_data_valid,
+        layer10_out_fifo_cap => layer10_out_fifo_cap,
+        layer10_out_full_n => layer10_out_full_n,
+        layer10_out_write => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_layer10_out_write);
 
-    relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0 : component myproject_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_s
+    relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0 : component myproject_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst_n_inv,
-        ap_start => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_ap_start,
-        start_full_n => start_for_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_full_n,
-        ap_done => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_ap_done,
-        ap_continue => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_ap_continue,
-        ap_idle => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_ap_idle,
-        ap_ready => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_ap_ready,
-        start_out => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_start_out,
-        start_write => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_start_write,
-        layer11_out_dout => layer11_out_dout,
-        layer11_out_num_data_valid => layer11_out_num_data_valid,
-        layer11_out_fifo_cap => layer11_out_fifo_cap,
-        layer11_out_empty_n => layer11_out_empty_n,
-        layer11_out_read => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_layer11_out_read,
-        layer13_out_din => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_layer13_out_din,
+        ap_start => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_ap_start,
+        start_full_n => start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_full_n,
+        ap_done => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_ap_done,
+        ap_continue => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_ap_continue,
+        ap_idle => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_ap_idle,
+        ap_ready => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_ap_ready,
+        layer10_out_dout => layer10_out_dout,
+        layer10_out_num_data_valid => layer10_out_num_data_valid,
+        layer10_out_fifo_cap => layer10_out_fifo_cap,
+        layer10_out_empty_n => layer10_out_empty_n,
+        layer10_out_read => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_layer10_out_read,
+        layer12_out_din => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_layer12_out_din,
+        layer12_out_num_data_valid => layer12_out_num_data_valid,
+        layer12_out_fifo_cap => layer12_out_fifo_cap,
+        layer12_out_full_n => layer12_out_full_n,
+        layer12_out_write => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_layer12_out_write,
+        start_out => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_start_out,
+        start_write => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_start_write);
+
+    pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0 : component myproject_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_s
+    port map (
+        ap_clk => ap_clk,
+        ap_rst => ap_rst_n_inv,
+        ap_start => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_ap_start,
+        start_full_n => start_for_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_full_n,
+        ap_done => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_ap_done,
+        ap_continue => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_ap_continue,
+        ap_idle => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_ap_idle,
+        ap_ready => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_ap_ready,
+        layer12_out_dout => layer12_out_dout,
+        layer12_out_num_data_valid => layer12_out_num_data_valid,
+        layer12_out_fifo_cap => layer12_out_fifo_cap,
+        layer12_out_empty_n => layer12_out_empty_n,
+        layer12_out_read => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_layer12_out_read,
+        layer13_out_din => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_layer13_out_din,
         layer13_out_num_data_valid => layer13_out_num_data_valid,
         layer13_out_fifo_cap => layer13_out_fifo_cap,
         layer13_out_full_n => layer13_out_full_n,
-        layer13_out_write => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_layer13_out_write);
+        layer13_out_write => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_layer13_out_write,
+        start_out => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_start_out,
+        start_write => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_start_write);
 
-    dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0 : component myproject_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_s
+    global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0 : component myproject_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst_n_inv,
-        ap_start => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_ap_start,
-        start_full_n => start_for_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_full_n,
-        ap_done => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_ap_done,
-        ap_continue => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_ap_continue,
-        ap_idle => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_ap_idle,
-        ap_ready => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_ap_ready,
+        ap_start => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_ap_start,
+        start_full_n => start_for_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_full_n,
+        ap_done => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_ap_done,
+        ap_continue => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_ap_continue,
+        ap_idle => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_ap_idle,
+        ap_ready => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_ap_ready,
+        start_out => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_start_out,
+        start_write => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_start_write,
         layer13_out_dout => layer13_out_dout,
         layer13_out_num_data_valid => layer13_out_num_data_valid,
         layer13_out_fifo_cap => layer13_out_fifo_cap,
         layer13_out_empty_n => layer13_out_empty_n,
-        layer13_out_read => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_layer13_out_read,
-        layer14_out_din => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_layer14_out_din,
+        layer13_out_read => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_layer13_out_read,
+        layer14_out_din => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_layer14_out_din,
         layer14_out_num_data_valid => layer14_out_num_data_valid,
         layer14_out_fifo_cap => layer14_out_fifo_cap,
         layer14_out_full_n => layer14_out_full_n,
-        layer14_out_write => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_layer14_out_write,
-        start_out => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_start_out,
-        start_write => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_start_write);
+        layer14_out_write => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_layer14_out_write);
 
-    relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0 : component myproject_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_s
+    dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0 : component myproject_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst_n_inv,
-        ap_start => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_ap_start,
-        start_full_n => start_for_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_full_n,
-        ap_done => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_ap_done,
-        ap_continue => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_ap_continue,
-        ap_idle => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_ap_idle,
-        ap_ready => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_ap_ready,
-        start_out => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_start_out,
-        start_write => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_start_write,
+        ap_start => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_ap_start,
+        start_full_n => start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_full_n,
+        ap_done => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_ap_done,
+        ap_continue => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_ap_continue,
+        ap_idle => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_ap_idle,
+        ap_ready => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_ap_ready,
         layer14_out_dout => layer14_out_dout,
         layer14_out_num_data_valid => layer14_out_num_data_valid,
         layer14_out_fifo_cap => layer14_out_fifo_cap,
         layer14_out_empty_n => layer14_out_empty_n,
-        layer14_out_read => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_layer14_out_read,
-        layer16_out_din => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_layer16_out_din,
-        layer16_out_num_data_valid => layer16_out_num_data_valid,
-        layer16_out_fifo_cap => layer16_out_fifo_cap,
-        layer16_out_full_n => layer16_out_full_n,
-        layer16_out_write => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_layer16_out_write);
+        layer14_out_read => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_layer14_out_read,
+        layer15_out_din => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_layer15_out_din,
+        layer15_out_num_data_valid => layer15_out_num_data_valid,
+        layer15_out_fifo_cap => layer15_out_fifo_cap,
+        layer15_out_full_n => layer15_out_full_n,
+        layer15_out_write => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_layer15_out_write,
+        start_out => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_start_out,
+        start_write => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_start_write);
 
-    dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0 : component myproject_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_s
+    relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0 : component myproject_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_s
     port map (
         ap_clk => ap_clk,
         ap_rst => ap_rst_n_inv,
-        ap_start => dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_start,
-        ap_done => dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_done,
-        ap_continue => dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_continue,
-        ap_idle => dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_idle,
-        ap_ready => dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_ready,
-        layer16_out_dout => layer16_out_dout,
-        layer16_out_num_data_valid => layer16_out_num_data_valid,
-        layer16_out_fifo_cap => layer16_out_fifo_cap,
-        layer16_out_empty_n => layer16_out_empty_n,
-        layer16_out_read => dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_layer16_out_read,
-        layer17_out_TREADY => layer17_out_TREADY,
-        layer17_out_TDATA => dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_layer17_out_TDATA,
-        layer17_out_TVALID => dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_layer17_out_TVALID);
+        ap_start => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_ap_start,
+        start_full_n => start_for_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_full_n,
+        ap_done => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_ap_done,
+        ap_continue => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_ap_continue,
+        ap_idle => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_ap_idle,
+        ap_ready => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_ap_ready,
+        start_out => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_start_out,
+        start_write => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_start_write,
+        layer15_out_dout => layer15_out_dout,
+        layer15_out_num_data_valid => layer15_out_num_data_valid,
+        layer15_out_fifo_cap => layer15_out_fifo_cap,
+        layer15_out_empty_n => layer15_out_empty_n,
+        layer15_out_read => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_layer15_out_read,
+        layer17_out_din => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_layer17_out_din,
+        layer17_out_num_data_valid => layer17_out_num_data_valid,
+        layer17_out_fifo_cap => layer17_out_fifo_cap,
+        layer17_out_full_n => layer17_out_full_n,
+        layer17_out_write => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_layer17_out_write);
 
-    layer2_out_U : component myproject_fifo_w48_d1936_A
+    dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0 : component myproject_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_s
+    port map (
+        ap_clk => ap_clk,
+        ap_rst => ap_rst_n_inv,
+        ap_start => dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_start,
+        ap_done => dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_done,
+        ap_continue => dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_continue,
+        ap_idle => dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_idle,
+        ap_ready => dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_ready,
+        layer17_out_dout => layer17_out_dout,
+        layer17_out_num_data_valid => layer17_out_num_data_valid,
+        layer17_out_fifo_cap => layer17_out_fifo_cap,
+        layer17_out_empty_n => layer17_out_empty_n,
+        layer17_out_read => dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_layer17_out_read,
+        layer18_out_TREADY => layer18_out_TREADY,
+        layer18_out_TDATA => dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_layer18_out_TDATA,
+        layer18_out_TVALID => dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_layer18_out_TVALID);
+
+    layer2_out_U : component myproject_fifo_w64_d2116_A
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_layer2_out_din,
+        if_din => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_layer2_out_din,
         if_full_n => layer2_out_full_n,
-        if_write => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_layer2_out_write,
+        if_write => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_layer2_out_write,
         if_dout => layer2_out_dout,
         if_num_data_valid => layer2_out_num_data_valid,
         if_fifo_cap => layer2_out_fifo_cap,
         if_empty_n => layer2_out_empty_n,
-        if_read => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_layer2_out_read);
+        if_read => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_layer2_out_read);
 
-    layer4_out_U : component myproject_fifo_w48_d1936_A
+    layer4_out_U : component myproject_fifo_w64_d2116_A
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_layer4_out_din,
+        if_din => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_layer4_out_din,
         if_full_n => layer4_out_full_n,
-        if_write => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_layer4_out_write,
+        if_write => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_layer4_out_write,
         if_dout => layer4_out_dout,
         if_num_data_valid => layer4_out_num_data_valid,
         if_fifo_cap => layer4_out_fifo_cap,
         if_empty_n => layer4_out_empty_n,
-        if_read => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_layer4_out_read);
+        if_read => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_layer4_out_read);
 
-    layer5_out_U : component myproject_fifo_w48_d121_A
+    layer5_out_U : component myproject_fifo_w64_d121_A
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_layer5_out_din,
+        if_din => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_layer5_out_din,
         if_full_n => layer5_out_full_n,
-        if_write => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_layer5_out_write,
+        if_write => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_layer5_out_write,
         if_dout => layer5_out_dout,
         if_num_data_valid => layer5_out_num_data_valid,
         if_fifo_cap => layer5_out_fifo_cap,
         if_empty_n => layer5_out_empty_n,
-        if_read => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer5_out_read);
+        if_read => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer5_out_read);
 
-    layer6_out_U : component myproject_fifo_w128_d49_A
+    layer6_out_U : component myproject_fifo_w128_d81_A
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer6_out_din,
+        if_din => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer6_out_din,
         if_full_n => layer6_out_full_n,
-        if_write => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer6_out_write,
+        if_write => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_layer6_out_write,
         if_dout => layer6_out_dout,
         if_num_data_valid => layer6_out_num_data_valid,
         if_fifo_cap => layer6_out_fifo_cap,
         if_empty_n => layer6_out_empty_n,
         if_read => relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_layer6_out_read);
 
-    layer8_out_U : component myproject_fifo_w128_d49_A
+    layer8_out_U : component myproject_fifo_w128_d81_A
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
@@ -1076,7 +1240,7 @@ begin
         if_empty_n => layer8_out_empty_n,
         if_read => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_layer8_out_read);
 
-    layer9_out_U : component myproject_fifo_w128_d9_A
+    layer9_out_U : component myproject_fifo_w128_d16_A
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
@@ -1089,106 +1253,136 @@ begin
         if_num_data_valid => layer9_out_num_data_valid,
         if_fifo_cap => layer9_out_fifo_cap,
         if_empty_n => layer9_out_empty_n,
-        if_read => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_layer9_out_read);
+        if_read => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_layer9_out_read);
 
-    layer11_out_U : component myproject_fifo_w784_d1_S
+    layer10_out_U : component myproject_fifo_w256_d4_S
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_layer11_out_din,
-        if_full_n => layer11_out_full_n,
-        if_write => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_layer11_out_write,
-        if_dout => layer11_out_dout,
-        if_num_data_valid => layer11_out_num_data_valid,
-        if_fifo_cap => layer11_out_fifo_cap,
-        if_empty_n => layer11_out_empty_n,
-        if_read => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_layer11_out_read);
+        if_din => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_layer10_out_din,
+        if_full_n => layer10_out_full_n,
+        if_write => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_layer10_out_write,
+        if_dout => layer10_out_dout,
+        if_num_data_valid => layer10_out_num_data_valid,
+        if_fifo_cap => layer10_out_fifo_cap,
+        if_empty_n => layer10_out_empty_n,
+        if_read => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_layer10_out_read);
 
-    layer13_out_U : component myproject_fifo_w784_d1_S
+    layer12_out_U : component myproject_fifo_w256_d4_S
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_layer13_out_din,
+        if_din => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_layer12_out_din,
+        if_full_n => layer12_out_full_n,
+        if_write => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_layer12_out_write,
+        if_dout => layer12_out_dout,
+        if_num_data_valid => layer12_out_num_data_valid,
+        if_fifo_cap => layer12_out_fifo_cap,
+        if_empty_n => layer12_out_empty_n,
+        if_read => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_layer12_out_read);
+
+    layer13_out_U : component myproject_fifo_w256_d1_S
+    port map (
+        clk => ap_clk,
+        reset => ap_rst_n_inv,
+        if_read_ce => ap_const_logic_1,
+        if_write_ce => ap_const_logic_1,
+        if_din => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_layer13_out_din,
         if_full_n => layer13_out_full_n,
-        if_write => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_layer13_out_write,
+        if_write => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_layer13_out_write,
         if_dout => layer13_out_dout,
         if_num_data_valid => layer13_out_num_data_valid,
         if_fifo_cap => layer13_out_fifo_cap,
         if_empty_n => layer13_out_empty_n,
-        if_read => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_layer13_out_read);
+        if_read => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_layer13_out_read);
 
-    layer14_out_U : component myproject_fifo_w416_d1_S
+    layer14_out_U : component myproject_fifo_w256_d1_S
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_layer14_out_din,
+        if_din => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_layer14_out_din,
         if_full_n => layer14_out_full_n,
-        if_write => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_layer14_out_write,
+        if_write => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_layer14_out_write,
         if_dout => layer14_out_dout,
         if_num_data_valid => layer14_out_num_data_valid,
         if_fifo_cap => layer14_out_fifo_cap,
         if_empty_n => layer14_out_empty_n,
-        if_read => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_layer14_out_read);
+        if_read => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_layer14_out_read);
 
-    layer16_out_U : component myproject_fifo_w416_d1_S
+    layer15_out_U : component myproject_fifo_w256_d1_S
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_layer16_out_din,
-        if_full_n => layer16_out_full_n,
-        if_write => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_layer16_out_write,
-        if_dout => layer16_out_dout,
-        if_num_data_valid => layer16_out_num_data_valid,
-        if_fifo_cap => layer16_out_fifo_cap,
-        if_empty_n => layer16_out_empty_n,
-        if_read => dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_layer16_out_read);
+        if_din => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_layer15_out_din,
+        if_full_n => layer15_out_full_n,
+        if_write => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_layer15_out_write,
+        if_dout => layer15_out_dout,
+        if_num_data_valid => layer15_out_num_data_valid,
+        if_fifo_cap => layer15_out_fifo_cap,
+        if_empty_n => layer15_out_empty_n,
+        if_read => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_layer15_out_read);
 
-    start_for_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_U : component myproject_start_for_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0
+    layer17_out_U : component myproject_fifo_w256_d1_S
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => start_for_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_din,
-        if_full_n => start_for_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_full_n,
-        if_write => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_start_write,
-        if_dout => start_for_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_dout,
-        if_empty_n => start_for_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_empty_n,
-        if_read => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_ap_ready);
+        if_din => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_layer17_out_din,
+        if_full_n => layer17_out_full_n,
+        if_write => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_layer17_out_write,
+        if_dout => layer17_out_dout,
+        if_num_data_valid => layer17_out_num_data_valid,
+        if_fifo_cap => layer17_out_fifo_cap,
+        if_empty_n => layer17_out_empty_n,
+        if_read => dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_layer17_out_read);
 
-    start_for_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5bil_U : component myproject_start_for_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5bil
+    start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_U : component myproject_start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => start_for_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_din,
-        if_full_n => start_for_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_full_n,
-        if_write => relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_start_write,
-        if_dout => start_for_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_dout,
-        if_empty_n => start_for_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_empty_n,
-        if_read => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_ap_ready);
+        if_din => start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_din,
+        if_full_n => start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_full_n,
+        if_write => conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_start_write,
+        if_dout => start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_dout,
+        if_empty_n => start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_empty_n,
+        if_read => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_ap_ready);
 
-    start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_U : component myproject_start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0
+    start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5chv_U : component myproject_start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5chv
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_din,
-        if_full_n => start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_full_n,
-        if_write => pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_start_write,
-        if_dout => start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_dout,
-        if_empty_n => start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_empty_n,
-        if_read => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_ready);
+        if_din => start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_din,
+        if_full_n => start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_full_n,
+        if_write => relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_start_write,
+        if_dout => start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_dout,
+        if_empty_n => start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_empty_n,
+        if_read => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_ap_ready);
+
+    start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_U : component myproject_start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0
+    port map (
+        clk => ap_clk,
+        reset => ap_rst_n_inv,
+        if_read_ce => ap_const_logic_1,
+        if_write_ce => ap_const_logic_1,
+        if_din => start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_din,
+        if_full_n => start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_full_n,
+        if_write => pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_start_write,
+        if_dout => start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_dout,
+        if_empty_n => start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_empty_n,
+        if_read => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_ready);
 
     start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_U : component myproject_start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0
     port map (
@@ -1198,7 +1392,7 @@ begin
         if_write_ce => ap_const_logic_1,
         if_din => start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_din,
         if_full_n => start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_full_n,
-        if_write => conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_start_write,
+        if_write => conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_start_write,
         if_dout => start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_dout,
         if_empty_n => start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_empty_n,
         if_read => relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_ap_ready);
@@ -1216,116 +1410,148 @@ begin
         if_empty_n => start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_empty_n,
         if_read => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_ap_ready);
 
-    start_for_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_U : component myproject_start_for_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0
+    start_for_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10civ_U : component myproject_start_for_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10civ
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => start_for_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_din,
-        if_full_n => start_for_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_full_n,
+        if_din => start_for_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_din,
+        if_full_n => start_for_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_full_n,
         if_write => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_start_write,
-        if_dout => start_for_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_dout,
-        if_empty_n => start_for_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_empty_n,
-        if_read => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_ap_ready);
+        if_dout => start_for_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_dout,
+        if_empty_n => start_for_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_empty_n,
+        if_read => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_ap_ready);
 
-    start_for_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13bjl_U : component myproject_start_for_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13bjl
+    start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12cjv_U : component myproject_start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12cjv
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => start_for_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_din,
-        if_full_n => start_for_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_full_n,
-        if_write => dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_start_write,
-        if_dout => start_for_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_dout,
-        if_empty_n => start_for_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_empty_n,
-        if_read => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_ap_ready);
+        if_din => start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_din,
+        if_full_n => start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_full_n,
+        if_write => conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_start_write,
+        if_dout => start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_dout,
+        if_empty_n => start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_empty_n,
+        if_read => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_ap_ready);
 
-    start_for_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_U : component myproject_start_for_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0
+    start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_U : component myproject_start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => start_for_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_din,
-        if_full_n => start_for_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_full_n,
-        if_write => relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_start_write,
-        if_dout => start_for_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_dout,
-        if_empty_n => start_for_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_empty_n,
-        if_read => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_ap_ready);
+        if_din => start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_din,
+        if_full_n => start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_full_n,
+        if_write => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_start_write,
+        if_dout => start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_dout,
+        if_empty_n => start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_empty_n,
+        if_read => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_ap_ready);
 
-    start_for_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16bkl_U : component myproject_start_for_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16bkl
+    start_for_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_U : component myproject_start_for_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => start_for_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_din,
-        if_full_n => start_for_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_full_n,
-        if_write => dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_start_write,
-        if_dout => start_for_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_dout,
-        if_empty_n => start_for_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_empty_n,
-        if_read => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_ap_ready);
+        if_din => start_for_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_din,
+        if_full_n => start_for_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_full_n,
+        if_write => pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_start_write,
+        if_dout => start_for_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_dout,
+        if_empty_n => start_for_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_empty_n,
+        if_read => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_ap_ready);
 
-    start_for_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_U : component myproject_start_for_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0
+    start_for_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_U : component myproject_start_for_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0
     port map (
         clk => ap_clk,
         reset => ap_rst_n_inv,
         if_read_ce => ap_const_logic_1,
         if_write_ce => ap_const_logic_1,
-        if_din => start_for_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_din,
-        if_full_n => start_for_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_full_n,
-        if_write => relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_start_write,
-        if_dout => start_for_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_dout,
-        if_empty_n => start_for_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_empty_n,
-        if_read => dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_ready);
+        if_din => start_for_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_din,
+        if_full_n => start_for_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_full_n,
+        if_write => global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_start_write,
+        if_dout => start_for_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_dout,
+        if_empty_n => start_for_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_empty_n,
+        if_read => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_ap_ready);
+
+    start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17ckv_U : component myproject_start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17ckv
+    port map (
+        clk => ap_clk,
+        reset => ap_rst_n_inv,
+        if_read_ce => ap_const_logic_1,
+        if_write_ce => ap_const_logic_1,
+        if_din => start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_din,
+        if_full_n => start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_full_n,
+        if_write => dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_start_write,
+        if_dout => start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_dout,
+        if_empty_n => start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_empty_n,
+        if_read => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_ap_ready);
+
+    start_for_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_U : component myproject_start_for_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0
+    port map (
+        clk => ap_clk,
+        reset => ap_rst_n_inv,
+        if_read_ce => ap_const_logic_1,
+        if_write_ce => ap_const_logic_1,
+        if_din => start_for_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_din,
+        if_full_n => start_for_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_full_n,
+        if_write => relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_start_write,
+        if_dout => start_for_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_dout,
+        if_empty_n => start_for_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_empty_n,
+        if_read => dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_ready);
 
 
 
 
-    ap_done <= dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_done;
-    ap_idle <= (relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_ap_idle and relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_ap_idle and relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_ap_idle and relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_ap_idle and pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_ap_idle and pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_ap_idle and dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_ap_idle and dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_idle and dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_ap_idle and conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_idle and conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_ap_idle);
-    ap_ready <= conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_ap_ready;
+    ap_done <= dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_done;
+    ap_idle <= (relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_ap_idle and relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_ap_idle and relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_ap_idle and relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_ap_idle and pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_ap_idle and pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_ap_idle and pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_ap_idle and global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_ap_idle and dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_idle and dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_ap_idle and conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_idle and conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_ap_idle and conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_ap_idle);
+    ap_ready <= conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_ap_ready;
 
     ap_rst_n_inv_assign_proc : process(ap_rst_n)
     begin
                 ap_rst_n_inv <= not(ap_rst_n);
     end process;
 
-    conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_ap_continue <= ap_const_logic_1;
-    conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_ap_start <= ap_start;
-    conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_continue <= ap_const_logic_1;
-    conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_start <= start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_empty_n;
-    dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_ap_continue <= ap_const_logic_1;
-    dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_ap_start <= start_for_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_empty_n;
-    dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_continue <= ap_const_logic_1;
-    dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_ap_start <= start_for_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_empty_n;
-    dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_ap_continue <= ap_const_logic_1;
-    dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_ap_start <= start_for_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_empty_n;
-    input_1_TREADY <= conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_6u_config2_U0_input_1_TREADY;
-    layer17_out_TDATA <= dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_layer17_out_TDATA;
-    layer17_out_TVALID <= dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_layer17_out_TVALID;
-    pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_ap_continue <= ap_const_logic_1;
-    pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_ap_start <= start_for_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_empty_n;
+    conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_ap_continue <= ap_const_logic_1;
+    conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_ap_start <= start_for_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_empty_n;
+    conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_ap_continue <= ap_const_logic_1;
+    conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_ap_start <= ap_start;
+    conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_continue <= ap_const_logic_1;
+    conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_ap_start <= start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_empty_n;
+    dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_ap_continue <= ap_const_logic_1;
+    dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_ap_start <= start_for_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_empty_n;
+    dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_continue <= ap_const_logic_1;
+    dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_ap_start <= start_for_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_empty_n;
+    global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_ap_continue <= ap_const_logic_1;
+    global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_ap_start <= start_for_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_empty_n;
+    layer18_out_TDATA <= dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_layer18_out_TDATA;
+    layer18_out_TVALID <= dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_layer18_out_TVALID;
+    pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_ap_continue <= ap_const_logic_1;
+    pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_ap_start <= start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_empty_n;
     pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_ap_continue <= ap_const_logic_1;
     pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_ap_start <= start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_empty_n;
+    pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_ap_continue <= ap_const_logic_1;
+    pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_ap_start <= start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_empty_n;
+    q_conv2d_batchnorm_5_input_TREADY <= conv_2d_cl_array_ap_fixed_1u_array_ap_fixed_8_2_5_3_0_8u_config2_U0_q_conv2d_batchnorm_5_input_TREADY;
     relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_ap_continue <= ap_const_logic_1;
     relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_ap_start <= start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_empty_n;
-    relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_ap_continue <= ap_const_logic_1;
-    relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_ap_start <= start_for_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_empty_n;
-    relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_ap_continue <= ap_const_logic_1;
-    relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_ap_start <= start_for_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_empty_n;
-    relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_ap_continue <= ap_const_logic_1;
-    relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_ap_start <= start_for_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_empty_n;
-    start_for_conv_2d_cl_array_ap_fixed_6u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_din <= (0=>ap_const_logic_1, others=>'-');
-    start_for_dense_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_98u_config11_U0_din <= (0=>ap_const_logic_1, others=>'-');
-    start_for_dense_array_ap_ufixed_52u_array_ap_fixed_8_2_5_3_0_5u_config17_U0_din <= (0=>ap_const_logic_1, others=>'-');
-    start_for_dense_array_ap_ufixed_98u_array_ap_fixed_8_2_5_3_0_52u_config14_U0_din <= (0=>ap_const_logic_1, others=>'-');
-    start_for_pooling2d_cl_array_ap_ufixed_6u_array_ap_fixed_8_2_5_3_0_6u_config5_U0_din <= (0=>ap_const_logic_1, others=>'-');
+    relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_ap_continue <= ap_const_logic_1;
+    relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_ap_start <= start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_empty_n;
+    relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_ap_continue <= ap_const_logic_1;
+    relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_ap_start <= start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_empty_n;
+    relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_ap_continue <= ap_const_logic_1;
+    relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_ap_start <= start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_empty_n;
+    start_for_conv_2d_cl_array_ap_fixed_16u_array_ap_fixed_8_2_5_3_0_32u_config10_U0_din <= (0=>ap_const_logic_1, others=>'-');
+    start_for_conv_2d_cl_array_ap_fixed_8u_array_ap_fixed_8_2_5_3_0_16u_config6_U0_din <= (0=>ap_const_logic_1, others=>'-');
+    start_for_dense_array_ap_fixed_32u_array_ap_fixed_8_2_5_3_0_32u_config15_U0_din <= (0=>ap_const_logic_1, others=>'-');
+    start_for_dense_array_ap_ufixed_32u_array_ap_fixed_8_2_5_3_0_5u_config18_U0_din <= (0=>ap_const_logic_1, others=>'-');
+    start_for_global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_U0_din <= (0=>ap_const_logic_1, others=>'-');
+    start_for_pooling2d_cl_array_ap_ufixed_8u_array_ap_fixed_8_2_5_3_0_8u_config5_U0_din <= (0=>ap_const_logic_1, others=>'-');
     start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_U0_din <= (0=>ap_const_logic_1, others=>'-');
+    start_for_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config13_U0_din <= (0=>ap_const_logic_1, others=>'-');
     start_for_relu_array_ap_fixed_16u_array_ap_ufixed_8_2_4_0_0_16u_relu_config8_U0_din <= (0=>ap_const_logic_1, others=>'-');
-    start_for_relu_array_ap_fixed_52u_array_ap_ufixed_8_2_4_0_0_52u_relu_config16_U0_din <= (0=>ap_const_logic_1, others=>'-');
-    start_for_relu_array_ap_fixed_6u_array_ap_ufixed_8_2_4_0_0_6u_relu_config4_U0_din <= (0=>ap_const_logic_1, others=>'-');
-    start_for_relu_array_ap_fixed_98u_array_ap_ufixed_8_2_4_0_0_98u_relu_config13_U0_din <= (0=>ap_const_logic_1, others=>'-');
+    start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config12_U0_din <= (0=>ap_const_logic_1, others=>'-');
+    start_for_relu_array_ap_fixed_32u_array_ap_ufixed_8_2_4_0_0_32u_relu_config17_U0_din <= (0=>ap_const_logic_1, others=>'-');
+    start_for_relu_array_ap_fixed_8u_array_ap_ufixed_8_2_4_0_0_8u_relu_config4_U0_din <= (0=>ap_const_logic_1, others=>'-');
 end behav;

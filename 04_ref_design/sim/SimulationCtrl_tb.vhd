@@ -274,7 +274,7 @@ begin
 		Ref_MementoEvent_gen	(clk,status,ctrl, 0, x"AAAAAAAA");
 		Ref_PixelLut_Negative_on(clk,status,ctrl, 0);
 		EnableDataStream		(clk,status,ctrl, 0);
-		FrameRequest			(clk,status,ctrl, 0, 5, 256, 10, Mono8, FALSE);
+		FrameRequest			(clk,status,ctrl, 0, 5, 160, 100, Mono8, TRUE, FALSE, "/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/padded_images_hex.txt");
 
 		-- To read image data from a file, change the absolute path here below to locate the file containing the data.
 		-- In addition, Linux users must update the FILE_PATH_LENGTH constant in Simulation_FileIO_pkg.vhd

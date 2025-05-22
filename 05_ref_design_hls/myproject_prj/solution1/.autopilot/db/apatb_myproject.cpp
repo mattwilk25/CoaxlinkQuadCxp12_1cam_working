@@ -18,16 +18,16 @@
 using namespace std;
 
 // wrapc file define:
-#define AUTOTB_TVIN_input_1 "../tv/cdatafile/c.myproject.autotvin_input_1.dat"
-#define WRAPC_STREAM_SIZE_IN_input_1 "../tv/stream_size/stream_size_in_input_1.dat"
-#define WRAPC_STREAM_INGRESS_STATUS_input_1 "../tv/stream_size/stream_ingress_status_input_1.dat"
-#define AUTOTB_TVOUT_layer17_out "../tv/cdatafile/c.myproject.autotvout_layer17_out.dat"
-#define WRAPC_STREAM_SIZE_OUT_layer17_out "../tv/stream_size/stream_size_out_layer17_out.dat"
-#define WRAPC_STREAM_EGRESS_STATUS_layer17_out "../tv/stream_size/stream_egress_status_layer17_out.dat"
+#define AUTOTB_TVIN_q_conv2d_batchnorm_5_input "../tv/cdatafile/c.myproject.autotvin_q_conv2d_batchnorm_5_input.dat"
+#define WRAPC_STREAM_SIZE_IN_q_conv2d_batchnorm_5_input "../tv/stream_size/stream_size_in_q_conv2d_batchnorm_5_input.dat"
+#define WRAPC_STREAM_INGRESS_STATUS_q_conv2d_batchnorm_5_input "../tv/stream_size/stream_ingress_status_q_conv2d_batchnorm_5_input.dat"
+#define AUTOTB_TVOUT_layer18_out "../tv/cdatafile/c.myproject.autotvout_layer18_out.dat"
+#define WRAPC_STREAM_SIZE_OUT_layer18_out "../tv/stream_size/stream_size_out_layer18_out.dat"
+#define WRAPC_STREAM_EGRESS_STATUS_layer18_out "../tv/stream_size/stream_egress_status_layer18_out.dat"
 
 
 // tvout file define:
-#define AUTOTB_TVOUT_PC_layer17_out "../tv/rtldatafile/rtl.myproject.autotvout_layer17_out.dat"
+#define AUTOTB_TVOUT_PC_layer18_out "../tv/rtldatafile/rtl.myproject.autotvout_layer18_out.dat"
 
 
 namespace hls::sim
@@ -955,34 +955,34 @@ extern "C"
 void myproject_hw_stub_wrapper(void*, void*);
 
 extern "C"
-void apatb_myproject_hw(void* __xlx_apatb_param_input_1, void* __xlx_apatb_param_layer17_out)
+void apatb_myproject_hw(void* __xlx_apatb_param_q_conv2d_batchnorm_5_input, void* __xlx_apatb_param_layer18_out)
 {
   static hls::sim::Stream<hls::sim::Byte<1>> port0 {
     .width = 8,
-    .name = "input_1",
+    .name = "q_conv2d_batchnorm_5_input",
 #ifdef POST_CHECK
-    .reader = new hls::sim::Reader(WRAPC_STREAM_SIZE_IN_input_1),
+    .reader = new hls::sim::Reader(WRAPC_STREAM_SIZE_IN_q_conv2d_batchnorm_5_input),
 #else
-    .writer = new hls::sim::Writer(AUTOTB_TVIN_input_1),
-    .swriter = new hls::sim::Writer(WRAPC_STREAM_SIZE_IN_input_1),
-    .gwriter = new hls::sim::Writer(WRAPC_STREAM_INGRESS_STATUS_input_1),
+    .writer = new hls::sim::Writer(AUTOTB_TVIN_q_conv2d_batchnorm_5_input),
+    .swriter = new hls::sim::Writer(WRAPC_STREAM_SIZE_IN_q_conv2d_batchnorm_5_input),
+    .gwriter = new hls::sim::Writer(WRAPC_STREAM_INGRESS_STATUS_q_conv2d_batchnorm_5_input),
 #endif
   };
-  port0.param = (hls::stream<hls::sim::Byte<1>>*)__xlx_apatb_param_input_1;
+  port0.param = (hls::stream<hls::sim::Byte<1>>*)__xlx_apatb_param_q_conv2d_batchnorm_5_input;
   port0.hasWrite = false;
 
   static hls::sim::Stream<hls::sim::Byte<5>> port1 {
     .width = 40,
-    .name = "layer17_out",
+    .name = "layer18_out",
 #ifdef POST_CHECK
-    .reader = new hls::sim::Reader(AUTOTB_TVOUT_PC_layer17_out),
+    .reader = new hls::sim::Reader(AUTOTB_TVOUT_PC_layer18_out),
 #else
-    .writer = new hls::sim::Writer(AUTOTB_TVOUT_layer17_out),
-    .swriter = new hls::sim::Writer(WRAPC_STREAM_SIZE_OUT_layer17_out),
-    .gwriter = new hls::sim::Writer(WRAPC_STREAM_EGRESS_STATUS_layer17_out),
+    .writer = new hls::sim::Writer(AUTOTB_TVOUT_layer18_out),
+    .swriter = new hls::sim::Writer(WRAPC_STREAM_SIZE_OUT_layer18_out),
+    .gwriter = new hls::sim::Writer(WRAPC_STREAM_EGRESS_STATUS_layer18_out),
 #endif
   };
-  port1.param = (hls::stream<hls::sim::Byte<5>>*)__xlx_apatb_param_layer17_out;
+  port1.param = (hls::stream<hls::sim::Byte<5>>*)__xlx_apatb_param_layer18_out;
   port1.hasWrite = true;
 
   refine_signal_handler();
@@ -998,7 +998,7 @@ void apatb_myproject_hw(void* __xlx_apatb_param_input_1, void* __xlx_apatb_param
     port0.buffer();
     port1.markSize();
     CodeState = CALL_C_DUT;
-    myproject_hw_stub_wrapper(__xlx_apatb_param_input_1, __xlx_apatb_param_layer17_out);
+    myproject_hw_stub_wrapper(__xlx_apatb_param_q_conv2d_batchnorm_5_input, __xlx_apatb_param_layer18_out);
     port1.buffer();
     dump(port0, tcl.AESL_transaction);
     port0.doTCL(tcl);

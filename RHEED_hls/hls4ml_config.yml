@@ -1,0 +1,113 @@
+Backend: Vitis
+ClockPeriod: 5
+HLSConfig:
+  LayerName:
+    global_average_pooling2d_1:
+      Precision:
+        result: ap_fixed<8,2>
+      Trace: false
+    max_pooling2d_5:
+      Precision:
+        result: ap_fixed<8,2>
+      Trace: false
+    max_pooling2d_6:
+      Precision:
+        result: ap_fixed<8,2>
+      Trace: false
+    max_pooling2d_7:
+      Precision:
+        result: ap_fixed<8,2>
+      Trace: false
+    q_activation_10:
+      Precision:
+        result: ufixed<8,2,RND_CONV,SAT>
+      Trace: false
+    q_activation_11:
+      Precision:
+        result: ufixed<8,2,RND_CONV,SAT>
+      Trace: false
+    q_activation_8:
+      Precision:
+        result: ufixed<8,2,RND_CONV,SAT>
+      Trace: false
+    q_activation_9:
+      Precision:
+        result: ufixed<8,2,RND_CONV,SAT>
+      Trace: false
+    q_conv2d_batchnorm_5:
+      Precision:
+        bias: fixed<8,1>
+        result: ap_fixed<8,2>
+        weight: fixed<8,1>
+      ReuseFactor: 50
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_5_input:
+      Precision:
+        result: ap_fixed<8,2>
+      Trace: false
+    q_conv2d_batchnorm_5_linear:
+      Precision:
+        result: ap_fixed<8,2>
+      Trace: false
+    q_conv2d_batchnorm_6:
+      Precision:
+        bias: fixed<8,3>
+        result: ap_fixed<8,2>
+        weight: fixed<8,3>
+      ReuseFactor: 150
+      Strategy: Resource
+      Trace: false
+    q_conv2d_batchnorm_6_linear:
+      Precision:
+        result: ap_fixed<8,2>
+      Trace: false
+    q_conv2d_batchnorm_7:
+      Precision:
+        bias: fixed<8,3>
+        result: ap_fixed<8,2>
+        weight: fixed<8,3>
+      Trace: false
+    q_conv2d_batchnorm_7_linear:
+      Precision:
+        result: ap_fixed<8,2>
+      Trace: false
+    q_dense_5:
+      Precision:
+        bias: fixed<8,3>
+        result: ap_fixed<8,2>
+        weight: fixed<8,3>
+      ReuseFactor: 288
+      Strategy: Resource
+      Trace: false
+    q_dense_5_linear:
+      Precision:
+        result: ap_fixed<8,2>
+      Trace: false
+    q_dense_6:
+      Precision:
+        bias: fixed<8,3>
+        result: ap_fixed<8,2>
+        weight: fixed<8,3>
+      ReuseFactor: 98
+      Strategy: Resource
+      Trace: false
+    q_dense_6_linear:
+      Precision:
+        result: ap_fixed<8,2>
+      Trace: false
+  Model:
+    BramFactor: 1000000000
+    Precision: ap_fixed<8,2>
+    ReuseFactor: 1
+    Strategy: Latency
+    TraceOutput: false
+IOType: io_stream
+InputData: null
+KerasModel: !keras_model 'RHEED_hls/keras_model.h5'
+OutputDir: RHEED_hls
+OutputPredictions: null
+Part: xcku035-fbva676-2-e
+ProjectName: myproject
+Stamp: 6BeFBBD7
+Version: 1.0.0

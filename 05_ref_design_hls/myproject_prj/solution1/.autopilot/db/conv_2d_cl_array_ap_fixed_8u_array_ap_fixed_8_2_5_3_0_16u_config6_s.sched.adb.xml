@@ -1,0 +1,451 @@
+<stg><name>conv_2d_cl<array<ap_fixed,8u>,array<ap_fixed<8,2,5,3,0>,16u>,config6></name>
+
+
+<trans_list>
+
+<trans id="30" from="1" to="2">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="31" from="2" to="3">
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln51" val="0"/>
+</and_exp></or_exp>
+</condition>
+</trans>
+
+<trans id="33" from="3" to="2">
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+</trans>
+</trans_list>
+
+
+
+<state_list>
+
+<state id="1" st_id="1">
+
+<operation id="4" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="97" bw="7" op_0_bw="32">
+<![CDATA[
+entry:0 %indvar_flatten = alloca i32 1
+
+]]></Node>
+<StgValue><ssdm name="indvar_flatten"/></StgValue>
+</operation>
+
+<operation id="5" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="98" bw="0" op_0_bw="0" op_1_bw="128" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:1 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i128 %layer6_out, void @empty_1, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="6" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="99" bw="0" op_0_bw="0" op_1_bw="64" op_2_bw="0" op_3_bw="32" op_4_bw="32" op_5_bw="0" op_6_bw="32" op_7_bw="32" op_8_bw="0" op_9_bw="0" op_10_bw="0" op_11_bw="32" op_12_bw="32" op_13_bw="32" op_14_bw="32" op_15_bw="0" op_16_bw="0" op_17_bw="32" op_18_bw="32">
+<![CDATA[
+entry:2 %specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %layer5_out, void @empty_1, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0
+
+]]></Node>
+<StgValue><ssdm name="specinterface_ln0"/></StgValue>
+</operation>
+
+<operation id="7" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="100" bw="0" op_0_bw="7" op_1_bw="7">
+<![CDATA[
+entry:3 %store_ln51 = store i7 0, i7 %indvar_flatten
+
+]]></Node>
+<StgValue><ssdm name="store_ln51"/></StgValue>
+</operation>
+
+<operation id="8" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="101" bw="0" op_0_bw="0">
+<![CDATA[
+entry:4 %br_ln51 = br void %for.inc.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln51"/></StgValue>
+</operation>
+</state>
+
+<state id="2" st_id="2">
+
+<operation id="9" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="103" bw="7" op_0_bw="7" op_1_bw="0">
+<![CDATA[
+for.inc.i:0 %indvar_flatten_load = load i7 %indvar_flatten
+
+]]></Node>
+<StgValue><ssdm name="indvar_flatten_load"/></StgValue>
+</operation>
+
+<operation id="10" st_id="2" stage="1" lat="1">
+<core>Cmp</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="104" bw="1" op_0_bw="7" op_1_bw="7">
+<![CDATA[
+for.inc.i:1 %icmp_ln51 = icmp_eq  i7 %indvar_flatten_load, i7 121
+
+]]></Node>
+<StgValue><ssdm name="icmp_ln51"/></StgValue>
+</operation>
+
+<operation id="11" st_id="2" stage="1" lat="1">
+<core>Adder</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="105" bw="7" op_0_bw="7" op_1_bw="7">
+<![CDATA[
+for.inc.i:2 %add_ln51 = add i7 %indvar_flatten_load, i7 1
+
+]]></Node>
+<StgValue><ssdm name="add_ln51"/></StgValue>
+</operation>
+
+<operation id="12" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="106" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
+<![CDATA[
+for.inc.i:3 %br_ln51 = br i1 %icmp_ln51, void %for.inc13.i, void %_ZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EELj8EEENS1_IS5_Lj16EEE7config6EEvRN3hls6streamIT_Li0EEERNSA_IT0_Li0EEEPNT1_8weight_tEPNSH_6bias_tE.exit
+
+]]></Node>
+<StgValue><ssdm name="br_ln51"/></StgValue>
+</operation>
+
+<operation id="13" st_id="2" stage="1" lat="1">
+<core>FIFO</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln51" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="111" bw="64" op_0_bw="64" op_1_bw="64">
+<![CDATA[
+for.inc13.i:3 %layer5_out_read = read i64 @_ssdm_op_Read.ap_fifo.volatile.i64P0A, i64 %layer5_out
+
+]]></Node>
+<StgValue><ssdm name="layer5_out_read"/></StgValue>
+</operation>
+
+<operation id="14" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln51" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="112" bw="8" op_0_bw="64">
+<![CDATA[
+for.inc13.i:4 %trunc_ln57 = trunc i64 %layer5_out_read
+
+]]></Node>
+<StgValue><ssdm name="trunc_ln57"/></StgValue>
+</operation>
+
+<operation id="15" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln51" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="113" bw="8" op_0_bw="8" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<![CDATA[
+for.inc13.i:5 %trunc_ln57_6 = partselect i8 @_ssdm_op_PartSelect.i8.i64.i32.i32, i64 %layer5_out_read, i32 48, i32 55
+
+]]></Node>
+<StgValue><ssdm name="trunc_ln57_6"/></StgValue>
+</operation>
+
+<operation id="16" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln51" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="114" bw="8" op_0_bw="8" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<![CDATA[
+for.inc13.i:6 %trunc_ln57_7 = partselect i8 @_ssdm_op_PartSelect.i8.i64.i32.i32, i64 %layer5_out_read, i32 56, i32 63
+
+]]></Node>
+<StgValue><ssdm name="trunc_ln57_7"/></StgValue>
+</operation>
+
+<operation id="17" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln51" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="115" bw="8" op_0_bw="8" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<![CDATA[
+for.inc13.i:7 %ref_tmp_i_1 = partselect i8 @_ssdm_op_PartSelect.i8.i64.i32.i32, i64 %layer5_out_read, i32 8, i32 15
+
+]]></Node>
+<StgValue><ssdm name="ref_tmp_i_1"/></StgValue>
+</operation>
+
+<operation id="18" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln51" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="116" bw="8" op_0_bw="8" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<![CDATA[
+for.inc13.i:8 %ref_tmp_i_2 = partselect i8 @_ssdm_op_PartSelect.i8.i64.i32.i32, i64 %layer5_out_read, i32 16, i32 23
+
+]]></Node>
+<StgValue><ssdm name="ref_tmp_i_2"/></StgValue>
+</operation>
+
+<operation id="19" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln51" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="117" bw="8" op_0_bw="8" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<![CDATA[
+for.inc13.i:9 %ref_tmp_i_3 = partselect i8 @_ssdm_op_PartSelect.i8.i64.i32.i32, i64 %layer5_out_read, i32 24, i32 31
+
+]]></Node>
+<StgValue><ssdm name="ref_tmp_i_3"/></StgValue>
+</operation>
+
+<operation id="20" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln51" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="118" bw="8" op_0_bw="8" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<![CDATA[
+for.inc13.i:10 %ref_tmp_i_4 = partselect i8 @_ssdm_op_PartSelect.i8.i64.i32.i32, i64 %layer5_out_read, i32 32, i32 39
+
+]]></Node>
+<StgValue><ssdm name="ref_tmp_i_4"/></StgValue>
+</operation>
+
+<operation id="21" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln51" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="119" bw="8" op_0_bw="8" op_1_bw="64" op_2_bw="32" op_3_bw="32">
+<![CDATA[
+for.inc13.i:11 %ref_tmp_i_5 = partselect i8 @_ssdm_op_PartSelect.i8.i64.i32.i32, i64 %layer5_out_read, i32 40, i32 47
+
+]]></Node>
+<StgValue><ssdm name="ref_tmp_i_5"/></StgValue>
+</operation>
+
+<operation id="22" st_id="2" stage="2" lat="2">
+<core></core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln51" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="120" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="8" op_3_bw="8" op_4_bw="8" op_5_bw="8" op_6_bw="8" op_7_bw="8" op_8_bw="8" op_9_bw="128" op_10_bw="8" op_11_bw="8" op_12_bw="8" op_13_bw="8" op_14_bw="8" op_15_bw="8" op_16_bw="8" op_17_bw="8" op_18_bw="8" op_19_bw="8" op_20_bw="8" op_21_bw="8" op_22_bw="8" op_23_bw="8" op_24_bw="8" op_25_bw="8" op_26_bw="8" op_27_bw="8" op_28_bw="8" op_29_bw="8" op_30_bw="8" op_31_bw="8" op_32_bw="8" op_33_bw="8" op_34_bw="8" op_35_bw="8" op_36_bw="8" op_37_bw="8" op_38_bw="8" op_39_bw="8" op_40_bw="8" op_41_bw="8" op_42_bw="8" op_43_bw="8" op_44_bw="8" op_45_bw="8" op_46_bw="8" op_47_bw="8" op_48_bw="8" op_49_bw="8" op_50_bw="8" op_51_bw="8" op_52_bw="8" op_53_bw="8" op_54_bw="8" op_55_bw="8" op_56_bw="8" op_57_bw="8" op_58_bw="8" op_59_bw="8" op_60_bw="8" op_61_bw="8" op_62_bw="8" op_63_bw="8" op_64_bw="8" op_65_bw="8" op_66_bw="8" op_67_bw="8" op_68_bw="8" op_69_bw="8" op_70_bw="8" op_71_bw="8" op_72_bw="8" op_73_bw="8" op_74_bw="8" op_75_bw="8" op_76_bw="8" op_77_bw="8" op_78_bw="8" op_79_bw="8" op_80_bw="8" op_81_bw="8" op_82_bw="8" op_83_bw="8" op_84_bw="8" op_85_bw="8" op_86_bw="8" op_87_bw="8" op_88_bw="8" op_89_bw="8" op_90_bw="8" op_91_bw="8" op_92_bw="8" op_93_bw="8" op_94_bw="8" op_95_bw="8" op_96_bw="8" op_97_bw="8" op_98_bw="32" op_99_bw="32" op_100_bw="32" op_101_bw="32" op_102_bw="1" op_103_bw="7">
+<![CDATA[
+for.inc13.i:12 %call_ln57 = call void @compute_output_buffer_2d<array,array<ap_fixed<8,2,5,3,0>,16u>,config6>, i8 %trunc_ln57, i8 %ref_tmp_i_1, i8 %ref_tmp_i_2, i8 %ref_tmp_i_3, i8 %ref_tmp_i_4, i8 %ref_tmp_i_5, i8 %trunc_ln57_6, i8 %trunc_ln57_7, i128 %layer6_out, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_1, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_9, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_8, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_61, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_7, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_60, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_6, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_59, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_5, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_58, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_4, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_57, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_3, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_56, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_2, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_39, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_47, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_38, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_46, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_37, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_45, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_36, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_44, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_35, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_43, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_34, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_42, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_33, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_41, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_32, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_40, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_15, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_23, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_14, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_22, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_13, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_21, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_12, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_20, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_11, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_19, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_10, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_18, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_9, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_17, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_8, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_16, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_55, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_54, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_53, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_52, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_51, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_50, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_49, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_48, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_31, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_30, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_29, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_28, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_27, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_26, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_25, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_24, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_7, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_6, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_5, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_4, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_3, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_2, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_1, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_15, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_7, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_14, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_6, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_13, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_5, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_12, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_4, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_11, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_3, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_10, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_2, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_9, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_1, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_8, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL, i32 %sX_3, i32 %sY_3, i32 %pY_3, i32 %pX_3, i1 %outidx_2, i7 %w6_V
+
+]]></Node>
+<StgValue><ssdm name="call_ln57"/></StgValue>
+</operation>
+
+<operation id="23" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln51" val="0"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="121" bw="0" op_0_bw="7" op_1_bw="7" op_2_bw="0" op_3_bw="0">
+<![CDATA[
+for.inc13.i:13 %store_ln53 = store i7 %add_ln51, i7 %indvar_flatten
+
+]]></Node>
+<StgValue><ssdm name="store_ln53"/></StgValue>
+</operation>
+
+<operation id="24" st_id="2" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp><literal name="icmp_ln51" val="1"/>
+</and_exp></or_exp>
+</condition>
+
+<Node id="124" bw="0">
+<![CDATA[
+_ZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9ap_o_mode3ELi0EELj8EEENS1_IS5_Lj16EEE7config6EEvRN3hls6streamIT_Li0EEERNSA_IT0_Li0EEEPNT1_8weight_tEPNSH_6bias_tE.exit:0 %ret_ln79 = ret
+
+]]></Node>
+<StgValue><ssdm name="ret_ln79"/></StgValue>
+</operation>
+</state>
+
+<state id="3" st_id="3">
+
+<operation id="25" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="108" bw="0" op_0_bw="0" op_1_bw="0">
+<![CDATA[
+for.inc13.i:0 %specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @ReadInputHeight_ReadInputWidth_str
+
+]]></Node>
+<StgValue><ssdm name="specloopname_ln0"/></StgValue>
+</operation>
+
+<operation id="26" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="109" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
+<![CDATA[
+for.inc13.i:1 %empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 121, i64 121, i64 121
+
+]]></Node>
+<StgValue><ssdm name="empty"/></StgValue>
+</operation>
+
+<operation id="27" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="110" bw="0" op_0_bw="0" op_1_bw="0">
+<![CDATA[
+for.inc13.i:2 %specloopname_ln53 = specloopname void @_ssdm_op_SpecLoopName, void @empty_5
+
+]]></Node>
+<StgValue><ssdm name="specloopname_ln53"/></StgValue>
+</operation>
+
+<operation id="28" st_id="3" stage="1" lat="2">
+<core></core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="120" bw="0" op_0_bw="0" op_1_bw="8" op_2_bw="8" op_3_bw="8" op_4_bw="8" op_5_bw="8" op_6_bw="8" op_7_bw="8" op_8_bw="8" op_9_bw="128" op_10_bw="8" op_11_bw="8" op_12_bw="8" op_13_bw="8" op_14_bw="8" op_15_bw="8" op_16_bw="8" op_17_bw="8" op_18_bw="8" op_19_bw="8" op_20_bw="8" op_21_bw="8" op_22_bw="8" op_23_bw="8" op_24_bw="8" op_25_bw="8" op_26_bw="8" op_27_bw="8" op_28_bw="8" op_29_bw="8" op_30_bw="8" op_31_bw="8" op_32_bw="8" op_33_bw="8" op_34_bw="8" op_35_bw="8" op_36_bw="8" op_37_bw="8" op_38_bw="8" op_39_bw="8" op_40_bw="8" op_41_bw="8" op_42_bw="8" op_43_bw="8" op_44_bw="8" op_45_bw="8" op_46_bw="8" op_47_bw="8" op_48_bw="8" op_49_bw="8" op_50_bw="8" op_51_bw="8" op_52_bw="8" op_53_bw="8" op_54_bw="8" op_55_bw="8" op_56_bw="8" op_57_bw="8" op_58_bw="8" op_59_bw="8" op_60_bw="8" op_61_bw="8" op_62_bw="8" op_63_bw="8" op_64_bw="8" op_65_bw="8" op_66_bw="8" op_67_bw="8" op_68_bw="8" op_69_bw="8" op_70_bw="8" op_71_bw="8" op_72_bw="8" op_73_bw="8" op_74_bw="8" op_75_bw="8" op_76_bw="8" op_77_bw="8" op_78_bw="8" op_79_bw="8" op_80_bw="8" op_81_bw="8" op_82_bw="8" op_83_bw="8" op_84_bw="8" op_85_bw="8" op_86_bw="8" op_87_bw="8" op_88_bw="8" op_89_bw="8" op_90_bw="8" op_91_bw="8" op_92_bw="8" op_93_bw="8" op_94_bw="8" op_95_bw="8" op_96_bw="8" op_97_bw="8" op_98_bw="32" op_99_bw="32" op_100_bw="32" op_101_bw="32" op_102_bw="1" op_103_bw="7">
+<![CDATA[
+for.inc13.i:12 %call_ln57 = call void @compute_output_buffer_2d<array,array<ap_fixed<8,2,5,3,0>,16u>,config6>, i8 %trunc_ln57, i8 %ref_tmp_i_1, i8 %ref_tmp_i_2, i8 %ref_tmp_i_3, i8 %ref_tmp_i_4, i8 %ref_tmp_i_5, i8 %trunc_ln57_6, i8 %trunc_ln57_7, i128 %layer6_out, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_1, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_9, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_8, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_61, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_7, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_60, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_6, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_59, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_5, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_58, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_4, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_57, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_3, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_56, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_2, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_39, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_47, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_38, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_46, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_37, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_45, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_36, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_44, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_35, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_43, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_34, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_42, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_33, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_41, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_32, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_40, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_15, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_23, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_14, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_22, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_13, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_21, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_12, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_20, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_11, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_19, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_10, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_18, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_9, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_17, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_8, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_16, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_55, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_54, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_53, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_52, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_51, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_50, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_49, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_48, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_31, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_30, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_29, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_28, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_27, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_26, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_25, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_24, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_7, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_6, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_5, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_4, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_3, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_2, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_1, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_15, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_7, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_14, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_6, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_13, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_5, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_12, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_4, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_11, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_3, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_10, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_2, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_9, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_1, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL_8, i8 %p_ZZN4nnet26conv_2d_buffer_resource_clINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL, i32 %sX_3, i32 %sY_3, i32 %pY_3, i32 %pX_3, i1 %outidx_2, i7 %w6_V
+
+]]></Node>
+<StgValue><ssdm name="call_ln57"/></StgValue>
+</operation>
+
+<operation id="29" st_id="3" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="122" bw="0" op_0_bw="0">
+<![CDATA[
+for.inc13.i:14 %br_ln53 = br void %for.inc.i
+
+]]></Node>
+<StgValue><ssdm name="br_ln53"/></StgValue>
+</operation>
+</state>
+</state_list>
+
+
+<ports>
+</ports>
+
+
+<dataflows>
+</dataflows>
+
+
+</stg>

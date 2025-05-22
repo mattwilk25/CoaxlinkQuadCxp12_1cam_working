@@ -17,9 +17,9 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="27" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="32" op_4_bw="32" op_5_bw="0">
+<Node id="11" bw="0" op_0_bw="0" op_1_bw="32" op_2_bw="32" op_3_bw="32" op_4_bw="32" op_5_bw="0">
 <![CDATA[
-entry:0 %specpipeline_ln233 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_1
+entry:0 %specpipeline_ln233 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 0, i32 0, void @empty_0
 
 ]]></Node>
 <StgValue><ssdm name="specpipeline_ln233"/></StgValue>
@@ -32,12 +32,12 @@ entry:0 %specpipeline_ln233 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="28" bw="8" op_0_bw="8" op_1_bw="8">
+<Node id="12" bw="8" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-entry:1 %p_read24 = read i8 @_ssdm_op_Read.ap_auto.i8, i8 %p_read
+entry:1 %p_read_9 = read i8 @_ssdm_op_Read.ap_auto.i8, i8 %p_read
 
 ]]></Node>
-<StgValue><ssdm name="p_read24"/></StgValue>
+<StgValue><ssdm name="p_read_9"/></StgValue>
 </operation>
 
 <operation id="4" st_id="1" stage="1" lat="1">
@@ -47,12 +47,12 @@ entry:1 %p_read24 = read i8 @_ssdm_op_Read.ap_auto.i8, i8 %p_read
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="29" bw="8" op_0_bw="8" op_1_bw="8" op_2_bw="8" op_3_bw="1">
+<Node id="13" bw="8" op_0_bw="8" op_1_bw="8" op_2_bw="8" op_3_bw="1">
 <![CDATA[
-entry:2 %p_020_0_0_i = memshiftread i8 @_ssdm_op_MemShiftRead.[48 x i8]P0A, i8 47, i8 %p_read24, i1 1
+entry:2 %p_06_0_0_i = memshiftread i8 @_ssdm_op_MemShiftRead.[48 x i8]P0A, i8 47, i8 %p_read_9, i1 1
 
 ]]></Node>
-<StgValue><ssdm name="p_020_0_0_i"/></StgValue>
+<StgValue><ssdm name="p_06_0_0_i"/></StgValue>
 </operation>
 
 <operation id="5" st_id="1" stage="1" lat="1">
@@ -62,42 +62,42 @@ entry:2 %p_020_0_0_i = memshiftread i8 @_ssdm_op_MemShiftRead.[48 x i8]P0A, i8 4
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="30" bw="8" op_0_bw="8" op_1_bw="8" op_2_bw="8" op_3_bw="1">
+<Node id="14" bw="8" op_0_bw="8" op_1_bw="8" op_2_bw="8" op_3_bw="1">
 <![CDATA[
-entry:3 %p_018_0_0_i = memshiftread i8 @_ssdm_op_MemShiftRead.[48 x i8]P0A, i8 47, i8 %p_020_0_0_i, i1 1
-
-]]></Node>
-<StgValue><ssdm name="p_018_0_0_i"/></StgValue>
-</operation>
-
-<operation id="6" st_id="1" stage="1" lat="1">
-<core>ShiftReg</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="31" bw="8" op_0_bw="8" op_1_bw="8" op_2_bw="8" op_3_bw="1">
-<![CDATA[
-entry:4 %p_016_0_0_i = memshiftread i8 @_ssdm_op_MemShiftRead.[48 x i8]P0A, i8 47, i8 %p_018_0_0_i, i1 1
-
-]]></Node>
-<StgValue><ssdm name="p_016_0_0_i"/></StgValue>
-</operation>
-
-<operation id="7" st_id="1" stage="1" lat="1">
-<core>ShiftReg</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="32" bw="8" op_0_bw="8" op_1_bw="8" op_2_bw="8" op_3_bw="1">
-<![CDATA[
-entry:5 %DataOut_V_i = memshiftread i8 @_ssdm_op_MemShiftRead.[48 x i8]P0A, i8 47, i8 %p_016_0_0_i, i1 1
+entry:3 %DataOut_V_i = memshiftread i8 @_ssdm_op_MemShiftRead.[48 x i8]P0A, i8 47, i8 %p_06_0_0_i, i1 1
 
 ]]></Node>
 <StgValue><ssdm name="DataOut_V_i"/></StgValue>
+</operation>
+
+<operation id="6" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="15" bw="8" op_0_bw="8">
+<![CDATA[
+entry:4 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_31 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17
+
+]]></Node>
+<StgValue><ssdm name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_31"/></StgValue>
+</operation>
+
+<operation id="7" st_id="1" stage="1" lat="1">
+<core>NULL</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="16" bw="0" op_0_bw="8" op_1_bw="8">
+<![CDATA[
+entry:5 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_31, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18
+
+]]></Node>
+<StgValue><ssdm name="store_ln201"/></StgValue>
 </operation>
 
 <operation id="8" st_id="1" stage="1" lat="1">
@@ -107,12 +107,12 @@ entry:5 %DataOut_V_i = memshiftread i8 @_ssdm_op_MemShiftRead.[48 x i8]P0A, i8 4
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="33" bw="8" op_0_bw="8">
+<Node id="17" bw="8" op_0_bw="8">
 <![CDATA[
-entry:6 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18
+entry:6 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_32 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_14
 
 ]]></Node>
-<StgValue><ssdm name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24"/></StgValue>
+<StgValue><ssdm name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_32"/></StgValue>
 </operation>
 
 <operation id="9" st_id="1" stage="1" lat="1">
@@ -122,9 +122,9 @@ entry:6 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_we
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="34" bw="0" op_0_bw="8" op_1_bw="8">
+<Node id="18" bw="0" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-entry:7 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_24, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_19
+entry:7 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_32, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15
 
 ]]></Node>
 <StgValue><ssdm name="store_ln201"/></StgValue>
@@ -137,12 +137,12 @@ entry:7 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_sh
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="35" bw="8" op_0_bw="8">
+<Node id="19" bw="8" op_0_bw="8">
 <![CDATA[
-entry:8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_13
+entry:8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_33 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_11
 
 ]]></Node>
-<StgValue><ssdm name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25"/></StgValue>
+<StgValue><ssdm name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_33"/></StgValue>
 </operation>
 
 <operation id="11" st_id="1" stage="1" lat="1">
@@ -152,9 +152,9 @@ entry:8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_we
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="36" bw="0" op_0_bw="8" op_1_bw="8">
+<Node id="20" bw="0" op_0_bw="8" op_1_bw="8">
 <![CDATA[
-entry:9 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_25, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_14
+entry:9 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_33, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_12
 
 ]]></Node>
 <StgValue><ssdm name="store_ln201"/></StgValue>
@@ -167,12 +167,12 @@ entry:9 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_sh
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="37" bw="8" op_0_bw="8">
+<Node id="21" bw="8" op_0_bw="8">
 <![CDATA[
-entry:10 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_325 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_155
+entry:10 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_34 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16
 
 ]]></Node>
-<StgValue><ssdm name="p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_325"/></StgValue>
+<StgValue><ssdm name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_34"/></StgValue>
 </operation>
 
 <operation id="13" st_id="1" stage="1" lat="1">
@@ -182,9 +182,9 @@ entry:10 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="38" bw="0" op_0_bw="8" op_1_bw="8">
+<Node id="22" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
 <![CDATA[
-entry:11 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_325, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_154
+entry:11 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_34, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17
 
 ]]></Node>
 <StgValue><ssdm name="store_ln201"/></StgValue>
@@ -197,12 +197,12 @@ entry:11 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5array
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="39" bw="8" op_0_bw="8">
+<Node id="23" bw="8" op_0_bw="8">
 <![CDATA[
-entry:12 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_326 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_160
+entry:12 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_35 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_13
 
 ]]></Node>
-<StgValue><ssdm name="p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_326"/></StgValue>
+<StgValue><ssdm name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_35"/></StgValue>
 </operation>
 
 <operation id="15" st_id="1" stage="1" lat="1">
@@ -212,9 +212,9 @@ entry:12 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="40" bw="0" op_0_bw="8" op_1_bw="8">
+<Node id="24" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
 <![CDATA[
-entry:13 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_326, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_159
+entry:13 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_35, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_14
 
 ]]></Node>
 <StgValue><ssdm name="store_ln201"/></StgValue>
@@ -227,12 +227,12 @@ entry:13 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5array
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="41" bw="8" op_0_bw="8">
+<Node id="25" bw="8" op_0_bw="8">
 <![CDATA[
-entry:14 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_327 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_165
+entry:14 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_10
 
 ]]></Node>
-<StgValue><ssdm name="p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_327"/></StgValue>
+<StgValue><ssdm name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36"/></StgValue>
 </operation>
 
 <operation id="17" st_id="1" stage="1" lat="1">
@@ -242,9 +242,9 @@ entry:14 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="42" bw="0" op_0_bw="8" op_1_bw="8">
+<Node id="26" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
 <![CDATA[
-entry:15 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_327, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_164
+entry:15 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_36, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_11
 
 ]]></Node>
 <StgValue><ssdm name="store_ln201"/></StgValue>
@@ -257,12 +257,12 @@ entry:15 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5array
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="43" bw="8" op_0_bw="8">
+<Node id="27" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
 <![CDATA[
-entry:16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17
+entry:16 %store_ln214 = store i8 %DataOut_V_i, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16
 
 ]]></Node>
-<StgValue><ssdm name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26"/></StgValue>
+<StgValue><ssdm name="store_ln214"/></StgValue>
 </operation>
 
 <operation id="19" st_id="1" stage="1" lat="1">
@@ -272,12 +272,12 @@ entry:16 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_w
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="44" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
+<Node id="28" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
 <![CDATA[
-entry:17 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_26, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_18
+entry:17 %store_ln214 = store i8 %p_06_0_0_i, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_13
 
 ]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
+<StgValue><ssdm name="store_ln214"/></StgValue>
 </operation>
 
 <operation id="20" st_id="1" stage="1" lat="1">
@@ -287,12 +287,12 @@ entry:17 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_s
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="45" bw="8" op_0_bw="8">
+<Node id="29" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
 <![CDATA[
-entry:18 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_12
+entry:18 %store_ln214 = store i8 %p_read_9, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_10
 
 ]]></Node>
-<StgValue><ssdm name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27"/></StgValue>
+<StgValue><ssdm name="store_ln214"/></StgValue>
 </operation>
 
 <operation id="21" st_id="1" stage="1" lat="1">
@@ -302,489 +302,9 @@ entry:18 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_w
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="46" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
+<Node id="30" bw="0">
 <![CDATA[
-entry:19 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_27, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_13
-
-]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
-</operation>
-
-<operation id="22" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="47" bw="8" op_0_bw="8">
-<![CDATA[
-entry:20 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_328 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_156
-
-]]></Node>
-<StgValue><ssdm name="p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_328"/></StgValue>
-</operation>
-
-<operation id="23" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="48" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:21 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_328, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_155
-
-]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
-</operation>
-
-<operation id="24" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="49" bw="8" op_0_bw="8">
-<![CDATA[
-entry:22 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_329 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_161
-
-]]></Node>
-<StgValue><ssdm name="p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_329"/></StgValue>
-</operation>
-
-<operation id="25" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="50" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:23 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_329, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_160
-
-]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
-</operation>
-
-<operation id="26" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="51" bw="8" op_0_bw="8">
-<![CDATA[
-entry:24 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_330 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_166
-
-]]></Node>
-<StgValue><ssdm name="p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_330"/></StgValue>
-</operation>
-
-<operation id="27" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="52" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:25 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_330, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_165
-
-]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
-</operation>
-
-<operation id="28" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="53" bw="8" op_0_bw="8">
-<![CDATA[
-entry:26 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16
-
-]]></Node>
-<StgValue><ssdm name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28"/></StgValue>
-</operation>
-
-<operation id="29" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="54" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:27 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_28, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_17
-
-]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
-</operation>
-
-<operation id="30" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="55" bw="8" op_0_bw="8">
-<![CDATA[
-entry:28 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_11
-
-]]></Node>
-<StgValue><ssdm name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29"/></StgValue>
-</operation>
-
-<operation id="31" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="56" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:29 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_29, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_12
-
-]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
-</operation>
-
-<operation id="32" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="57" bw="8" op_0_bw="8">
-<![CDATA[
-entry:30 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_331 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_157
-
-]]></Node>
-<StgValue><ssdm name="p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_331"/></StgValue>
-</operation>
-
-<operation id="33" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="58" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:31 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_331, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_156
-
-]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
-</operation>
-
-<operation id="34" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="59" bw="8" op_0_bw="8">
-<![CDATA[
-entry:32 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_332 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_162
-
-]]></Node>
-<StgValue><ssdm name="p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_332"/></StgValue>
-</operation>
-
-<operation id="35" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="60" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:33 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_332, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_161
-
-]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
-</operation>
-
-<operation id="36" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="61" bw="8" op_0_bw="8">
-<![CDATA[
-entry:34 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_333 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_167
-
-]]></Node>
-<StgValue><ssdm name="p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_333"/></StgValue>
-</operation>
-
-<operation id="37" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="62" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:35 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_333, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_166
-
-]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
-</operation>
-
-<operation id="38" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="63" bw="8" op_0_bw="8">
-<![CDATA[
-entry:36 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_30 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15
-
-]]></Node>
-<StgValue><ssdm name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_30"/></StgValue>
-</operation>
-
-<operation id="39" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="64" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:37 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_30, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_16
-
-]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
-</operation>
-
-<operation id="40" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="65" bw="8" op_0_bw="8">
-<![CDATA[
-entry:38 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_31 = load i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_10
-
-]]></Node>
-<StgValue><ssdm name="void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_31"/></StgValue>
-</operation>
-
-<operation id="41" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="66" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:39 %store_ln201 = store i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_31, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_11
-
-]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
-</operation>
-
-<operation id="42" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="67" bw="8" op_0_bw="8">
-<![CDATA[
-entry:40 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_334 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_158
-
-]]></Node>
-<StgValue><ssdm name="p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_334"/></StgValue>
-</operation>
-
-<operation id="43" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="68" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:41 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_334, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_157
-
-]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
-</operation>
-
-<operation id="44" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="69" bw="8" op_0_bw="8">
-<![CDATA[
-entry:42 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_335 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_163
-
-]]></Node>
-<StgValue><ssdm name="p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_335"/></StgValue>
-</operation>
-
-<operation id="45" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="70" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:43 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_335, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_162
-
-]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
-</operation>
-
-<operation id="46" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="71" bw="8" op_0_bw="8">
-<![CDATA[
-entry:44 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_336 = load i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_168
-
-]]></Node>
-<StgValue><ssdm name="p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_336"/></StgValue>
-</operation>
-
-<operation id="47" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="72" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:45 %store_ln201 = store i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_336, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_167
-
-]]></Node>
-<StgValue><ssdm name="store_ln201"/></StgValue>
-</operation>
-
-<operation id="48" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="73" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:46 %store_ln214 = store i8 %DataOut_V_i, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_15
-
-]]></Node>
-<StgValue><ssdm name="store_ln214"/></StgValue>
-</operation>
-
-<operation id="49" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="74" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:47 %store_ln214 = store i8 %p_016_0_0_i, i8 %void_compute_output_buffer_2d_array_const_ap_shift_reg_n_chan_stream_weig_10
-
-]]></Node>
-<StgValue><ssdm name="store_ln214"/></StgValue>
-</operation>
-
-<operation id="50" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="75" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:48 %store_ln214 = store i8 %p_018_0_0_i, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_158
-
-]]></Node>
-<StgValue><ssdm name="store_ln214"/></StgValue>
-</operation>
-
-<operation id="51" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="76" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:49 %store_ln214 = store i8 %p_020_0_0_i, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_163
-
-]]></Node>
-<StgValue><ssdm name="store_ln214"/></StgValue>
-</operation>
-
-<operation id="52" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="77" bw="0" op_0_bw="8" op_1_bw="8" op_2_bw="0">
-<![CDATA[
-entry:50 %store_ln214 = store i8 %p_read24, i8 %p_ZZN4nnet24compute_output_buffer_2dINS_5arrayI8ap_fixedILi8ELi2EL9ap_q_mode5EL9a_168
-
-]]></Node>
-<StgValue><ssdm name="store_ln214"/></StgValue>
-</operation>
-
-<operation id="53" st_id="1" stage="1" lat="1">
-<core>NULL</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="78" bw="0">
-<![CDATA[
-entry:51 %ret_ln233 = ret
+entry:19 %ret_ln233 = ret
 
 ]]></Node>
 <StgValue><ssdm name="ret_ln233"/></StgValue>

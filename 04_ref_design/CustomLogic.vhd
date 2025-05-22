@@ -1,4 +1,3 @@
-
 --------------------------------------------------------------------------------
 -- Project: CustomLogic
 --------------------------------------------------------------------------------
@@ -28,7 +27,7 @@ use ieee.std_logic_textio.all;
 
 entity CustomLogic is
 	generic (
-		STREAM_DATA_WIDTH			: natural := 128;
+		STREAM_DATA_WIDTH			: natural := 256;
 	    MEMORY_DATA_WIDTH			: natural := 128
 	);
     port (
@@ -74,17 +73,17 @@ entity CustomLogic is
 		m_axi_bvalid 				: in  std_logic;
 		m_axi_bready 				: out std_logic;
 		m_axi_araddr 				: out std_logic_vector( 31 downto 0);
-		m_axi_arlen 				: out std_logic_vector(  7 downto 0);
-		m_axi_arsize 				: out std_logic_vector(  2 downto 0);
-		m_axi_arburst 				: out std_logic_vector(  1 downto 0);
+		m_axi_arlen 				: out std_logic_vector( 7 downto 0);
+		m_axi_arsize 				: out std_logic_vector( 2 downto 0);
+		m_axi_arburst 				: out std_logic_vector( 1 downto 0);
 		m_axi_arlock 				: out std_logic;
-		m_axi_arcache 				: out std_logic_vector(  3 downto 0);
-		m_axi_arprot 				: out std_logic_vector(  2 downto 0);
-		m_axi_arqos 				: out std_logic_vector(  3 downto 0);
+		m_axi_arcache 				: out std_logic_vector( 3 downto 0);
+		m_axi_arprot 				: out std_logic_vector( 2 downto 0);
+		m_axi_arqos 				: out std_logic_vector( 3 downto 0);
 		m_axi_arvalid 				: out std_logic;
 		m_axi_arready 				: in  std_logic;
 		m_axi_rdata 				: in  std_logic_vector(MEMORY_DATA_WIDTH - 1 downto 0);
-		m_axi_rresp 				: in  std_logic_vector(  1 downto 0);
+		m_axi_rresp 				: in  std_logic_vector( 1 downto 0);
 		m_axi_rlast 				: in  std_logic;
 		m_axi_rvalid 				: in  std_logic;
 		m_axi_rready 				: out std_logic;	
@@ -94,7 +93,7 @@ entity CustomLogic is
 		s_axis_tvalid				: in  std_logic;
 		s_axis_tready				: out std_logic;
 		s_axis_tdata				: in  std_logic_vector(STREAM_DATA_WIDTH - 1 downto 0);
-		s_axis_tuser				: in  std_logic_vector(  3 downto 0);
+		s_axis_tuser				: in  std_logic_vector( 3 downto 0);
 		-- Metadata Slave Interface
 		s_mdata_StreamId			: in  std_logic_vector( 7 downto 0);
 		s_mdata_SourceTag			: in  std_logic_vector(15 downto 0);
@@ -113,7 +112,7 @@ entity CustomLogic is
 		m_axis_tvalid				: out std_logic;
 		m_axis_tready				: in  std_logic;
 		m_axis_tdata				: out std_logic_vector(STREAM_DATA_WIDTH - 1 downto 0);
-		m_axis_tuser				: out std_logic_vector(  3 downto 0);
+		m_axis_tuser				: out std_logic_vector( 3 downto 0);
 		-- Metadata Master Interface
 		m_mdata_StreamId			: out std_logic_vector( 7 downto 0);
 		m_mdata_SourceTag			: out std_logic_vector(15 downto 0);
@@ -146,15 +145,13 @@ architecture behav of CustomLogic is
 	constant OUT_ROWS : integer := 48;
 	constant OUT_COLS : integer := 48;
 	-- Crop-coordinates constant for now
-	constant CROP_Y0_CONST : integer := 52;
-	constant CROP_X0_CONST : integer := 112;
-
+	constant CROP_Y0_CONST : integer := 2;
+	constant CROP_X0_CONST : integer := 50;
 
 	----------------------------------------------------------------------------
 	-- Types
 	----------------------------------------------------------------------------
-	type mem_array is array (0 to OUT_ROWS*OUT_COLS-1) of std_logic_vector(PIXEL_BIT_WIDTH-1 downto 0);
-
+	type mem_array is array (0 to 4) of std_logic_vector(7 downto 0); -- For 5 8-bit predictions
 
 	----------------------------------------------------------------------------
 	-- Functions
@@ -175,7 +172,6 @@ architecture behav of CustomLogic is
 	-- Components
 	----------------------------------------------------------------------------
 
-
 	----------------------------------------------------------------------------
 	-- Signals
 	----------------------------------------------------------------------------
@@ -188,7 +184,7 @@ architecture behav of CustomLogic is
 
 	-- Master-side handshake
 	signal rheed_m_axis_tvalid : std_logic;
-	signal rheed_m_axis_tdata : std_logic_vector(PIXEL_BIT_WIDTH-1 downto 0);
+	signal rheed_m_axis_tdata : std_logic_vector(39 downto 0); -- Updated to 40 bits
 
 	-- Custom downstream tready signal for randomized testbenching
 	signal tb_s_axis_tready : std_logic;
@@ -197,26 +193,10 @@ architecture behav of CustomLogic is
   	signal crop_x0   : std_logic_vector(clog2(IN_COLS)-1 downto 0);
 	signal crop_y0   : std_logic_vector(clog2(IN_ROWS)-1 downto 0);
 
-	--------- For testbenching ---------
-	-- synthesis translate_off
-
-	-- For random-bit generator (drives downstream tready)
+	-- For testbenching
 	signal lfsr_16bit_out : std_logic_vector(15 downto 0);
-
-	-- Memory for output and benchmark-output
 	signal idx_out : integer := 0;
-	signal out_mem          : mem_array;
-    signal out_benchmark_mem: mem_array;
-	constant OUT_BENCHMARK_FILE    : string  := "/home/aelabd/RHEED/CoaxlinkQuadCxp12_1cam/tb_data_Mono8/" 
-											& integer'image(IN_ROWS) & "x" & integer'image(IN_COLS) 
-											& "_to_" & integer'image(OUT_ROWS) & "x" & integer'image(OUT_COLS) 
-											& "x1/Y1_" & integer'image(CROP_Y0_CONST) &"/X1_" & integer'image(CROP_X0_CONST) 
-											-- & "/img_postcrop_INDEX.txt";	
-											& "/img_postnorm_INDEX.txt";
-
-	signal out_diff : integer; -- to compare output and benchmark output
-
-	-- synthesis translate_on
+	signal out_mem : mem_array;
 
 	----------------------------------------------------------------------------
 	-- Debug
@@ -231,60 +211,42 @@ architecture behav of CustomLogic is
 	-- FPGAs for RHEED
 	----------------------------------------------------------------------------
 
-	-------------------------------- Parameters --------------------------------
-
-	
-	-------------------------------- RHEED_inference wires --------------------------------
-
-	
-
-	-------------------------------- Testbenching wires --------------------------------
-	
-	
-
 begin
 
-	-- Bypass these connections for now. 
-	m_axis_tdata <= s_axis_tdata;
-	m_axis_tuser <= s_axis_tuser;
-	m_axis_tvalid <= '1';
-
-	-- Instantiate RHEED_inference module
-	reset_rheed <= (not s_axis_resetn) or srst250;
-	s_axis_tready <= rheed_s_axis_tready; -- For clarity's sake
-	iRHEED : entity work.RHEED_inference
-	generic map (
-		PIXEL_BIT_WIDTH => PIXEL_BIT_WIDTH,
-    	IN_ROWS 		=> IN_ROWS, 
-    	IN_COLS         => IN_COLS,
-    	OUT_ROWS        => OUT_ROWS,
-    	OUT_COLS        => OUT_COLS
-	)
-	port map(
-      clk => clk250, 
-      reset => reset_rheed,
-
-	  ap_start => s_axis_tuser(0),
-
-	  crop_x0 => crop_x0,
-	  crop_y0 => crop_y0,
-	  
-      s_axis_tvalid => s_axis_tvalid,
-      s_axis_tready => rheed_s_axis_tready,
-      s_axis_tdata => s_axis_tdata,
-
-	  m_axis_tvalid => rheed_m_axis_tvalid,
-	  m_axis_tready => tb_s_axis_tready,
-	  m_axis_tdata => rheed_m_axis_tdata
+	-- Connect AXI Stream Master Interface to RHEED_inference outputs
+    m_axis_tdata <= (255 downto 40 => '0') & rheed_m_axis_tdata; -- Pad 40-bit data to 128 bits
+    m_axis_tuser <= s_axis_tuser; -- Pass-through, assuming no modification
+    m_axis_tvalid <= rheed_m_axis_tvalid; -- Use RHEED_inference valid signal
+    
+    -- Instantiate RHEED_inference module
+    reset_rheed <= (not s_axis_resetn) or srst250;
+    s_axis_tready <= rheed_s_axis_tready; -- For clarity's sake
+    iRHEED : entity work.RHEED_inference
+    generic map (
+        PIXEL_BIT_WIDTH => PIXEL_BIT_WIDTH,
+        IN_ROWS         => IN_ROWS, 
+        IN_COLS         => IN_COLS,
+        OUT_ROWS        => OUT_ROWS,
+        OUT_COLS        => OUT_COLS
+    )
+    port map (
+        clk             => clk250, 
+        reset           => reset_rheed,
+        ap_start        => s_axis_tuser(0),
+        crop_x0         => crop_x0,
+        crop_y0         => crop_y0,
+        s_axis_tvalid   => s_axis_tvalid,
+        s_axis_tready   => rheed_s_axis_tready,
+        s_axis_tdata    => s_axis_tdata,
+        m_axis_tvalid   => rheed_m_axis_tvalid,
+        m_axis_tready   => m_axis_tready, -- Corrected to use m_axis_tready
+        m_axis_tdata    => rheed_m_axis_tdata
     );
 
-
 	--------- For testbenching ---------
-
 	-- synthesis translate_off
 
 	-- Drive downstream tready
-	-- tb_s_axis_tready <= '1';
 	iRBG: entity work.lfsr_16bit
 	port map (
 		clk => clk250,
@@ -293,63 +255,61 @@ begin
 	);
 	tb_s_axis_tready <= lfsr_16bit_out(0);
 
-	-- Drive crop-coordiantes
+	-- Drive crop-coordinates
 	crop_y0 <= std_logic_vector(to_unsigned(CROP_Y0_CONST, clog2(IN_ROWS)));
 	crop_x0 <= std_logic_vector(to_unsigned(CROP_X0_CONST, clog2(IN_COLS)));
 
-	-- Read benchmark file into memory
-	load_cn_benchmark: process
-        file file_handle       : text;
-        variable line_content  : line;
-        variable temp_vector   : std_logic_vector(PIXEL_BIT_WIDTH-1 downto 0);
-        variable row, col      : integer;
-    begin
-        file_open(file_handle, OUT_BENCHMARK_FILE, read_mode);
-        
-        for row in 0 to OUT_ROWS-1 loop
-            readline(file_handle, line_content);
-            for col in 0 to OUT_COLS-1 loop
-                -- Read hexadecimal value from line
-                hread(line_content, temp_vector);
-                -- Calculate 1D index from 2D coordinates
-                out_benchmark_mem(row * OUT_COLS + col) <= temp_vector;
-            end loop;
-        end loop;
-        
-        file_close(file_handle);
-        wait;
-    end process;
+	-- Data capture process for 5 CNN predictions from 40-bit output
+	cn_data_capture: process(clk250)
+		file file_handle     : text;
+		variable line_content : line;
+		variable file_open_status : boolean := false; -- Track file open status
+	begin
+		if rising_edge(clk250) then
+			if reset_rheed = '1' then
+				idx_out <= 0;
+				-- Close the file if it was opened
+				if file_open_status then
+					file_close(file_handle);
+					file_open_status := false;
+				end if;
+				-- Open file and write header
+				file_open(file_handle, "cnn_predictions.dat", write_mode);
+				file_open_status := true;
+				write(line_content, string'("CNN Predictions (5 values, 8-bit, Decimal Format)"));
+				writeline(file_handle, line_content);
+				write(line_content, string'("Timestamp: ") & integer'image(now / 1 ns));
+				writeline(file_handle, line_content);
+			else
+				if rheed_m_axis_tvalid = '1' and tb_s_axis_tready = '1' and idx_out = 0 then
+					-- Ensure file is open
+					if not file_open_status then
+						file_open(file_handle, "cnn_predictions.dat", write_mode);
+						file_open_status := true;
+						write(line_content, string'("CNN Predictions (5 values, 8-bit, Decimal Format)"));
+						writeline(file_handle, line_content);
+						write(line_content, string'("Timestamp: ") & integer'image(now / 1 ns));
+						writeline(file_handle, line_content);
+					end if;
 
-	-- Data capture and verification process
+					-- Split 40-bit output into five 8-bit predictions
+					out_mem(0) <= rheed_m_axis_tdata(39 downto 32);
+					out_mem(1) <= rheed_m_axis_tdata(31 downto 24);
+					out_mem(2) <= rheed_m_axis_tdata(23 downto 16);
+					out_mem(3) <= rheed_m_axis_tdata(15 downto 8);
+					out_mem(4) <= rheed_m_axis_tdata(7 downto 0);
 
-    cn_data_capture: process(clk250)
-    begin
-        if rising_edge(clk250) then
-            if reset_rheed = '1' or idx_out = OUT_ROWS*OUT_COLS then -- TODO: why not OUT_ROWS*OUT_COLS-1 ?
-                idx_out <= 0;
-				out_diff <= 0;
-            else
-                if rheed_m_axis_tvalid = '1' and tb_s_axis_tready = '1' then
-                    -- Capture DUT output
-                    out_mem(idx_out) <= rheed_m_axis_tdata;
-					out_diff <= to_integer(unsigned(out_benchmark_mem(idx_out))) - to_integer(unsigned(rheed_m_axis_tdata));
-                    
-                    -- Verify against benchmark
-					assert (out_diff = 0)
-                    -- assert (nr_diff < 3) and (nr_diff > -3)
-                        report "CropNorm mismatch at index " & integer'image(idx_out) 
-                               & " (Row=" & integer'image(idx_out/OUT_COLS) 
-                               & ", Col=" & integer'image(idx_out mod OUT_COLS) & ")" 
-                               & " Expected: " & integer'image(to_integer(unsigned(out_benchmark_mem(idx_out))))
-							   & " Received: " & integer'image(to_integer(unsigned(rheed_m_axis_tdata))) 
-							   & " Diff = " & integer'image(out_diff)
-                        severity error;
+					-- Write predictions to file
+					for i in 0 to 4 loop
+						write(line_content, string'("Prediction ") & integer'image(i) & string'(": ") & integer'image(to_integer(unsigned(out_mem(i)))));
+						writeline(file_handle, line_content);
+					end loop;
 
-                    -- Increment index
-                    idx_out <= idx_out + 1;
-                end if;
-            end if;
-        end if;
+					-- Increment idx_out to stop further captures until reset
+					idx_out <= 1;
+				end if;
+			end if;
+		end if;
 	end process;
 
 	-- synthesis translate_on

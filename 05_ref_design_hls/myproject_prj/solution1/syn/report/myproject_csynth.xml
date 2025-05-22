@@ -18,33 +18,33 @@
 <PipelineType>dataflow</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>4.263</EstimatedClockPeriod>
+<EstimatedClockPeriod>4.375</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>131289</Best-caseLatency>
-<Average-caseLatency>131289</Average-caseLatency>
-<Worst-caseLatency>131438</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.656 ms</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.656 ms</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.657 ms</Worst-caseRealTimeLatency>
+<Best-caseLatency>99057</Best-caseLatency>
+<Average-caseLatency>99057</Average-caseLatency>
+<Worst-caseLatency>99190</Worst-caseLatency>
+<Best-caseRealTimeLatency>0.495 ms</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.495 ms</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.496 ms</Worst-caseRealTimeLatency>
 <DataflowPipelineThroughput>
 <range>
 <min>9218</min>
-<max>131330</max>
+<max>99074</max>
 </range>
 </DataflowPipelineThroughput>
 <Interval-min>9218</Interval-min>
-<Interval-max>131330</Interval-max>
+<Interval-max>99074</Interval-max>
 </SummaryOfOverallLatency>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>288</BRAM_18K>
+<BRAM_18K>62</BRAM_18K>
 <DSP>0</DSP>
-<FF>18885</FF>
-<LUT>39208</LUT>
+<FF>23334</FF>
+<LUT>108229</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
@@ -58,8 +58,8 @@
 
 <InterfaceSummary>
 <RtlPorts>
-<name>input_1_TDATA</name>
-<Object>input_1</Object>
+<name>q_conv2d_batchnorm_5_input_TDATA</name>
+<Object>q_conv2d_batchnorm_5_input</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -70,8 +70,8 @@
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>
-<name>input_1_TVALID</name>
-<Object>input_1</Object>
+<name>q_conv2d_batchnorm_5_input_TVALID</name>
+<Object>q_conv2d_batchnorm_5_input</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -82,8 +82,8 @@
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>
-<name>input_1_TREADY</name>
-<Object>input_1</Object>
+<name>q_conv2d_batchnorm_5_input_TREADY</name>
+<Object>q_conv2d_batchnorm_5_input</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -94,8 +94,8 @@
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>
-<name>layer17_out_TDATA</name>
-<Object>layer17_out</Object>
+<name>layer18_out_TDATA</name>
+<Object>layer18_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -106,8 +106,8 @@
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>
-<name>layer17_out_TVALID</name>
-<Object>layer17_out</Object>
+<name>layer18_out_TVALID</name>
+<Object>layer18_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>
@@ -118,8 +118,8 @@
 <CType>int</CType>
 </RtlPorts>
 <RtlPorts>
-<name>layer17_out_TREADY</name>
-<Object>layer17_out</Object>
+<name>layer18_out_TREADY</name>
+<Object>layer18_out</Object>
 <Type>pointer</Type>
 <Scope></Scope>
 <IOProtocol>axis</IOProtocol>

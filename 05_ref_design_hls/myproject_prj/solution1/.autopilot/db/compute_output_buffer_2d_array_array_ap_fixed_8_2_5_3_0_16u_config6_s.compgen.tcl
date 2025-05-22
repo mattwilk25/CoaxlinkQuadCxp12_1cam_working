@@ -10,7 +10,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 397 \
+    id 207 \
     name p_read \
     type other \
     dir I \
@@ -25,7 +25,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 398 \
+    id 208 \
     name p_read1 \
     type other \
     dir I \
@@ -40,7 +40,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 399 \
+    id 209 \
     name p_read2 \
     type other \
     dir I \
@@ -55,7 +55,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 400 \
+    id 210 \
     name p_read3 \
     type other \
     dir I \
@@ -70,7 +70,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 401 \
+    id 211 \
     name p_read4 \
     type other \
     dir I \
@@ -85,7 +85,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 402 \
+    id 212 \
     name p_read5 \
     type other \
     dir I \
@@ -100,7 +100,37 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 403 \
+    id 213 \
+    name p_read6 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_p_read6 \
+    op interface \
+    ports { p_read6 { I 8 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 214 \
+    name p_read7 \
+    type other \
+    dir I \
+    reset_level 1 \
+    sync_rst true \
+    corename dc_p_read7 \
+    op interface \
+    ports { p_read7 { I 8 vector } } \
+} "
+}
+
+# Direct connection:
+if {${::AESL::PGuard_autoexp_gen}} {
+eval "cg_default_interface_gen_dc { \
+    id 215 \
     name layer6_out \
     type fifo \
     dir O \
@@ -108,7 +138,7 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_layer6_out \
     op interface \
-    ports { layer6_out_din { O 128 vector } layer6_out_num_data_valid { I 7 vector } layer6_out_fifo_cap { I 7 vector } layer6_out_full_n { I 1 bit } layer6_out_write { O 1 bit } } \
+    ports { layer6_out_din { O 128 vector } layer6_out_num_data_valid { I 8 vector } layer6_out_fifo_cap { I 8 vector } layer6_out_full_n { I 1 bit } layer6_out_write { O 1 bit } } \
 } "
 }
 

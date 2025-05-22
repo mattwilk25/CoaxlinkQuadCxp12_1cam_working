@@ -1,0 +1,141 @@
+
+
+================================================================
+== Vitis HLS Report for 'global_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_32u_config14_s'
+================================================================
+* Date:           Wed May 21 19:44:04 2025
+
+* Version:        2022.2 (Build 3670227 on Oct 13 2022)
+* Project:        myproject_prj
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: kintexu
+* Target device:  xcku035-fbva676-2-e
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+---------+----------+------------+
+    |  Clock |  Target | Estimated| Uncertainty|
+    +--------+---------+----------+------------+
+    |ap_clk  |  5.00 ns|  4.375 ns|     0.62 ns|
+    +--------+---------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    0|    0|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+------+--------+--------+-----+
+|       Name      | BRAM_18K|  DSP |   FF   |   LUT  | URAM|
++-----------------+---------+------+--------+--------+-----+
+|DSP              |        -|     -|       -|       -|    -|
+|Expression       |        -|     -|       0|       2|    -|
+|FIFO             |        -|     -|       -|       -|    -|
+|Instance         |        -|     -|       -|       -|    -|
+|Memory           |        -|     -|       -|       -|    -|
+|Multiplexer      |        -|     -|       -|      36|    -|
+|Register         |        -|     -|       3|       -|    -|
++-----------------+---------+------+--------+--------+-----+
+|Total            |        0|     0|       3|      38|    0|
++-----------------+---------+------+--------+--------+-----+
+|Available        |     1080|  1700|  406256|  203128|    0|
++-----------------+---------+------+--------+--------+-----+
+|Utilization (%)  |        0|     0|      ~0|      ~0|    0|
++-----------------+---------+------+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +-----------------+----------+----+---+----+------------+------------+
+    |  Variable Name  | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +-----------------+----------+----+---+----+------------+------------+
+    |ap_block_state1  |        or|   0|  0|   2|           1|           1|
+    +-----------------+----------+----+---+----+------------+------------+
+    |Total            |          |   0|  0|   2|           1|           1|
+    +-----------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-------------------+----+-----------+-----+-----------+
+    |        Name       | LUT| Input Size| Bits| Total Bits|
+    +-------------------+----+-----------+-----+-----------+
+    |ap_done            |   9|          2|    1|          2|
+    |layer13_out_blk_n  |   9|          2|    1|          2|
+    |layer14_out_blk_n  |   9|          2|    1|          2|
+    |real_start         |   9|          2|    1|          2|
+    +-------------------+----+-----------+-----+-----------+
+    |Total              |  36|          8|    4|          8|
+    +-------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------+---+----+-----+-----------+
+    |      Name      | FF| LUT| Bits| Const Bits|
+    +----------------+---+----+-----+-----------+
+    |ap_CS_fsm       |  1|   0|    1|          0|
+    |ap_done_reg     |  1|   0|    1|          0|
+    |start_once_reg  |  1|   0|    1|          0|
+    +----------------+---+----+-----+-----------+
+    |Total           |  3|   0|    3|          0|
+    +----------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------------+-----+-----+------------+--------------------------------------------------------------------+--------------+
+|          RTL Ports         | Dir | Bits|  Protocol  |                            Source Object                           |    C Type    |
++----------------------------+-----+-----+------------+--------------------------------------------------------------------+--------------+
+|ap_clk                      |   in|    1|  ap_ctrl_hs|  global_pooling2d_cl<array,array<ap_fixed<8,2,5,3,0>,32u>,config14>|  return value|
+|ap_rst                      |   in|    1|  ap_ctrl_hs|  global_pooling2d_cl<array,array<ap_fixed<8,2,5,3,0>,32u>,config14>|  return value|
+|ap_start                    |   in|    1|  ap_ctrl_hs|  global_pooling2d_cl<array,array<ap_fixed<8,2,5,3,0>,32u>,config14>|  return value|
+|start_full_n                |   in|    1|  ap_ctrl_hs|  global_pooling2d_cl<array,array<ap_fixed<8,2,5,3,0>,32u>,config14>|  return value|
+|ap_done                     |  out|    1|  ap_ctrl_hs|  global_pooling2d_cl<array,array<ap_fixed<8,2,5,3,0>,32u>,config14>|  return value|
+|ap_continue                 |   in|    1|  ap_ctrl_hs|  global_pooling2d_cl<array,array<ap_fixed<8,2,5,3,0>,32u>,config14>|  return value|
+|ap_idle                     |  out|    1|  ap_ctrl_hs|  global_pooling2d_cl<array,array<ap_fixed<8,2,5,3,0>,32u>,config14>|  return value|
+|ap_ready                    |  out|    1|  ap_ctrl_hs|  global_pooling2d_cl<array,array<ap_fixed<8,2,5,3,0>,32u>,config14>|  return value|
+|start_out                   |  out|    1|  ap_ctrl_hs|  global_pooling2d_cl<array,array<ap_fixed<8,2,5,3,0>,32u>,config14>|  return value|
+|start_write                 |  out|    1|  ap_ctrl_hs|  global_pooling2d_cl<array,array<ap_fixed<8,2,5,3,0>,32u>,config14>|  return value|
+|layer13_out_dout            |   in|  256|     ap_fifo|                                                         layer13_out|       pointer|
+|layer13_out_num_data_valid  |   in|    2|     ap_fifo|                                                         layer13_out|       pointer|
+|layer13_out_fifo_cap        |   in|    2|     ap_fifo|                                                         layer13_out|       pointer|
+|layer13_out_empty_n         |   in|    1|     ap_fifo|                                                         layer13_out|       pointer|
+|layer13_out_read            |  out|    1|     ap_fifo|                                                         layer13_out|       pointer|
+|layer14_out_din             |  out|  256|     ap_fifo|                                                         layer14_out|       pointer|
+|layer14_out_num_data_valid  |   in|    2|     ap_fifo|                                                         layer14_out|       pointer|
+|layer14_out_fifo_cap        |   in|    2|     ap_fifo|                                                         layer14_out|       pointer|
+|layer14_out_full_n          |   in|    1|     ap_fifo|                                                         layer14_out|       pointer|
+|layer14_out_write           |  out|    1|     ap_fifo|                                                         layer14_out|       pointer|
++----------------------------+-----+-----+------------+--------------------------------------------------------------------+--------------+
+

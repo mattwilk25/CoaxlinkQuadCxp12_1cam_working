@@ -1,7 +1,7 @@
 # This script segment is generated automatically by AutoPilot
 
 if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler myproject_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_s_void_pooling2d_cl_sYie BINDTYPE {storage} TYPE {shiftreg} IMPL {auto} LATENCY 1 ALLOW_PRAGMA 1
+	::AP::rtl_comp_handler myproject_pooling2d_cl_array_array_ap_fixed_8_2_5_3_0_16u_config9_s_void_pooling2d_cl_sVhK BINDTYPE {storage} TYPE {shiftreg} IMPL {auto} LATENCY 1 ALLOW_PRAGMA 1
 }
 
 
@@ -15,7 +15,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 409 \
+    id 221 \
     name layer8_out \
     type fifo \
     dir I \
@@ -23,14 +23,14 @@ eval "cg_default_interface_gen_dc { \
     sync_rst true \
     corename dc_layer8_out \
     op interface \
-    ports { layer8_out_dout { I 128 vector } layer8_out_num_data_valid { I 7 vector } layer8_out_fifo_cap { I 7 vector } layer8_out_empty_n { I 1 bit } layer8_out_read { O 1 bit } } \
+    ports { layer8_out_dout { I 128 vector } layer8_out_num_data_valid { I 8 vector } layer8_out_fifo_cap { I 8 vector } layer8_out_empty_n { I 1 bit } layer8_out_read { O 1 bit } } \
 } "
 }
 
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 410 \
+    id 222 \
     name layer9_out \
     type fifo \
     dir O \

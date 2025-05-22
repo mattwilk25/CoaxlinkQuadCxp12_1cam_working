@@ -1,29 +1,29 @@
-; ModuleID = '/home/mattwilk/8bit6fractional/RHEED_hls/myproject_prj/solution1/.autopilot/db/a.g.ld.5.gdce.bc'
+; ModuleID = '/home/mattwilk/CoaxlinkQuadCxp12_1cam_working/RHEED_hls/myproject_prj/solution1/.autopilot/db/a.g.ld.5.gdce.bc'
 source_filename = "llvm-link"
 target datalayout = "e-m:e-i64:64-i128:128-i256:256-i512:512-i1024:1024-i2048:2048-i4096:4096-n8:16:32:64-S128-v16:16-v24:32-v32:32-v48:64-v96:128-v192:256-v256:256-v512:512-v1024:1024"
 target triple = "fpga64-xilinx-none"
 
 %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>" = type { %"struct.nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>" }
-%"struct.nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>" = type { [1 x %"struct.ap_fixed<8, 3, AP_TRN, AP_WRAP, 0>"] }
-%"struct.ap_fixed<8, 3, AP_TRN, AP_WRAP, 0>" = type { %"struct.ap_fixed_base<8, 3, true, AP_TRN, AP_WRAP, 0>" }
-%"struct.ap_fixed_base<8, 3, true, AP_TRN, AP_WRAP, 0>" = type { %"struct.ssdm_int<8, true>" }
+%"struct.nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>" = type { [1 x %"struct.ap_fixed<8, 1, AP_TRN, AP_WRAP, 0>"] }
+%"struct.ap_fixed<8, 1, AP_TRN, AP_WRAP, 0>" = type { %"struct.ap_fixed_base<8, 1, true, AP_TRN, AP_WRAP, 0>" }
+%"struct.ap_fixed_base<8, 1, true, AP_TRN, AP_WRAP, 0>" = type { %"struct.ssdm_int<8, true>" }
 %"struct.ssdm_int<8, true>" = type { i8 }
 %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>" = type { %"struct.nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>" }
-%"struct.nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>" = type { [5 x %"struct.ap_fixed<8, 3, AP_TRN, AP_WRAP, 0>"] }
+%"struct.nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>" = type { [5 x %"struct.ap_fixed<8, 1, AP_TRN, AP_WRAP, 0>"] }
 
 ; Function Attrs: inaccessiblememonly nounwind
 declare void @llvm.sideeffect() #0
 
 ; Function Attrs: noinline
-define void @apatb_myproject_ir(%"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>"* noalias nocapture nonnull dereferenceable(1) %input_1, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>"* noalias nocapture nonnull %layer17_out) local_unnamed_addr #1 {
+define void @apatb_myproject_ir(%"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>"* noalias nocapture nonnull dereferenceable(1) %q_conv2d_batchnorm_5_input, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>"* noalias nocapture nonnull %layer18_out) local_unnamed_addr #1 {
 entry:
-  %input_1_copy = alloca %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>", align 512
-  call void @llvm.sideeffect() #7 [ "stream_interface"(%"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>"* %input_1_copy, i32 0) ]
-  %layer17_out_copy = alloca %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>", align 512
-  call void @llvm.sideeffect() #8 [ "stream_interface"(%"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>"* %layer17_out_copy, i32 0) ]
-  call fastcc void @copy_in(%"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>"* nonnull %input_1, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>"* nonnull align 512 %input_1_copy, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>"* nonnull %layer17_out, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>"* nonnull align 512 %layer17_out_copy)
-  call void @apatb_myproject_hw(%"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>"* %input_1_copy, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>"* %layer17_out_copy)
-  call void @copy_back(%"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>"* %input_1, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>"* %input_1_copy, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>"* %layer17_out, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>"* %layer17_out_copy)
+  %q_conv2d_batchnorm_5_input_copy = alloca %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>", align 512
+  call void @llvm.sideeffect() #7 [ "stream_interface"(%"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>"* %q_conv2d_batchnorm_5_input_copy, i32 0) ]
+  %layer18_out_copy = alloca %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>", align 512
+  call void @llvm.sideeffect() #8 [ "stream_interface"(%"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>"* %layer18_out_copy, i32 0) ]
+  call fastcc void @copy_in(%"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>"* nonnull %q_conv2d_batchnorm_5_input, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>"* nonnull align 512 %q_conv2d_batchnorm_5_input_copy, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>"* nonnull %layer18_out, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>"* nonnull align 512 %layer18_out_copy)
+  call void @apatb_myproject_hw(%"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>"* %q_conv2d_batchnorm_5_input_copy, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>"* %layer18_out_copy)
+  call void @copy_back(%"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>"* %q_conv2d_batchnorm_5_input, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 1>, 0>"* %q_conv2d_batchnorm_5_input_copy, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>"* %layer18_out, %"class.hls::stream<nnet::array<ap_fixed<8, 2, AP_TRN, AP_WRAP, 0>, 5>, 0>"* %layer18_out_copy)
   ret void
 }
 
