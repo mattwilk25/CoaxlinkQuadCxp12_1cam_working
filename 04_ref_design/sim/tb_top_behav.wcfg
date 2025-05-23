@@ -13,13 +13,13 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
-      <ZoomEndTime time="4.827369365 ms"></ZoomEndTime>
-      <Cursor1Time time="1.633224000 ms"></Cursor1Time>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="3,170.000001 us"></ZoomEndTime>
+      <Cursor1Time time="3,000.000000 us"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="276"></NameColumnWidth>
-      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+      <ValueColumnWidth column_width="78"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="1" />
    <wvobject type="group" fp_name="group369">
@@ -260,6 +260,7 @@
          <wvobject type="array" fp_name="/tb_top/iCustomLogic/s_axis_tuser">
             <obj_property name="ElementShortName">s_axis_tuser[3:0]</obj_property>
             <obj_property name="ObjectShortName">s_axis_tuser[3:0]</obj_property>
+            <obj_property name="isExpanded"></obj_property>
          </wvobject>
       </wvobject>
       <wvobject type="group" fp_name="group365">
@@ -451,6 +452,58 @@
       <wvobject type="logic" fp_name="/tb_top/iCustomLogic/iRHEED/iCropNorm/s_axis_tready">
          <obj_property name="ElementShortName">s_axis_tready</obj_property>
          <obj_property name="ObjectShortName">s_axis_tready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top/iCustomLogic/iRHEED/iMyProject/q_conv2d_batchnorm_5_input_TDATA">
+         <obj_property name="ElementShortName">q_conv2d_batchnorm_5_input_TDATA[7:0]</obj_property>
+         <obj_property name="ObjectShortName">q_conv2d_batchnorm_5_input_TDATA[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/tb_top/iCustomLogic/iRHEED/iMyProject/layer18_out_TDATA">
+         <obj_property name="ElementShortName">layer18_out_TDATA[39:0]</obj_property>
+         <obj_property name="ObjectShortName">layer18_out_TDATA[39:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top/iCustomLogic/iRHEED/iMyProject/ap_clk">
+         <obj_property name="ElementShortName">ap_clk</obj_property>
+         <obj_property name="ObjectShortName">ap_clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top/iCustomLogic/iRHEED/iMyProject/ap_rst_n">
+         <obj_property name="ElementShortName">ap_rst_n</obj_property>
+         <obj_property name="ObjectShortName">ap_rst_n</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top/iCustomLogic/iRHEED/iMyProject/q_conv2d_batchnorm_5_input_TVALID">
+         <obj_property name="ElementShortName">q_conv2d_batchnorm_5_input_TVALID</obj_property>
+         <obj_property name="ObjectShortName">q_conv2d_batchnorm_5_input_TVALID</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top/iCustomLogic/iRHEED/iMyProject/q_conv2d_batchnorm_5_input_TREADY">
+         <obj_property name="ElementShortName">q_conv2d_batchnorm_5_input_TREADY</obj_property>
+         <obj_property name="ObjectShortName">q_conv2d_batchnorm_5_input_TREADY</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top/iCustomLogic/iRHEED/iMyProject/ap_start">
+         <obj_property name="ElementShortName">ap_start</obj_property>
+         <obj_property name="ObjectShortName">ap_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top/iCustomLogic/iRHEED/iMyProject/layer18_out_TVALID">
+         <obj_property name="ElementShortName">layer18_out_TVALID</obj_property>
+         <obj_property name="ObjectShortName">layer18_out_TVALID</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top/iCustomLogic/iRHEED/iMyProject/layer18_out_TREADY">
+         <obj_property name="ElementShortName">layer18_out_TREADY</obj_property>
+         <obj_property name="ObjectShortName">layer18_out_TREADY</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top/iCustomLogic/iRHEED/iMyProject/ap_done">
+         <obj_property name="ElementShortName">ap_done</obj_property>
+         <obj_property name="ObjectShortName">ap_done</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top/iCustomLogic/iRHEED/iMyProject/ap_ready">
+         <obj_property name="ElementShortName">ap_ready</obj_property>
+         <obj_property name="ObjectShortName">ap_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top/iCustomLogic/iRHEED/iMyProject/ap_idle">
+         <obj_property name="ElementShortName">ap_idle</obj_property>
+         <obj_property name="ObjectShortName">ap_idle</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/tb_top/iCustomLogic/iRHEED/inference_active">
+         <obj_property name="ElementShortName">inference_active</obj_property>
+         <obj_property name="ObjectShortName">inference_active</obj_property>
       </wvobject>
    </wvobject>
 </wave_config>

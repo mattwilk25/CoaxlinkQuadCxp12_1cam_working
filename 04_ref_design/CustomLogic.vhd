@@ -176,24 +176,15 @@ architecture behav of CustomLogic is
 	-- Signals
 	----------------------------------------------------------------------------
 
-	-- reset
 	signal reset_rheed : std_logic;
-
-	-- Slave-side handshake
 	signal rheed_s_axis_tready : std_logic; 
-
-	-- Master-side handshake
 	signal rheed_m_axis_tvalid : std_logic;
-	signal rheed_m_axis_tdata : std_logic_vector(39 downto 0); -- Updated to 40 bits
-
-	-- Custom downstream tready signal for randomized testbenching
+	signal rheed_m_axis_tdata : std_logic_vector(39 downto 0);
 	signal tb_s_axis_tready : std_logic;
-
-	-- Crop-coordinates 
+ 
   	signal crop_x0   : std_logic_vector(clog2(IN_COLS)-1 downto 0);
 	signal crop_y0   : std_logic_vector(clog2(IN_ROWS)-1 downto 0);
 
-	-- For testbenching
 	signal lfsr_16bit_out : std_logic_vector(15 downto 0);
 	signal idx_out : integer := 0;
 	signal out_mem : mem_array;
@@ -214,13 +205,13 @@ architecture behav of CustomLogic is
 begin
 
 	-- Connect AXI Stream Master Interface to RHEED_inference outputs
-    m_axis_tdata <= (255 downto 40 => '0') & rheed_m_axis_tdata; -- Pad 40-bit data to 128 bits
-    m_axis_tuser <= s_axis_tuser; -- Pass-through, assuming no modification
-    m_axis_tvalid <= rheed_m_axis_tvalid; -- Use RHEED_inference valid signal
+    m_axis_tdata <= (255 downto 40 => '0') & rheed_m_axis_tdata; 
+    m_axis_tuser <= s_axis_tuser; 
+    m_axis_tvalid <= rheed_m_axis_tvalid;
     
     -- Instantiate RHEED_inference module
     reset_rheed <= (not s_axis_resetn) or srst250;
-    s_axis_tready <= rheed_s_axis_tready; -- For clarity's sake
+    s_axis_tready <= rheed_s_axis_tready;
     iRHEED : entity work.RHEED_inference
     generic map (
         PIXEL_BIT_WIDTH => PIXEL_BIT_WIDTH,
@@ -239,7 +230,7 @@ begin
         s_axis_tready   => rheed_s_axis_tready,
         s_axis_tdata    => s_axis_tdata,
         m_axis_tvalid   => rheed_m_axis_tvalid,
-        m_axis_tready   => m_axis_tready, -- Corrected to use m_axis_tready
+        m_axis_tready   => m_axis_tready, 
         m_axis_tdata    => rheed_m_axis_tdata
     );
 
